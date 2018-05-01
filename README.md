@@ -1,5 +1,5 @@
 # LaTeX templates
-A collection of LaTex templates + a Snakemake pipeline for compiling tex to pdf.
+A collection of LaTeX templates + a Snakemake pipeline for compiling tex to pdf.
 The Snakefile was shamelessly copied from [the Snakemake documentation examples](http://snakemake.readthedocs.io/en/stable/getting_started/examples.html#building-a-paper-with-latex).
 
 ## Setup
