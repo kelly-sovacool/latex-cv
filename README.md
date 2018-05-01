@@ -36,4 +36,4 @@ See the ![paper](paper.pdf) and ![assignment](assignment.pdf) PDFs for output ex
 
 ## Motivation
 
-While using the world' most popular word processor to write a fairly large scientific paper, I ran into some frustrating issues: cross-references not updating automatically, the program hanging up when adjusting figure boundaries, weird/ugly placement of figures, etc. I decided enough was enough; I needed to make the jump to LaTeX -- preferably before undertaking another large writing task. So, here we are. Hopefully, the tex files stored here will grow in number and complexity as I learn more about LaTeX.
+While using the world's most popular word processor to write a fairly large scientific paper, I ran into some frustrating issues: cross-references not updating automatically, the program hanging up when adjusting figure boundaries, weird/ugly placement of figures, etc. I decided enough was enough; I needed to make the jump to LaTeX -- preferably before undertaking another large writing task. So, here we are. Hopefully, the tex files stored here will grow in number and complexity as I learn more about LaTeX.
