@@ -32,4 +32,4 @@ See the [Snakemake documentation](http://snakemake.readthedocs.io/en/stable/inde
 
 ## Templates
 
-See ![alt ref](paper.pdf) and ![alt ref](assignment.pdf) for template examples.
+See the ![paper](paper.pdf) and ![assignment](assignment.pdf) PDFs for output examples.
