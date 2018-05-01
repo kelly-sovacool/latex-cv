@@ -33,7 +33,15 @@ See the [Snakemake documentation](http://snakemake.readthedocs.io/en/stable/inde
 ## Examples
 
 ### Homework assignment
-![alt text](assignment.pdf)
+<object data="https://github.com/kelly-sovacool/latex-templates/blob/master/assignment.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="https://github.com/kelly-sovacool/latex-templates/blob/master/assignment.pdf">
+        This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/kelly-sovacool/latex-templates/blob/master/assignment.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
 
 ### Paper with bibliography
-![alt text](paper.pdf)
+<object data="https://github.com/kelly-sovacool/latex-templates/blob/master/paper.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="https://github.com/kelly-sovacool/latex-templates/blob/master/paper.pdf">
+        This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/kelly-sovacool/latex-templates/blob/master/paper.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
