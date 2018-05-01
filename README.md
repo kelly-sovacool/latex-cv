@@ -1,6 +1,6 @@
 # LaTeX templates
 A collection of LaTex templates + a Snakemake pipeline for compiling tex to pdf.
-The Snakefile was shamelessly copied from [the Snakemake documentation](http://snakemake.readthedocs.io/en/stable/getting_started/examples.html#building-a-paper-with-latex).
+The Snakefile was shamelessly copied from [the Snakemake documentation examples](http://snakemake.readthedocs.io/en/stable/getting_started/examples.html#building-a-paper-with-latex).
 
 ## Setup
 
@@ -33,3 +33,7 @@ See the [Snakemake documentation](http://snakemake.readthedocs.io/en/stable/inde
 ## Templates
 
 See the ![paper](paper.pdf) and ![assignment](assignment.pdf) PDFs for output examples.
+
+## Motivation
+
+While using the world' most popular word processor to write a fairly large scientific paper, I ran into some frustrating issues: cross-references not updating automatically, the program hanging up when adjusting figure boundaries, weird/ugly placement figures, etc. I decided enough is enough; I needed to make the jump to LaTeX. So, here we are. Hopefully the tex files stored here will grow in number and complexity as I learn more about LaTeX.
