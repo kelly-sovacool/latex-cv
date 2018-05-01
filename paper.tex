@@ -1,0 +1,34 @@
+\documentclass[12pt]{article}
+\usepackage{csquotes}
+\usepackage{fullpage}
+\usepackage{indentfirst}
+\usepackage{pdfpages}
+\begin{document}
+\begin{flushleft}
+Kelly Sovacool\\
+COURSE-SEC\\
+DD MM YYYY\\
+\end{flushleft}
+
+\begin{center}
+\LARGE\textbf{Title}
+\end{center}
+
+\section*{Introduction}
+introduction body with in-text citation \cite{zhou2012}.
+
+\section*{Methods}
+methods body
+
+\section*{Results}
+results body
+
+\section*{Discussion}
+discussion body
+
+\bibliographystyle{plain}
+\bibliography{paper}
+
+\appendix
+\includepdf[pages=-2]{zhou2012.pdf}
+\end{document}
