@@ -45,11 +45,16 @@ See the [Snakemake documentation](http://snakemake.readthedocs.io/en/stable/inde
 
 While using the world's most popular word processor to write a fairly large research paper, I ran into some frustrating issues: cross-references not updating automatically, the program hanging up when adjusting figure boundaries, weird/ugly placement of figures, etc. I decided enough was enough; I needed to make the jump to LaTeX -- preferably before undertaking another large writing task. So, here we are. Hopefully, the tex files stored here will grow in number and complexity as I learn more about LaTeX.
 
+For writing scientific manuscripts with collaborators, it may make more sense to use Markdown, then convert to LaTeX for submission. Examples:
+* https://github.com/greenelab/meta-review
+* https://oleb.net/blog/2016/02/collaborative-writing-on-github/
+* https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4945047/pdf/pcbi.1004947.pdf
+* https://github.com/ypriverol/github-paper
+* https://github.com/SchlossLab/Westcott_OptiClust_mSphere_2017
 
 ## TODO
 
 * cv template:
-   * fix alignment of contact info.
-   * get journal for `inproceedings` entry to show up in bibliography.
-   * override italics for 3rd argument of `\cventry`.
-* scientific manuscript template.
+   * Fix alignment of contact info.
+   * Get journal for `inproceedings` entry to show up in bibliography.
+   * Override italics for 3rd argument of `\cventry`.
