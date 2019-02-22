@@ -37,7 +37,7 @@ See the [Snakemake documentation](http://snakemake.readthedocs.io/en/stable/inde
 
 * `assignment.tex`: for homework assignments such as problem sets from a textbook.
 * `paper.tex`: for short papers, essays, and other writing assignments.
-* `cv_res.tex`: an old-style curriculum vitae using `res.cls`: based on a template from [LaTeXTemplates.com](http://www.LaTeXTemplates.com).
+* `res/res_KLS.tex`: an old-style curriculum vitae using `res.cls`: based on a template from [LaTeXTemplates.com](http://www.LaTeXTemplates.com).
 * `cv_KLS.tex`: my actual curriculum vitae using `moderncv.cls`: based on a template from the [moderncv repo](https://github.com/xdanaux/moderncv).
 
 
