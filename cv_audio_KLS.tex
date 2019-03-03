@@ -1,0 +1,118 @@
+\documentclass[12pt,sans,colorlinks,linkcolor=true]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
+\moderncvcolor{black}                               % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+\usepackage{textcomp,xpatch}
+\xpatchcmd{\cventry}{\itshape#3}{#3}{}{} % Patch \cventry so the 3rd argument is not printed in italics
+\xpatchcmd{\cventry}{.\strut}{\strut}{}{} % Patch \cventry to remove the trailing period
+% character encoding
+%\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex,
+\usepackage[scale=0.75]{geometry} % adjust the page margins
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvheadnamewidth}{10cm}            % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Kelly L. Sovacool}{}
+%\title{Resumé title}
+%\address{street and number}{postcode city}{country}% the "postcode city" and "country" arguments can be omitted or provided empty
+%\phone[mobile]{+1~(234)~567~890}                   %  the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
+%\phone[fixed]{+2~(345)~678~901}
+%\phone[fax]{+3~(456)~789~012}
+\email{kelly@sovacool.dev}
+\homepage{sovacool.dev}
+\social[linkedin]{kelly-sovacool}
+%\social[xing]{john\_doe}
+\social[twitter]{kelly-sovacool}
+\social[github]{kelly-sovacool}
+%\social[gitlab]{jdoe}
+%\social[skype]{jdoe}
+%\extrainfo{additional information}
+%\photo[64pt][0.4pt]{picture}                       %  '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}
+
+% bibliography adjustements (only useful if you make citations in your resume, or print a list of publications using BibTeX)
+%   to show numerical labels in the bibliography (default is to show no labels)
+%\makeatletter\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}\makeatother
+% default bibliography
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}
+%   to redefine the bibliography heading string ("Publications")
+%\renewcommand{\refname}{Articles}
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%-----       resume       ---------------------------------------------------------
+\definecolor{links}{HTML}{00274C}  % color url links blue
+\hypersetup{urlcolor=links}
+\makecvtitle
+
+\section{Skills}
+
+\begin{itemize}
+\item set up, maintain, and repair audio, visual, and lighting equipment.
+\item operate FOH, monitor, and recording systems during sound checks, rehearsals, concerts, worship services, weddings, and other events.
+\item record, mix, and upload live multitrack recordings.
+\item train new technicians in the art and science of live sound, lighting, and graphics operation.
+\item operate analog and digital consoles.
+\item consult for AVL setup and purchasing decisions.
+\item contrary to popular belief, I'm not a DJ.
+\end{itemize}
+
+
+\section{Experience}
+
+\cventry{2019-present}{Volunteer sound engineer}{Mosaic Church}{Ann Arbor, MI}{}{}
+
+\cventry{2018-present}{volunteer lighting technician}{Mosaic Church}{Ann Arbor, MI}{}{}
+% Luke & Jacqueline Henderson wedding 
+\cventry{??? ?? 2018} {Wedding sound engineer} {private outdoor venue}{Richmond, KY}{}{} 
+% Kenton & Susanna Sena
+\cventry{?? 2018}{Wedding sound engineer}{The Livery}{Lexington, KY}{}{}
+\cventry{Apr ?? 2018}{Volunteer sound engineer and graphics operator}{CF women's retreat}{Jabez, KY}{}{}
+\cventry{Apr ?? 2018}{volunteer coordinator, sound engineer, lighting tech}{Mars Hill Academy production of \textit{Macbeth}}{Lexington, KY}{}{}
+
+\cventry{Dec. ?? 2017}{Sound engineer}{MetroGnomes 11th Annual Christmas Ball}{Wilmore, KY}{}{}
+\cventry{Dec. ?? 2017}{Sound engineer}{MetroGnomes Christmas concert}{Tates Creek Christian Church}{Lexington, KY}
+\cventry{Oct ?? 2017}{Volunteer sound engineer}{UCF retreat}{Lexington, KY}{}{}
+\cventry{Aug. ?? 2017}{Sound engineer}{MetroGnomes summer concert}{Wilmore, KY}{}{}
+\cventry{Apr ?? 2017}{Volunteer sound engineer and graphics operator}{CF women's retreat}{Jabez, KY}{}{}
+% philip and Olivia Vogel wedding 
+\cventry{Apr ?? 2017}{Wedding sound engineer}{private outdoor venue}{Lexington, KY}{}{}
+\cventry{Apr ?? 2017}{Lighting operator}{Ruth Ballet}{Gloria Deo School of the Arts}{Lexington, KY}{}
+\cventry{Apr ?? 2017}{Volunteer coordinator, sound engineer, lighting tech}{Mars Hill Academy production of \textit{Julius Caesar}}{Lexington, KY}{}{}
+\cventry{Jan. ?? 2017}{Consultant}{to help Sennheiser better serve the house of worship market}{Sennheiser end-user outreach conference}{Hermosa Beach, CA}{}
+
+\cventry{Oct 2016}{Volunteer sound engineer}{UCF retreat}{Jabez, KY}{}{}
+% Rachel & Joseph John Wedding 
+\cventry{Jun. ?? 2016}{Sound engineer}{Wedding  at the Ashland estate}{Lexington, KY}{}{}
+\cventry{Apr ?? 2016}{Volunteer sound engineer amd graphics operator}{CF women's retreat}{Jabez, KY}{}{}
+\cventry{Summer 2016}{Remote consultant}{Epworth Forest Conference Center}{North Webster, IN}{}{}
+\cventry{Mar-Dec 2016}{Volunteer sound engineer}{trained two new technicians}{Lexington Christian Fellowship}{Lexington, KY}{}
+
+\cventry{Oct 2015}{Volunteer sound engineer}{UCF retreat}{Jabez, KY}{}{}
+\cventry{2015-2018}{Volunteer sound engineer}{UCF}{Univ of KY}{Lexington, KY}{}
+\cventry{Jun. ?? 2015}{Sound engineer}{wedding}{North Webster United Methodist Church}{North Webster, IN}{}
+\cventry{Summer 2015}{Sound engineer and production coordinator}{Epworth Forest Conference Center}{North Webster, IN}{}
+
+
+\cventry{2014-2018}{Volunteer sound engineer & lead tech coordinator}{Trinity Christian Fellowship}{Lexington, KY}{}{}
+\cventry{Summer 2014}{Sound engineer}{Epworth Forest Conference Center}{North Webster, IN}{}{}
+\cventry{Jun ?? 2014}{Electric guitar player}{NHS Baccalaureate}{Sing Love worship band}{Noblesville, IN}{}
+\cventry{??? ?? 2014}{Sound engineer}{Youth night of worship}{Sing Love worship band}{Northview Christian Church}{Carmel, IN}
+\cventry{??? ?? 2014}{Sound engineer}{Night of worship}{Sing Love Worship band}{IL}{}
+\cventry{??? ?? 2014}{Night of worship}{Sing Love worship band}{IN}{}{}
+\cventry{??? ?? 2014}{Sound engineer}{Northview Christian Church youth retreat}{Sing Love Worship band}{Ice camp}{MI}
+
+\cventry{Summer 2013}{Graphics operator}{Youth retreat}{Sing Love Worship band}{Epworth Forest Conference Center}{North Webster, IN}
+\cventry{?? 2013}{Sound engineer}{Hamilton Heights baccalaureate}{Sing Love Worship band}{Cicero, IN}{}
+\cventry{?? 2013}{Sound engineer}{Youth retreat}{Sing Love Worship band}{Camp Allendale}{Trafalgar, IN}
+\cventry{Jan. 20-21, 2013}{Sound engineer}{Northview Christian Church youth retreat}{Sing Love Worship band}{Battle Creek, MI}{}
+
+\cventry{2009-2014}{Volunteer sound engineer, lighting technician, graphics operator, and rhythm guitar player}{White River Christian Church}{Noblesville, IN}{}{}
