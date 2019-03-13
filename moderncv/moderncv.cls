@@ -311,8 +311,7 @@
 \newcommand*{\gitlabsocialsymbol}  {}
 \newcommand*{\skypesocialsymbol}   {}
 
-% other
-%------
+%%------
 % fonts
 \AtBeginDocument{\normalfont\color{color0}}
 
@@ -331,7 +330,8 @@
 
 % loads a style variant (a combination of header, body and footer)
 % usage: \moderncvstyle{<style variant name>}
-\newcommand*{\moderncvstyle}[2][]{%
+\ other
+newcommand*{\moderncvstyle}[2][]{%
   \RequirePackage[#1]{moderncvstyle#2}}
 
 % loads a header variant
