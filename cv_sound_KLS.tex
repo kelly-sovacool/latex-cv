@@ -1,3 +1,14 @@
+% This template is a modified version of `template-multibib.tex`
+% downloaded from the moderncv repo: https://github.com/xdanaux/moderncv
+% Original documentation preserved below:
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% start of file `template.tex'.
+%% Copyright 2006-2015 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
 \documentclass[12pt,sans,colorlinks,linkcolor=true]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
 
 % moderncv themes
@@ -25,8 +36,8 @@
 \homepage{sovacool.dev}
 \social[linkedin]{kelly-sovacool}
 %\social[xing]{john\_doe}
-\social[twitter]{kelly-sovacool}
-\social[github]{kelly-sovacool}
+%\social[twitter]{kelly-sovacool}
+%\social[github]{kelly-sovacool}
 %\social[gitlab]{jdoe}
 %\social[skype]{jdoe}
 %\extrainfo{additional information}
@@ -48,11 +59,11 @@
 %            content
 %----------------------------------------------------------------------------------
 \begin{document}
-%-----       resume       ---------------------------------------------------------
-%\definecolor{links}{HTML}{00274C}  % color url links Michigan blue
-%\hypersetup{urlcolor=links}
-%\makecvtitle
-
+\definecolor{links}{HTML}{00274C}  % color url links Michigan blue
+\hypersetup{urlcolor=links}
+\makecvtitle
+%---------------------------------------------------------------------------------------------------
+%---------------------------------------------------------------------------------------------------
 \section{Skills}
 
 \begin{itemize}
@@ -62,63 +73,77 @@
 \item Train new technicians in the art and science of live sound, lighting, and graphics operation.
 \item Operate analog and digital consoles.
 \item Consult for AVL setup and purchasing decisions.
-\item Contrary to popular belief, I'm not a DJ.
 \end{itemize}
-
-
-\section{Experience}
-
-% 2019
-\cventry{2019-present}{Volunteer sound engineer}{Mosaic Church}{Ann Arbor, MI}{}{}
+%---------------------------------------------------------------------------------------------------
+%---------------------------------------------------------------------------------------------------
+\section{Work Experience}
 
 % 2018
-\cventry{2018-present}{Volunteer lighting technician}{Mosaic Church}{Ann Arbor, MI}{}{}
 % Luke & Jacqueline Henderson wedding
-\cventry{Jun. 10, 2018}{Wedding sound engineer}{private outdoor venue}{Richmond, KY}{}{}
-\cventry{Apr. 20-22, 2018}{Volunteer sound engineer and graphics operator}{Women's retreat}{Christian Fellowship churches}{Jabez, KY}{}
-\cventry{Apr. 10, 2018}{Volunteer coordinator, sound engineer, lighting technician}{Mars Hill Academy production of \textit{Macbeth}}{Lexington, KY}{}{}
-% Kenton & Susanna Sena
-\cventry{Mar. 25, 2018}{Wedding sound engineer}{The Livery}{Lexington, KY}{}{}
+\cventry{2018 Jun 10}{Sound engineer}{Wedding}{Private outdoor venue}{Richmond, KY}{}
+% Kenton & Susanna Sena wedding
+\cventry{2018 Mar 25}{Sound engineer}{Wedding}{The Livery}{Lexington, KY}{}
+% 2017
+\cventry{2017 Dec 09}{Sound engineer}{MetroGnomes 11th Annual Christmas Ball}{Wilmore, KY}{}{}
+\cventry{2017 Dec 03}{Sound engineer}{MetroGnomes Christmas concert}{Tates Creek Christian Church}{Lexington, KY}{}
+\cventry{2017 Aug 26}{Sound engineer}{MetroGnomes summer concert}{Stonebridge Concert Series}{Wilmore, KY}{}
+% philip and Olivia Vogel wedding
+\cventry{2017 Apr 09}{Sound engineer}{Wedding}{Private outdoor venue}{Lexington, KY}{}
+\cventry{2017 Jan 17}{Consultant}{to help Sennheiser better serve the house of worship market}{Sennheiser end-user outreach conference}{Hermosa Beach, CA}{}
+% 2016
+% Rachel & Joseph John Wedding
+\cventry{2016 Jun 19}{Sound engineer}{Wedding}{Ashland - The Henry Clay Estate}{Lexington, KY}{}
+% 2015
+\cventry{2015 Jun 27}{Sound engineer}{Wedding}{North Webster United Methodist Church}{North Webster, IN}{}
+\cventry{2015 Summer}{Sound engineer and production coordinator}{Epworth Forest Conference Center}{North Webster, IN}{}{}
+% 2014
+\cventry{2014 Summer}{Sound engineer}{Epworth Forest Conference Center}{North Webster, IN}{}{}
+\cventry{2014 Feb 09}{Sound engineer}{Ice camp youth retreat}{Sing Love Worship band}{Miracle Camp and Retreat Center}{Lawton, MI}
+%---------------------------------------------------------------------------------------------------
+%---------------------------------------------------------------------------------------------------
+\section{Volunteer Experience}
+
+% 2019
+\cventry{2019-present}{Sound engineer}{Mosaic Church}{Ann Arbor, MI}{}{}
+
+% 2018
+\cventry{2018-present}{Lighting technician}{Mosaic Church}{Ann Arbor, MI}{}{}
+\cventry{2018 Apr 20-22}{Sound engineer and graphics operator}{Women's retreat}{\newline Christian Fellowship churches}{Jabez, KY}{}
+\cventry{2018 Apr 10}{Production coordinator, sound engineer, lighting technician}{Mars Hill Academy}{Theatrical production of \textit{Macbeth}}{Lexington, KY}{}
 
 % 2017
-\cventry{Dec. 09, 2017}{Sound engineer}{MetroGnomes 11th Annual Christmas Ball}{Wilmore, KY}{}{}
-\cventry{Dec. 03, 2017}{Sound engineer}{MetroGnomes Christmas concert}{Tates Creek Christian Church}{Lexington, KY}{}
-\cventry{Oct. 27-29, 2017}{Volunteer sound engineer}{College student retreat}{University Christian Fellowship}{Lexington, KY}{}{}
-\cventry{May. 13, 2017}{Lighting operator}{Ruth Ballet}{Gloria Deo School of the Arts}{Lexington, KY}{}
-\cventry{Aug. 26, 2017}{Sound engineer}{MetroGnomes summer concert}{Stonebridge Concert Series}{Wilmore, KY}{}
-\cventry{Apr. 21-23, 2017}{Volunteer sound engineer and graphics operator}{Women's retreat}{Christian Fellowship churches}{Jabez, KY}{}
-% philip and Olivia Vogel wedding
-\cventry{Apr. 09, 2017}{Wedding sound engineer}{private outdoor venue}{Lexington, KY}{}{}
-\cventry{Apr. 04, 2017}{Volunteer coordinator, sound engineer, and lighting technician}{Mars Hill Academy production of \textit{Julius Caesar}}{Lexington, KY}{}{}
-\cventry{Jan. 17, 2017}{Consultant}{to help Sennheiser better serve the house of worship market}{Sennheiser end-user outreach conference}{Hermosa Beach, CA}{}
+\cventry{2017 Oct 27-29}{Sound engineer}{College student retreat}{University Christian Fellowship}{Lexington, KY}{}{}
+\cventry{2017 May 13}{Lighting operator}{Ruth Ballet}{Gloria Deo School of the Arts}{Lexington Christian Academy}{Lexington, KY}
+
+\cventry{2017 Apr 21-23}{Sound engineer and graphics operator}{Women's retreat}{Christian Fellowship churches}{Jabez, KY}{}
+
+\cventry{2017 Apr 04}{Production coordinator, sound engineer, and lighting technician}{Mars Hill Academy}{Theatrical production of \textit{Julius Caesar}}{Lexington, KY}{}{}
 
 % 2016
-\cventry{Oct. 28-30, 2016}{Volunteer sound engineer}{College student retreat}{University Christian Fellowship}{Jabez, KY}{}{}
-% Rachel & Joseph John Wedding
-\cventry{Jun. 19, 2016}{Sound engineer}{Wedding at the Ashland estate}{Lexington, KY}{}{}
-\cventry{Apr. 15-17, 2016}{Volunteer sound engineer amd graphics operator}{Women's retreat}{Christian Fellowship churches}{Jabez, KY}{}
-\cventry{Summer 2016}{Remote consultant}{Epworth Forest Conference Center}{North Webster, IN}{}{}
-\cventry{Mar-Dec 2016}{Volunteer sound engineer}{trained two new technicians}{Lexington Christian Fellowship}{Lexington, KY}{}
+\cventry{2016 Oct 28-30}{Sound engineer}{College student retreat}{University Christian Fellowship}{Jabez, KY}{}{}
+
+\cventry{2016 Apr 15-17}{Sound engineer amd graphics operator}{Women's retreat}{Christian Fellowship churches}{Jabez, KY}{}
+\cventry{2016 Summer}{Remote consultant}{Epworth Forest Conference Center}{North Webster, IN}{}{}
+\cventry{2016 Mar-Dec}{Sound engineer and teacher}{Lexington Christian Fellowship}{Lexington, KY}{}{}
 
 % 2015
-\cventry{Oct. 2015}{Volunteer sound engineer}{College student retreat}{University Christian Fellowship}{Jabez, KY}{}
-\cventry{2015-2018}{Volunteer sound engineer}{University Christian Fellowship}{University of Kentucky}{Lexington, KY}{}
-\cventry{Jun. 27, 2015}{Sound engineer}{wedding}{North Webster United Methodist Church}{North Webster, IN}{}
-\cventry{Summer 2015}{Sound engineer and production coordinator}{Epworth Forest Conference Center}{North Webster, IN}{}{}
+\cventry{2015 Oct 29-31}{Sound engineer}{College student retreat}{University Christian Fellowship}{Jabez, KY}{}
+\cventry{\textbf{2015-2018}}{Sound engineer}{University Christian Fellowship}{University of Kentucky}{Lexington, KY}{}
 
 % 2014
-\cventry{2014-2018}{Volunteer sound engineer and lead tech coordinator}{Trinity Christian Fellowship}{Lexington, KY}{}{}
-\cventry{Summer 2014}{Sound engineer}{Epworth Forest Conference Center}{North Webster, IN}{}{}
-\cventry{Jun. 02, 2014}{Electric guitar player}{NHS Baccalaureate}{Sing Love worship band}{White River Christian Church}{Noblesville, IN}
-\cventry{May 2014}{Sound engineer}{Youth night of worship}{Sing Love worship band}{Northview Christian Church}{Carmel, IN}
-\cventry{Mar. 2014}{Sound engineer}{Youth night of worship}{Sing Love worship band}{Mattoon, IL}{}
-\cventry{Feb. 09, 2014}{Sound engineer}{Ice camp youth retreat}{Sing Love Worship band}{Miracle Camp and Retreat Center}{Lawton, MI}
+\cventry{\textbf{2014-2018}}{Sound engineer and lead tech coordinator}{Trinity Christian Fellowship}{Lexington, KY}{}{}
+\cventry{2014 Jun 02}{Electric guitar player}{NHS Baccalaureate}{Sing Love worship band}{White River Christian Church}{Noblesville, IN}
+\cventry{2014 May}{Sound engineer}{Youth night of worship}{Sing Love worship band}{Northview Christian Church}{Carmel, IN}
+\cventry{2014 Mar}{Sound engineer}{Youth night of worship}{Sing Love worship band}{}{Mattoon, IL}
 
 % 2013
-\cventry{Summer 2013}{Volunteer graphics operator}{Youth retreat}{Sing Love Worship band}{Epworth Forest Conference Center}{North Webster, IN}
-\cventry{Jun. 2013}{Sound engineer}{Hamilton Heights baccalaureate}{Sing Love Worship band}{Cicero, IN}{}
-\cventry{Jun. 16-21, 2013}{Sound engineer}{Youth retreat}{Sing Love Worship band}{Camp Allendale}{Trafalgar, IN}
-\cventry{Jan. 20-21, 2013}{Sound engineer}{Northview Christian Church youth retreat}{Sing Love Worship band}{Battle Creek, MI}{}
+\cventry{2013 Summer}{Graphics operator}{Youth retreat}{Sing Love Worship band}{Epworth Forest Conference Center}{North Webster, IN}
+\cventry{2013 Jun}{Sound engineer}{Hamilton Heights baccalaureate}{Sing Love Worship band}{Cicero, IN}{}
+\cventry{2013 Jun 16-21}{Sound engineer}{Youth retreat}{Sing Love Worship band}{Camp Allendale}{Trafalgar, IN}
+\cventry{2013 Jan 20-21}{Sound engineer}{Northview Christian Church youth retreat}{Sing Love Worship band}{}{Battle Creek, MI}
 
 % 2009
-\cventry{2009-2014}{Volunteer sound engineer, lighting technician, graphics operator, and rhythm guitar player}{White River Christian Church}{Noblesville, IN}{}{}
+\cventry{\textbf{2009-2014}}{Sound engineer, lighting technician, graphics operator, and rhythm guitar player}{White River Christian Church}{Noblesville, IN}{}{}
+%---------------------------------------------------------------------------------------------------
+%---------------------------------------------------------------------------------------------------
+\textit{Contrary to popular belief, I'm not a DJ!}
