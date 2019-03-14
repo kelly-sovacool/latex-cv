@@ -1,3 +1,5 @@
 *.html linguist-vendored=true
+*.sty linguist-vendored=true
+*.cls linguist-vendored=true
 *.smk linguist-language=Python
 Snakefile linguist-language=Python
