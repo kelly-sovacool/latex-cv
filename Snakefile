@@ -1,3 +1,5 @@
+# Usage: snakemake filename.pdf
+
 ruleorder:  tex2pdf_with_bib > tex2pdf_without_bib
 
 rule tex2pdf_with_bib:
@@ -21,10 +23,9 @@ rule tex2pdf_without_bib:
         '{name}.pdf'
     shell:
         """
-        pdflatex {wildcards.name}
-        pdflatex {wildcards.name}
+        xelatex {wildcards.name}
         """
 
 rule texclean:
     shell:
-        "rm -f *.out *.log *.aux *.bbl *.blg *.synctex.gz"
+        "rm -f *.out *.log *.aux *.bbl *.blg *.synctex.gz *.flx *.fdb_latexmk"
