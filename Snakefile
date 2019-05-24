@@ -7,7 +7,7 @@ rule tex2pdf_with_bib:
         '{name}.tex',
         '{name}.bib'
     output:
-        '{name}.pdf'
+        'docs/{name}.pdf'
     shell:
         """
         pdflatex {wildcards.name}
@@ -20,7 +20,7 @@ rule tex2pdf_without_bib:
     input:
         '{name}.tex'
     output:
-        '{name}.pdf'
+        'docs/{name}.pdf'
     shell:
         """
         xelatex {wildcards.name}
