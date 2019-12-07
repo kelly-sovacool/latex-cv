@@ -35,11 +35,10 @@ See the [Snakemake documentation](http://snakemake.readthedocs.io/en/stable/inde
 
 ## Examples
 
-* `cv_science_KLS.tex`: my actual curriculum vitae for science using `moderncv.cls`: based on a template from the [moderncv repo](https://github.com/xdanaux/moderncv).
-* `cv_sound_KLS.tex`: my CV for live sound engineering, also using `moderncv.cls`.
-* `res/res_KLS.tex`: an old-style curriculum vitae using `res.cls`: based on a template from [LaTeXTemplates.com](http://www.LaTeXTemplates.com).
-* `other_templates/assignment.tex`: for homework assignments such as problem sets from a textbook.
-* `other_templates/paper.tex`: for short papers, essays, and other writing assignments.
+* [`cv_KLS.tex`](cv_KLS.tex): my actual curriculum vitae for science using `moderncv.cls`: based on a template from the [moderncv repo](https://github.com/xdanaux/moderncv).
+* [`sound.tex`](sound.tex): my CV for live sound engineering, also using `moderncv.cls`.
+* [`res/res_KLS.tex`](res/res_KLS.tex): an old-style curriculum vitae using `res.cls`: based on a template from [LaTeXTemplates.com](http://www.LaTeXTemplates.com).
+* [`other_templates/`](other_templates/): templates for homework assignments, essays, etc.
 
 
 ## Motivation
@@ -51,7 +50,7 @@ I decided enough was enough; I needed to make the jump to LaTeX -- preferably be
 So I began creating simple templates and updated my CV with LaTeX to learn the ropes, and now here we are. 
 Here's hoping I never have to use a WYSIWYG again...
 
-For writing scientific manuscripts with collaborators, it may make more sense to use Markdown, then convert to LaTeX for submission. Examples:
+For writing scientific manuscripts with collaborators, it may make more sense to use Markdown or R Markdown, then convert to LaTeX for submission. Examples:
 
 * https://github.com/greenelab/meta-review
 * https://oleb.net/blog/2016/02/collaborative-writing-on-github/
