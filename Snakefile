@@ -17,10 +17,10 @@ rule tex2pdf_with_bib:
         pdf='docs/{name}.pdf'
     shell:
         """
-        pdflatex {wildcards.name}
+        xelatex {wildcards.name}
         bibtex {wildcards.name}
-        pdflatex {wildcards.name}
-        pdflatex {wildcards.name}
+        xelatex {wildcards.name}
+        xelatex {wildcards.name}
         mv {wildcards.name}.pdf {output.pdf}
         rm -f *.out *.log *.aux *.bbl *.blg *.synctex.gz *.fls *.flx *.fdb_latexmk
         """
