@@ -12,7 +12,8 @@ rule targets:
 rule tex2pdf_with_bib:
     input:
         tex='{name}.tex',
-        bib='{name}.bib'
+        bib='{name}.bib',
+        bst='kls.bst'
     output:
         pdf='docs/{name}.pdf'
     shell:
