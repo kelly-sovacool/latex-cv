@@ -7,7 +7,7 @@
 %% merlin.mbs  (with options: `pres,pres-bf,seq-yrr,nm-rvx,ed-rev,jnrlst,dt-beg,yrp-per,atit-u,jxper,jttl-rm,num-xser,isbn,issn,url-doi,xedn,jabr,etal-it,eprint,url,url-blk,nfss,')
 %% ----------------------------------------
 %% *** custom style for my CV ***
-%% 
+%%
 %% Copyright 1994-2011 Patrick W Daly
  % ===============================================================
  % IMPORTANT NOTICE:
@@ -69,6 +69,24 @@ ENTRY
   {}
   { label }
 INTEGERS { output.state before.all mid.sentence after.sentence after.block }
+
+FUNCTION {cv.author}
+{ "Sovacool KL" }
+
+FUNCTION {highlight}
+{ duplicate$ empty$
+      { pop$ "" }
+      { "\textbf{\textsc{" swap$ * "}}" * }
+   if$
+}
+
+FUNCTION {highlight.if.cv.author}
+{ duplicate$ purify$ cv.author purify$ =
+    { highlight }
+    'skip$
+  if$
+}
+
 FUNCTION {init.state.consts}
 { #0 'before.all :=
   #1 'mid.sentence :=
@@ -442,6 +460,7 @@ FUNCTION {format.names}
     { s nameptr
       "{vv~}{ll}{ f{}}{ jj}"
       format.name$
+      highlight.if.cv.author
       remove.dots
       bibinfo bibinfo.check
       type$ "presentation" =
