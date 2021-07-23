@@ -9,6 +9,17 @@ rule targets:
     input:
         expand("docs/{name}.pdf", name=names)
 
+rule repair_months:
+    input:
+        code='replace-months.sh',
+        bib="cv_KLS.Zotero.bib"
+    output:
+        bib="cv_KLS.bib"
+    shell:
+        """
+        bash {input.code} {input.bib} {output.bib}
+        """
+
 rule tex2pdf_with_bib:
     input:
         tex='{name}.tex',
