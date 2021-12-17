@@ -7,3 +7,4 @@ Icon*
 *.blg
 *.synctex.gz
 *.fls
+.vscode/
