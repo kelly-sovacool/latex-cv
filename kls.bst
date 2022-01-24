@@ -606,22 +606,9 @@ FUNCTION {word.in}
 
 FUNCTION {format.date}
 {
-  month "month" bibinfo.check
-  duplicate$ empty$
-  year  "year"  bibinfo.check duplicate$ empty$
-    { swap$ 'skip$
-        { "there's a month but no year in " cite$ * warning$ }
-      if$
-      *
-    }
-    { swap$ 'skip$
-        {
-          swap$
-          " " * swap$
-        }
-      if$
-      *
-    }
+  year empty$
+    { "" }
+    { year "(" swap$ * ")" *}
   if$
 }
 FUNCTION {format.btitle}
@@ -1518,7 +1505,7 @@ FUNCTION {begin.bib}
   write$ newline$
   "\providecommand{\url}[1]{\texttt{#1}}"
   write$ newline$
-  "\providecommand{\urlprefix}{URL }"
+  "\providecommand{\urlprefix}{ }"
   write$ newline$
   "\providecommand{\eprint}[2][]{\url{#2}}"
   write$ newline$
