@@ -51,4 +51,4 @@ rule tex2pdf_without_bib:
 
 rule texclean:
     shell:
-        "rm -f *.out *.log *.aux *.bbl *.blg *.synctex.gz *.fls *.flx *.fdb_latexmk"
+        "rm -f cv_KLS.pdf *.out *.log *.aux *.bbl *.blg *.synctex.gz *.fls *.flx *.fdb_latexmk " 
