@@ -16,8 +16,14 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % moderncv themes
 \moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
-\moderncvcolor{black}                               % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
+\moderncvcolor{blue}                               % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
 %\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+
+% CUSTOM COLORS 
+% https://tex.stackexchange.com/questions/109496/creating-additional-color-for-moderncv
+\definecolor{MichiganBlue}{RGB}{0, 39, 80}
+\colorlet{color1}{MichiganBlue}
+
 %\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
 \usepackage{textcomp,xpatch}
 \xpatchcmd{\cventry}{\itshape#3}{#3}{}{} % Patch \cventry so the 3rd argument is not printed in italics
@@ -45,7 +51,7 @@
 %\social[skype]{jdoe}
 %\extrainfo{additional information}
 %\photo[64pt][0.4pt]{picture}                       %  '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
-\quote{Last updated: \today}
+%\quote{Last updated: \today}
 
 % bibliography adjustments (only useful if you make citations in your resume, or print a list of publications using BibTeX)
 %   to show numerical labels in the bibliography (default is to show no labels)
