@@ -16,13 +16,23 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % moderncv themes
 \moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
-\moderncvcolor{blue}                               % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
+%\moderncvcolor{blue}                               % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
 %\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
 
-% CUSTOM COLORS 
+% UMich colors https://brand.umich.edu/design-resources/colors/
+\definecolor{MichiganBlue}{HTML}{00274C}
+\definecolor{RackhamGreen}{HTML}{75988d}  
+\definecolor{ArboretumBlue}{HTML}{2F65A7}
+\definecolor{TaubmanTeal}{HTML}{00B2A9}
+\definecolor{AngelHallAsh}{HTML}{989C97}
+\definecolor{PumaBlack}{HTML}{131516}
+
+% CUSTOM COLORS for moderncv
 % https://tex.stackexchange.com/questions/109496/creating-additional-color-for-moderncv
-\definecolor{MichiganBlue}{RGB}{0, 39, 80}
+\colorlet{color0}{PumaBlack}
 \colorlet{color1}{MichiganBlue}
+\colorlet{color2}{MichiganBlue}
+
 
 %\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
 \usepackage{textcomp,xpatch}
@@ -30,7 +40,7 @@
 \xpatchcmd{\cventry}{.\strut}{\strut}{}{} % Patch \cventry to remove the trailing period
 % character encoding
 %\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex,
-\usepackage[scale=0.75]{geometry} % adjust the page margins
+\usepackage[margin=1in]{geometry} % adjust the page margins
 %\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
 %\setlength{\makecvheadnamewidth}{10cm}            % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
 
@@ -70,12 +80,11 @@
 %----------------------------------------------------------------------------------
 \begin{document}
 %-----       resume       ---------------------------------------------------------
-\definecolor{links}{HTML}{0000FF}  % color url links blue
-\hypersetup{urlcolor=links}
+\hypersetup{urlcolor=ArboretumBlue} % color url links.
 \makecvtitle
 \raggedright
 
-\cvline{}{Bioinformatics PhD candidate building open source tools for microbiome research and contributing to data science education along the way.}
+%\cvline{}{Bioinformatics PhD candidate building open source tools for microbiome research and contributing to data science education along the way.}
 
 \section{Education}
 
@@ -87,7 +96,7 @@
 
 \section{Research Experience}
 
-\cventry{2019-present}{Graduate Student Researcher}{\href{www.schlosslab.org}{Schloss Lab}}{\newline Dept. of Microbiology and Immunology}{University of Michigan}{
+\cventry{2019-present}{Graduate Student Researcher}{Schloss Lab}{\newline Dept. of Microbiology and Immunology}{University of Michigan}{
 \begin{itemize}
     \item Develop bioinformatics pipelines \& software for microbial ecology.
     \item Analyze 16S rRNA amplicon sequence data.
@@ -98,13 +107,13 @@
 
 \cventry{2018-2019}{Rotation Student Researcher}{Program in Biomedical Sciences}{\newline University of Michigan}{}{}
 
-\cventry{2015-2018}{Undergraduate Lab Assistant}{\href{http://bioinformatics.cesb.uky.edu/}{Moseley Bioinformatics Lab}}{\newline Dept. of Molecular and Cellular Biochemistry}{University of Kentucky}{
+\cventry{2015-2018}{Undergraduate Lab Assistant}{Moseley Bioinformatics Lab}{\newline Dept. of Molecular and Cellular Biochemistry}{University of Kentucky}{
 \begin{itemize}
     \item Developed a computational tool in Python for identifying sets of orthologous and \allowbreak paralogous gene products in whole genomes to facilitate collinearity \allowbreak analysis and detection of gene duplication events.
 \end{itemize}
 }
 
-\cventry{2016-2018}{BIO395 Independent Research Student}{\href{http://sweb.uky.edu/~dweis2/The_Weisrock_Lab}{Weisrock Lab}}{\newline Dept. of Biology}{University of Kentucky}{
+\cventry{2016-2018}{BIO395 Independent Research Student}{Weisrock Lab}{\newline Dept. of Biology}{University of Kentucky}{
 \begin{itemize}
     \item Developed bash scripts and a SNP calling pipeline in Snakemake.
     \item Population structure analysis of the \textit{Ambystoma tigrinum} species complex.
@@ -112,7 +121,7 @@
 \end{itemize}
 }
 
-\cventry{2015-2016}{Undergraduate Lab Assistant}{\href{http://csurs.csr.uky.edu/}{Jaromczyk Lab}}{\newline Dept. of Computer Science}{University of Kentucky}{
+\cventry{2015-2016}{Undergraduate Lab Assistant}{Jaromczyk Lab}{\newline Dept. of Computer Science}{University of Kentucky}{
 \begin{itemize}
     \item Maintained the \textit{Epichloë festucae} genome project database.
     \item Analyzed RNA-seq data of \textit{Chenopodium quinoa} and coffee ringspot virus.
@@ -144,25 +153,24 @@
 
 \section{Service}
 
-\cventry{2021-present}{CoderSpaces co-host}{\href{https://datascience.isr.umich.edu/events/coderspaces/}{U-M ISR Data Science Hub}}{}{}{Hold office hours at a weekly virtual help session for data science practitioners.}
+\cventry{2021-present}{CoderSpaces co-host}{U-M ISR Data Science Hub}{}{}{Hold office hours at a weekly virtual help session for data science practitioners.}
 
-\cventry{2019-present}{Organizer and Maintainer}{\href{https://umcarpentries.org}{U-M Software Carpentry}}{}{}{
+\cventry{2019-present}{Organizer and Maintainer}{U-M Software Carpentry}{}{}{
 \begin{itemize}
-    \item Co-lead development \& maintenance of a \href{https://github.com/umcarpentries/intro-curriculum-r}{custom curriculum} for workshops teaching programming skills for reproducible research.
-    \item Maintain the website and organize workshops.
+    \item Co-lead development \& maintenance of a curriculum for workshops teaching programming skills for reproducible research.
+    \item Maintain the website, develop curriculum, and organize workshops.
 \end{itemize}
 }
 
-\cventry{2018-2022}{Executive Committee Member: Open Source Technical Lead}{\newline \href{https://github.com/gwc-dcmb}{Girls Who Code at U-M DCMB}}{}{}{
+\cventry{2018-2022}{Executive Committee Member: Open Source Technical Lead}{\newline Girls Who Code at U-M DCMB}{}{}{
 \begin{itemize}
     \item Plan, apply for funding, develop curriculum, and maintain resources to teach introductory Python programming \& data science to young women.
-    \item Facilitate collaborative development and maintenance of our teaching resources.
-    \item Organize our year-round Club for high school women.
-    \item Organize our annual Data Science Summer Experience for high school women in the Detroit area.
+    \item Facilitate collaborative development and maintenance of our open source teaching resources.
+    \item Organize our year-round Club and annual Data Science Summer Experience for high school women.
 \end{itemize}
 }
 
-\cventry{2019-2021}{Graduate Student Coordinator}{\href{https://um-dang.github.io}{U-M Data Analysis Networking Group}}{}{}{
+\cventry{2019-2021}{Graduate Student Coordinator}{U-M Data Analysis Networking Group}{}{}{
 \begin{itemize}
     \item Organize monthly meetings \& a one-day symposium for researchers to sharpen their data analysis skills.
     \item Apply for funding through a Rackham Interdisciplinary Workshop grant.
@@ -172,7 +180,8 @@
 \cventry{2009-present}{Live Sound Engineer}{\href{https://sovacool.dev/latex-cv/sound.pdf}{for various churches and non-profit organizations}.}{}{}{
 \begin{itemize}
     \item Set up, maintain, repair, and operate front of house, monitor, and recording systems during sound checks, rehearsals, services, and concerts.
-    \item Train new sound techs in the art and science of live sound.
+    \item Record and mix live performances for streaming.
+    \item Train new sound techs in the art and science of live sound, live stream mixing, and recording.
 \end{itemize}
 }
 
@@ -193,11 +202,11 @@
 \end{itemize}
 }
 
-\cventry{2018-present}{Software Carpentry instructor}{}{U-M Carpentries}{\href{https://umcarpentries.org}{umcarpentries.org}}{
+\cventry{2018-present}{Software Carpentry instructor}{}{U-M Carpentries}{}{
 \begin{itemize}
 %    \item 28 Feb. 2022. Workshop helper.
-    \item 11-12 Jan 2021. Lead instructor for \href{https://www.wise.umich.edu/}{U-M WISE}-sponsored virtual workshop.
-    \item 06-07 Jan 2020. Lead instructor for \href{https://www.wise.umich.edu/}{U-M WISE}-sponsored workshop.
+    \item 11-12 Jan 2021. Lead instructor for virtual workshop sponsored by U-M WISE.
+    \item 06-07 Jan 2020. Lead instructor for in-person workshop sponsored by U-M WISE.
     \item 01-02 July 2019. Workshop instructor.
     \item 22-23 May 2019. Workshop helper.
     \item 01 Mar 2019. Workshop helper.
@@ -242,12 +251,14 @@
 \section{Continuing Education}
 
 \cventry{27-30 Jan 2020}{Building Tidy Tools workshop at rstudio::conf}{RStudio, PBC}{}{}{San Francisco, CA}
-\cventry{17-19 Dec 2019}{Winter School in Research Software Engineering}{\href{http://urssi.us/}{US Research Software Sustainability Institute}}{}{}{Seattle, WA}
+\cventry{17-19 Dec 2019}{Winter School in Research Software Engineering}{US Research Software Sustainability Institute}{}{}{Seattle, WA}
 \cventry{03-04 Jun 2019}{Software Carpentry Instructor Training}{The Carpentries}{}{}{University of Michigan}
 \cventry{01-05 May 2019}{PyCon Education Summit \& Conference}{Python Sofware Foundation}{}{}{Cleveland, OH}
 \cventry{24-26 Apr 2019}{MICROBIOL 612.2}{Riffomonas minimalR workshop}{}{}{University of Michigan}
 
-\section{Open Source Software Contributions}
+\section{Open Source Contributions}
+
+\subsection{Software}
 
 \cvline{mikropml}{User-Friendly R Package for Supervised Machine Learning Pipelines.\newline Co-author and maintainer. \url{https:/github.com/SchlossLab/mikropml}}
 
@@ -255,11 +266,17 @@
 
 \cvline{mothur}{Command-Line Tool for Processing 16S rRNA Gene Sequence Data.\newline Contributor. \url{https://github.com/mothur/mothur}}
 
+\subsection{Curricula}
+
+\cvline{Software Carpentry}{Intro to R, the Unix shell, and git for workshops on reproducible research. \newline Co-author and maintainer. \newline \url{https://github.com/umcarpentries/intro-curriculum-r}}
+
+\cvline{Girls Who Code}{Intro to Python for Data Science for Girls Who Code clubs. \newline Co-author and maintainer. \newline \url{https://github.com/GWC-DCMB/curriculum-notebooks}}
+
 \section{Skills}
 
 \cvline{research}{16S amplicon sequence analysis, metagenomics, gut microbiome}
 
-\cvline{software}{R, Python, Snakemake, git, GitHub, conda, continuous integration}
+\cvline{software}{R, Python, Snakemake, conda, git, GitHub, continuous integration}
 
 \cvline{data science}{supervised machine learning, data visualization, reproducible manuscripts}
 %----------------------------------------------------------------------------------
