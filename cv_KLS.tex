@@ -46,7 +46,14 @@
 
 % personal data
 \name{Kelly L.}{Sovacool}
-%\title{Bioinformatics PhD candidate}
+%\title{Bioinformatics PhD Candidate}
+\quote{Bioinformatician building and applying open source tools for microbiome research, and contributing to data science education along the way.}
+% quote width https://tex.stackexchange.com/questions/163050/how-can-i-extend-quotes-width-in-moderncv
+\let\originalrecomputecvlengths\recomputecvlengths
+\renewcommand*{\recomputecvlengths}{%
+\originalrecomputecvlengths%
+\setlength{\quotewidth}{0.99\textwidth}}
+
 %\address{street and number}{postcode city}{country}% the "postcode city" and "country" arguments can be omitted or provided empty
 %\phone[mobile]{+1~(234)~567~890}                   %  the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
 %\phone[fixed]{+2~(345)~678~901}
@@ -79,18 +86,28 @@
 %            content
 %----------------------------------------------------------------------------------
 \begin{document}
-%-----       resume       ---------------------------------------------------------
+
 \hypersetup{urlcolor=ArboretumBlue} % color url links.
 \makecvtitle
 \raggedright
 
-%\cvline{}{Bioinformatics PhD candidate building open source tools for microbiome research and contributing to data science education along the way.}
-
+%\cvline{}{}
+%----------------------------------------------------------------------------------
 \section{Education}
 
 \cventry{2018-present}{PhD Bioinformatics}{University of Michigan}{\newline Dept. of Computational Medicine and Bioinformatics}{}{}
 
 \cventry{2014-2018}{BS Biology}{University of Kentucky}{\newline Dept. of Biology}{Minor: Computer Science}{}
+
+%----------------------------------------------------------------------------------
+
+\section{Skills}
+
+\cvline{research}{16S amplicon sequence analysis, metagenomics, gut microbiome}
+
+\cvline{software}{R, Python, Snakemake, conda, git, GitHub, continuous integration}
+
+\cvline{data science}{supervised machine learning, data visualization, reproducible manuscripts}
 
 %----------------------------------------------------------------------------------
 
@@ -127,33 +144,30 @@
     \item Analyzed RNA-seq data of \textit{Chenopodium quinoa} and coffee ringspot virus.
 \end{itemize}
 }
+
 %----------------------------------------------------------------------------------
-%\pagebreak
-\section{Awards}
 
-\subsection{Grants \& Fellowships}
+\section{Open Source Contributions}
 
-\cventry{2022}{Conference Travel Grant}{Rackham Graduate School}{}{(\$900)}{University of Michigan}
-\cventry{2020-2021}{Rackham Interdisciplinary Workshop Grant}{}{}{(\$500)}{University of Michigan}
-\cventry{2020}{Conference Travel Grant}{Rackham Graduate School}{}{(\$800)}{University of Michigan}
-\cventry{2019-2020}{Rackham Interdisciplinary Workshop Grant}{}{}{(\$500)}{University of Michigan}
-\cventry{2019-2021}{NIH T32 Bioinformatics Training Program Fellow}{}{}{}{University of Michigan}
-\cventry{Dec 2017}{Oswald Research \& Creativity Award}{UK Office of Undergraduate \newline Research}{}{2nd place in the Biological Sciences category (\$200)}{University of Kentucky}
-\cventry{May-Aug 2017}{Summer Research Grant}{UK Office of Undergraduate Research}{(\$2,000)}{}{University of Kentucky}
-\cventry{2014-2018}{Presidential Scholarship}{}{}{(out-of-state full tuition)}{University of Kentucky}
+\subsection{Software}
 
-\subsection{Honors}
+\cvline{mikropml}{User-Friendly R Package for Supervised Machine Learning Pipelines.\newline Co-author and maintainer. \url{https:/github.com/SchlossLab/mikropml}}
 
-\cventry{May 2018}{Graduated Cum Laude with Departmental Honors in Biology}{}{}{}{University of Kentucky}
-\cventry{May 2018}{Biology Undergraduate Research Award Nominee}{}{}{}{University of Kentucky}
-\cventry{2014-2018}{Lewis Honors College}{}{}{}{University of Kentucky}
-%\cvline{}{}
+\cvline{schtools}{Schloss Lab tools for reproducible microbiome research (R package).\newline Co-author and maintainer. \url{https://github.com/SchlossLab/schtools}}
+
+\cvline{mothur}{Command-Line Tool for Processing 16S rRNA Gene Sequence Data.\newline Contributor. \url{https://github.com/mothur/mothur}}
+
+\subsection{Curricula}
+
+\cvline{Software Carpentry}{Intro to R, the Unix shell, and git for workshops on reproducible research. \newline Co-author and maintainer. \newline \url{https://github.com/umcarpentries/intro-curriculum-r}}
+
+\cvline{Girls Who Code}{Intro to Python for Data Science for Girls Who Code clubs. \newline Co-author and maintainer. \newline \url{https://github.com/GWC-DCMB/curriculum-notebooks}}
 
 %----------------------------------------------------------------------------------
 
 \section{Service}
 
-\cventry{2021-present}{Mentor}{Schloss Lab}{Mentoring an undergraduate student in building reproducible machine learning models to predict \textit{C. difficile} infection severity from gut microbiome compostion.}{}{}{}
+\cventry{2021-present}{Mentor}{Schloss Lab}{}{}{Mentoring an undergraduate student in building reproducible machine learning models to predict \textit{C. difficile} infection severity from gut microbiome compostion.}
 
 \cventry{2021-present}{CoderSpaces co-host}{U-M ISR Data Science Hub}{}{}{Hold office hours at a weekly virtual help session for data science practitioners.}
 
@@ -188,6 +202,7 @@
 }
 
 \cventry{2021-present}{Peer review for scientific journals}{PLOS ONE (1)}{}{}{}
+
 %----------------------------------------------------------------------------------
 
 \section{Teaching Experience}
@@ -250,6 +265,30 @@
 
 \cventry{Apr 2015}{Showcase for Undergraduate Scholars}{The Effect of Meditation on Performance}{Poster}{}{University of Kentucky}
 
+
+%----------------------------------------------------------------------------------
+%\pagebreak
+\section{Awards}
+
+\subsection{Grants \& Fellowships}
+
+\cventry{2022}{Conference Travel Grant}{Rackham Graduate School}{}{(\$900)}{University of Michigan}
+\cventry{2020-2021}{Rackham Interdisciplinary Workshop Grant}{}{}{(\$500)}{University of Michigan}
+\cventry{2020}{Conference Travel Grant}{Rackham Graduate School}{}{(\$800)}{University of Michigan}
+\cventry{2019-2020}{Rackham Interdisciplinary Workshop Grant}{}{}{(\$500)}{University of Michigan}
+\cventry{2019-2021}{NIH T32 Bioinformatics Training Program Fellow}{}{}{}{University of Michigan}
+\cventry{Dec 2017}{Oswald Research \& Creativity Award}{UK Office of Undergraduate \newline Research}{}{2nd place in the Biological Sciences category (\$200)}{University of Kentucky}
+\cventry{May-Aug 2017}{Summer Research Grant}{UK Office of Undergraduate Research}{(\$2,000)}{}{University of Kentucky}
+\cventry{2014-2018}{Presidential Scholarship}{}{}{(out-of-state full tuition)}{University of Kentucky}
+
+\subsection{Honors}
+
+\cventry{May 2018}{Graduated Cum Laude with Departmental Honors in Biology}{}{}{}{University of Kentucky}
+\cventry{May 2018}{Biology Undergraduate Research Award Nominee}{}{}{}{University of Kentucky}
+\cventry{2014-2018}{Lewis Honors College}{}{}{}{University of Kentucky}
+%\cvline{}{}
+
+%----------------------------------------------------------------------------------
 \section{Continuing Education}
 
 \cventry{27-30 Jan 2020}{Building Tidy Tools workshop at rstudio::conf}{RStudio, PBC}{}{}{San Francisco, CA}
@@ -258,29 +297,6 @@
 \cventry{01-05 May 2019}{PyCon Education Summit \& Conference}{Python Sofware Foundation}{}{}{Cleveland, OH}
 \cventry{24-26 Apr 2019}{MICROBIOL 612.2}{Riffomonas minimalR workshop}{}{}{University of Michigan}
 
-\section{Open Source Contributions}
-
-\subsection{Software}
-
-\cvline{mikropml}{User-Friendly R Package for Supervised Machine Learning Pipelines.\newline Co-author and maintainer. \url{https:/github.com/SchlossLab/mikropml}}
-
-\cvline{schtools}{Schloss Lab tools for reproducible microbiome research (R package).\newline Co-author and maintainer. \url{https://github.com/SchlossLab/schtools}}
-
-\cvline{mothur}{Command-Line Tool for Processing 16S rRNA Gene Sequence Data.\newline Contributor. \url{https://github.com/mothur/mothur}}
-
-\subsection{Curricula}
-
-\cvline{Software Carpentry}{Intro to R, the Unix shell, and git for workshops on reproducible research. \newline Co-author and maintainer. \newline \url{https://github.com/umcarpentries/intro-curriculum-r}}
-
-\cvline{Girls Who Code}{Intro to Python for Data Science for Girls Who Code clubs. \newline Co-author and maintainer. \newline \url{https://github.com/GWC-DCMB/curriculum-notebooks}}
-
-\section{Skills}
-
-\cvline{research}{16S amplicon sequence analysis, metagenomics, gut microbiome}
-
-\cvline{software}{R, Python, Snakemake, conda, git, GitHub, continuous integration}
-
-\cvline{data science}{supervised machine learning, data visualization, reproducible manuscripts}
 %----------------------------------------------------------------------------------
 
 % Publications from a BibTeX file without multibib
