@@ -1,3 +1,17 @@
+@article {armour_streamlined_2022,
+	author = {Armour, Courtney R. and Sovacool, Kelly L. and Close, William L. and Top{\c c}uo{\u g}lu, Beg{\"u}m D. and Wiens, Jenna and Schloss, Patrick D.},
+	title = {Streamlined implementation of a machine learning model to classify screen relevant neoplasia using reference-based OTU clustering},
+	elocation-id = {2022.09.01.506299},
+	year = {2022},
+  month = {sep},
+	doi = {10.1101/2022.09.01.506299},
+	publisher = {Cold Spring Harbor Laboratory},
+	abstract = {Machine learning classification of disease based on the gut microbiome often relies on clustering 16S rRNA gene sequences into operational taxonomic units (OTUs) to quantify microbial composition. The abundance of each OTU is then used to train a classification model. The standard de novo approach to clustering sequences into OTUs leverages the similarity of the sequences to each other rather than to a reference database. However, such an approach depends on the sequences in the dataset and therefore OTU assignments can change if new data are added. This lack of stability complicates classification because in order to use the model to classify additional samples, the new sequences must be reclustered with the old data and the model must be retrained with the new OTU assignments. The new reference-based clustering algorithm, OptiFit, addresses this issue by fitting new sequences into existing OTUs. While OptiFit can produce high quality OTU clusters, it is unclear whether this method for fitting new sequence data into existing OTUs will impact the performance of classification models. We used OptiFit to cluster additional data into existing OTU clusters and then evaluated model performance in classifying a dataset containing samples from patients with and without colonic screen relevant neoplasia (SRN). We compared the performance of this model to the standard procedure of de novo clustering all the data together. We found that both approaches performed equally well in classifying SRNs. Moving forward, when OTUs are used in classification problems, OptiFit can streamline the process of classifying new samples by avoiding the need to retrain models using reclustered sequences.},
+	URL = {https://www.biorxiv.org/content/early/2022/09/02/2022.09.01.506299},
+	eprint = {https://www.biorxiv.org/content/early/2022/09/02/2022.09.01.506299.full.pdf},
+	journal = {bioRxiv}
+}
+
 @article{barron_intestinal_2022,
   title = {Intestinal {{Inflammation Reversibly Alters}} the {{Microbiota}} to {{Drive Susceptibility}} to {{Clostridioides}} Difficile {{Colonization}} in a {{Mouse Model}} of {{Colitis}}},
   author = {Barron, Madeline R. and Sovacool, Kelly L. and {Abernathy-Close}, Lisa and Vendrov, Kimberly C. and Standke, Alexandra K. and Bergin, Ingrid L. and Schloss, Patrick D. and Young, Vincent B.},
@@ -131,4 +145,3 @@
   langid = {english},
   file = {/Users/kelly/Documents/Zotero/storage/WZEX2JH3/Topçuoğlu_et_al_2021_JOSS.pdf}
 }
-
