@@ -82,36 +82,35 @@
 %\usepackage{multibib}
 %\newcites{book,misc}{{Books},{Others}}
 
-%----------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 %            content
-%----------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 \begin{document}
 
 \hypersetup{urlcolor=ArboretumBlue} % color url links.
 \makecvtitle
 \raggedright
 %\cvline{}{}
-%----------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 \section{Education}
 
 \cventry{2018-present}{PhD Bioinformatics}{University of Michigan}{\newline Dept. of Computational Medicine and Bioinformatics}{}{}
 
 \cventry{2014-2018}{BS Biology}{University of Kentucky}{\newline Dept. of Biology}{Minor: Computer Science}{}
 
-%----------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 
 \section{Skills}
 
-\cvline{research}{amplicon sequence analysis, metagenomics, gut microbiome}
+\cvline{languages \& tools}{R, Python, Bash, Snakemake, R Markdown, Quarto, LaTeX, conda, git, GitHub, SLURM}
 
-\cvline{software}{R, Python, Snakemake, conda, git, GitHub, continuous integration, LaTeX, R Markdown, Quarto}
+\cvline{research}{gut microbiome research, amplicon sequence analysis, metagenomics, supervised machine learning, data visualization, reproducible manuscripts}
 
-\cvline{data science}{supervised machine learning, data visualization, reproducible manuscripts}
+\cvline{software}{R package maintenance, continuous integration, high performance computing}
 
-\cvline{teaching}{live coding, curriculum development \& maintenance}
+\cvline{teaching}{live coding instruction, curriculum development/maintenance/deployment}
 
-%----------------------------------------------------------------------------------
-
+%-------------------------------------------------------------------------------
 \section{Research Experience}
 
 \cventry{2019-present}{Graduate Student Researcher}{Schloss Lab}{\newline Dept. of Microbiology and Immunology}{University of Michigan}{
@@ -146,45 +145,47 @@
 \end{itemize}
 }
 
-%----------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 
 \section{Open Source Contributions}
 
 \subsection{Software}
 
-\cvline{mikropml}{User-Friendly R Package for Supervised Machine Learning Pipelines. \newline Co-author and maintainer. \url{https:/github.com/SchlossLab/mikropml}}
+\cvline{mikropml}{\href{https:/github.com/SchlossLab/mikropml}{User-Friendly R Package for Supervised Machine Learning Pipelines.} \newline Co-author and maintainer.}
 
-\cvline{mikropml snakemake workflow}{Template for running mikropml with Snakemake. \newline Co-author and maintainer. \newline \url{https://github.com/SchlossLab/mikropml-snakemake-workflow}}
+\cvline{mikropml workflow}{\href{https://github.com/SchlossLab/mikropml-snakemake-workflow}{Template for running mikropml with Snakemake.} \newline Co-author and maintainer.}
 
-\cvline{schtools}{Schloss Lab tools for reproducible microbiome research (R package). \newline Co-author and maintainer. \url{https://github.com/SchlossLab/schtools}}
+\cvline{schtools}{\href{https://github.com/SchlossLab/schtools}{Schloss Lab tools for reproducible microbiome research (R package).} \newline Co-author and maintainer.}
 
-\cvline{mothur}{Command-Line Tool for Processing 16S rRNA Gene Sequence Data. \newline Contributor. \url{https://github.com/mothur/mothur}}
+\cvline{mothur}{\href{https://github.com/mothur/mothur}{Command-Line Tool for Processing 16S rRNA Gene Sequence Data.} \newline Contributor.}
 
-\cvline{mothur snakemake workflow}{Snakemake template for 16S rRNA gene analysis with mothur. \newline Co-author. \newline \url{https://github.com/SchlossLab/mothur-snakemake-workflow}}
+\cvline{mothur workflow}{\href{https://github.com/SchlossLab/mothur-snakemake-workflow}{Snakemake template for 16S rRNA gene analysis with mothur.} \newline Co-author.}
 
-\vspace{5mm}
+\vspace{2mm}
 \subsection{Curricula}
 
-\cvline{Software Carpentry}{Intro to R, the Unix shell, and git for workshops on reproducible research. \newline Co-author and maintainer. \newline \url{https://github.com/umcarpentries/intro-curriculum-r}}
+\cvline{Software Carpentry}{\href{https://github.com/umcarpentries/intro-curriculum-r}{Intro to R, the Unix shell, and git for workshops on reproducible research.} \newline Co-author and maintainer.}
 
-\cvline{Girls Who Code}{Intro to Python for Data Science for Girls Who Code clubs. \newline Co-author and maintainer. \newline \url{https://github.com/GWC-DCMB/curriculum-notebooks}}
+\cvline{Girls Who Code}{\href{{https://github.com/GWC-DCMB/curriculum-notebooks}}{Intro to Python for Data Science for Girls Who Code clubs.} \newline Co-author and maintainer.}
 
-\cvline{ASM Microbe 2022}{RNA-seq analysis in R workshop for ASM Microbe attendees. \newline Contributor. \url{https://github.com/BIGslu/2022_ASM_Microbe_RNAseq}}
+\cvline{ASM Microbe 2022}{\href{https://github.com/BIGslu/2022_ASM_Microbe_RNAseq}{Intro to R \& RNA-seq Workshop for ASM Microbe attendees.} \newline Contributor.}
 
-\cvline{Code Clubs}{1-hour tutorials for Code Club meetings in the Schloss Lab. 
+\cvline{U-M \textit{DANG!}}{\href{https://github.com/um-dang/repro-packs}{repro-packs: Organizing projects for reproducibility and headache prevention.} \newline Author. Seminar for the Data Analysis Networking Group.}
+
+\cvline{Code Clubs}{Short tutorials for Code Club meetings in the Schloss Lab. 
 \begin{itemize}
-    \item Just enough Python for R users to write advanced Snakemake workflows. \newline \url{https://github.com/SchlossLab/just-enough-python} 
-    \item Tips and tricks for making the most of GitHub. \newline \url{https://github.com/SchlossLab/gh-tips}
-    \item How to maintain R packages. \newline \url{https://gist.github.com/kelly-sovacool/2a95355b6566cceb8c2612100f58fa81}
-    \item Introduction to Testing R Code. \newline \url{https://github.com/SchlossLab/intro-testing-r}
-    \item Re-creating plots to learn cool tricks and practice problem-solving. \newline \url{https://github.com/SchlossLab/plot-recreation}
-    \item A brief introduction to tidy evaluation. \newline \url{https://github.com/SchlossLab/tidy-eval}
-    \item Materials for a code review on exception handling in R for lab meeting. \newline \url{https://github.com/SchlossLab/exception-handling}
-    \item A Snakemake tutorial for make users. \newline \url{https://github.com/SchlossLab/snakemake_riffomonas_tutorial}
-    \item Materials for a code review on documenting R code. \newline \url{https://github.com/SchlossLab/documenting-R}
+    \item \href{https://github.com/SchlossLab/just-enough-python}{Just enough Python for R users to write advanced Snakemake workflows.}
+    \item \href{https://github.com/SchlossLab/gh-tips}{Tips and tricks for making the most of GitHub.} 
+    \item \href{https://gist.github.com/kelly-sovacool/2a95355b6566cceb8c2612100f58fa81}{How to maintain R packages.} 
+    \item \href{https://github.com/SchlossLab/intro-testing-r}{Introduction to Testing R Code.}
+    \item \href{https://github.com/SchlossLab/plot-recreation}{Re-creating plots to learn cool tricks and practice problem-solving.}
+    \item \href{https://github.com/SchlossLab/tidy-eval}{A brief introduction to tidy evaluation.} 
+    \item \href{https://github.com/SchlossLab/exception-handling}{Materials for a code review on exception handling in R for lab meeting.}
+    \item \href{https://github.com/SchlossLab/snakemake_riffomonas_tutorial}{A Snakemake tutorial for make users.}
+    \item \href{https://github.com/SchlossLab/documenting-R}{Materials for a code review on documenting R code.}
 \end{itemize}}
 
-%----------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 
 \section{Service}
 
@@ -225,7 +226,7 @@
 
 \cventry{2021-present}{Peer review for scientific journals}{PLOS ONE (1)}{}{}{}
 
-%----------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 
 \section{Teaching Experience}
 
@@ -266,7 +267,7 @@
 
 \cventry{2012-2018}{Tutor}{}{for high school and college students in Biology, Calculus, Chemistry, Computer Science, and Bioinformatics.}{}{}
 
-%----------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 
 \section{Presentations}
 
@@ -289,7 +290,7 @@
 \cventry{Apr 2015}{Showcase for Undergraduate Scholars}{The Effect of Meditation on Performance}{Poster}{}{University of Kentucky}
 
 
-%----------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 %\pagebreak
 \section{Awards}
 
@@ -304,6 +305,7 @@
 \cventry{May-Aug 2017}{Summer Research Grant}{UK Office of Undergraduate Research}{(\$2,000)}{}{University of Kentucky}
 \cventry{2014-2018}{Presidential Scholarship}{}{}{(out-of-state full tuition)}{University of Kentucky}
 
+\vspace{2mm}
 \subsection{Honors}
 
 \cventry{May 2018}{Graduated Cum Laude with Departmental Honors in Biology}{}{}{}{University of Kentucky}
@@ -311,7 +313,7 @@
 \cventry{2014-2018}{Lewis Honors College}{}{}{}{University of Kentucky}
 %\cvline{}{}
 
-%----------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 \section{Continuing Education}
 
 \cventry{27-30 Jan 2020}{Building Tidy Tools workshop at rstudio::conf}{RStudio, PBC}{}{}{San Francisco, CA}
@@ -320,7 +322,7 @@
 \cventry{01-05 May 2019}{PyCon Education Summit \& Conference}{Python Sofware Foundation}{}{}{Cleveland, OH}
 \cventry{24-26 Apr 2019}{MICROBIOL 612.2}{Riffomonas minimalR workshop}{}{}{University of Michigan}
 
-%----------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 
 % Publications from a BibTeX file without multibib
 %  for numerical labels:
