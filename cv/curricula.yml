@@ -1,0 +1,34 @@
+- title: U-M Software Carpentry
+  description: Intro to R, the Unix shell, and git for workshops on reproducible research.
+  contrib: Co-author and maintainer
+  path: https://github.com/UMCarpentries/intro-curriculum-r
+  image: /images/project-grid/swc.png
+  categories: [Curriculum, R, Unix Shell, git, Workshop]
+
+- title: Girls Who Code at U-M DCMB
+  description: Intro to Python for Data Science for Girls Who Code clubs.
+  contrib: Co-author and maintainer
+  path: https://github.com/GWC-DCMB/curriculum-notebooks
+  image: /images/project-grid/gwc-wide.png
+  categories: [Curriculum, Python, Data Science]
+
+- title: Code Clubs
+  description: Short coding tutorials for lab meetings
+  contrib: Contributor
+  path: /cv/code-clubs.qmd
+  image: /images/project-grid/code-club.png
+  categories: [Code Club, Tutorials]
+
+- title: U-M DANG! 
+  description: "repro-packs: Organizing projects for reproducibility and headache prevention."
+  contrib: Author
+  path: https://github.com/um-dang/repro-packs
+  image: /images/project-grid/dang-wide.png
+  categories: [Reproducibility, Tutorials]
+
+- title: Intro to R & RNA-seq
+  description: Workshop for 2022 ASM Microbe attendees
+  contrib: Contributor
+  path: https://github.com/BIGslu/2022_ASM_Microbe_RNAseq
+  image: /images/project-grid/rna-seq-workshop.png
+  categories: [Curriculum, R, RNA-seq, Workshop]

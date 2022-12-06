@@ -1,0 +1,37 @@
+---
+title: U-M Carpentries
+description: |
+    <https://umcarpentries.org> <br>
+    Workshop Instructor & Helper
+date-format: "MMM YYYY"
+listing:
+  - id: swc
+    type: table
+    fields: [date, role, event]
+    categories: false
+    contents:
+    - date: Oct 2022
+      role: Instructor
+      event: Workshop on R, the Unix Shell, & Git/GitHub
+    - date: Feb 2022
+      role: Helper
+      event: Virtual workshop organized by the U-M Bioinformatics core
+    - date: Jan 2021
+      role: Lead instructor
+      event: Virtual workshop sponsored by U-M WISE
+    - date: Jan 2020
+      role: Lead instructor
+      event: Workshop sponsored by U-M WISE
+    - date: Jul 2019
+      role: Instructor
+      event: Workshop on R, the Unix Shell, & Git/GitHub
+    - date: May 2019
+      role: Helper
+      event: Workshop on R, the Unix Shell, & Git/GitHub
+    - date: Mar 2019
+      role: Helper
+      event: Workshop on Python, the Unix Shell, & Git/GitHub
+    - date: Dec 2018
+      role: Helper
+      event: Workshop on R, the Unix Shell, & Git/GitHub
+---

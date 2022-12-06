@@ -1,0 +1,46 @@
+---
+title: Schloss Lab Code Clubs
+description: Short coding tutorials for lab meetings
+listing:
+  - id: code-clubs
+    type: table
+    fields: [title, date]
+    categories: numbered
+    contents:
+      - title: Just enough Python for R users to write advanced Snakemake workflows
+        path: https://github.com/SchlossLab/just-enough-python
+        date: 2022-11-14
+        categories: [Python, R, Snakemake]
+      - title: Tips and tricks for making the most of GitHub
+        path: https://github.com/SchlossLab/gh-tips
+        date: 2021-03-15
+        categories: [git, GitHub]
+      - title: How to maintain R packages
+        path: https://gist.github.com/kelly-sovacool/2a95355b6566cceb8c2612100f58fa81
+        date: 2021-04-19
+        categories: [R, Packages]
+      - title: Introduction to Testing R Code
+        path: https://github.com/SchlossLab/intro-testing-r/
+        date: 2020-10-16
+        categories: [R, Packages]
+      - title: Re-creating plots to learn cool tricks and practice problem-solving
+        path: https://github.com/SchlossLab/plot-recreation
+        date: 2020-06-28
+        categories: [R, tidyverse]
+      - title: A brief introduction to tidy evaluation
+        path: https://github.com/SchlossLab/tidy-eval
+        date: 2020-05-18
+        categories: [R, tidyverse]
+      - title: Exception handling in R
+        path: https://github.com/SchlossLab/exception-handling
+        date: 2019-10-28
+        categories: [R]
+      - title: A Snakemake tutorial for make users
+        path: https://github.com/SchlossLab/snakemake_riffomonas_tutorial
+        date: 2019-06-25
+        categories: [Snakemake]
+      - title: Documenting R code
+        path: https://github.com/SchlossLab/documenting-R
+        date: 2019-05-21
+        categories: [R, Packages]
+---

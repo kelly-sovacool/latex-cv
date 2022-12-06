@@ -1,0 +1,449 @@
+- altmetrics_badge: <div data-badge-popover="right" data-badge-type="medium_badge"
+    data-doi="10.1101/2022.09.01.506299" data-condensed="true" data-hide-no-mentions="false"
+    class="altmetric-embed"></div>
+  authors:
+  - Armour, Courtney R.
+  - Sovacool, Kelly L.
+  - Close, William L.
+  - "Top\xE7uo\u011Flu, Beg\xFCm D."
+  - Wiens, Jenna
+  - Schloss, Patrick D.
+  authors_md: "Armour CR, **Sovacool KL**, Close WL, Top\xE7uo\u011Flu BD, Wiens J,\
+    \ Schloss PD"
+  badges: ' <div data-badge-popover="right" data-badge-type="medium_badge" data-doi="10.1101/2022.09.01.506299"
+    data-condensed="true" data-hide-no-mentions="false" class="altmetric-embed"></div>
+    <span class="__dimensions_badge_embed__" data-doi="10.1101/2022.09.01.506299"
+    data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right"></span>'
+  bib_md: "Armour CR, **Sovacool KL**, Close WL, Top\xE7uo\u011Flu BD, Wiens J, Schloss\
+    \ PD. Sep 2022. Streamlined implementation of a machine learning model to classify\
+    \ screen relevant neoplasia using reference-based OTU clustering. _bioRxiv_. [10.1101/2022.09.01.506299](https://doi.org/10.1101/2022.09.01.506299) "
+  date: Sep 2022
+  dimensions_badge: <span class="__dimensions_badge_embed__" data-doi="10.1101/2022.09.01.506299"
+    data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right"></span>
+  doi: 10.1101/2022.09.01.506299
+  doi_link: https://doi.org/10.1101/2022.09.01.506299
+  entry_type: article
+  github_badge: ''
+  github_icon: ''
+  github_link: ''
+  id: armour_streamlined_2022
+  journal: bioRxiv
+  journal_md: '[bioRxiv](https://doi.org/10.1101/2022.09.01.506299)'
+  link_md: '[10.1101/2022.09.01.506299](https://doi.org/10.1101/2022.09.01.506299)'
+  month: Sep
+  month_num: 9
+  title: Streamlined implementation of a machine learning model to classify screen
+    relevant neoplasia using reference-based OTU clustering
+  title_journal: Streamlined implementation of a machine learning model to classify
+    screen relevant neoplasia using reference-based OTU clustering.  _[bioRxiv](https://doi.org/10.1101/2022.09.01.506299)_
+  title_md: '[Streamlined implementation of a machine learning model to classify screen
+    relevant neoplasia using reference-based OTU clustering](https://doi.org/10.1101/2022.09.01.506299)'
+  year: '2022'
+  year_mo: 2022-09-01 00:00:00
+- altmetrics_badge: <div data-badge-popover="right" data-badge-type="medium_badge"
+    data-doi="10.1128/mbio.01904-22" data-condensed="true" data-hide-no-mentions="false"
+    class="altmetric-embed"></div>
+  authors:
+  - Barron, Madeline R.
+  - Sovacool, Kelly L.
+  - Abernathy-Close, Lisa
+  - Vendrov, Kimberly C.
+  - Standke, Alexandra K.
+  - Bergin, Ingrid L.
+  - Schloss, Patrick D.
+  - Young, Vincent B.
+  authors_md: Barron MR, **Sovacool KL**, Abernathy-Close L, Vendrov KC, Standke AK,
+    Bergin IL, Schloss PD, Young VB
+  badges: <a href="https://github.com/SchlossLab/Barron_IBD-CDI_2022"> <i class="fa-brands
+    fa-github" style="font-size:20px;"></i> </a> <div data-badge-popover="right" data-badge-type="medium_badge"
+    data-doi="10.1128/mbio.01904-22" data-condensed="true" data-hide-no-mentions="false"
+    class="altmetric-embed"></div> <span class="__dimensions_badge_embed__" data-doi="10.1128/mbio.01904-22"
+    data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right"></span>
+  bib_md: 'Barron MR, **Sovacool KL**, Abernathy-Close L, Vendrov KC, Standke AK,
+    Bergin IL, Schloss PD, Young VB. Jul 2022. Intestinal Inflammation Reversibly
+    Alters the Microbiota to Drive Susceptibility to Clostridioides Difficile Colonization
+    in a Mouse Model of Colitis. _mBio_. [10.1128/mbio.01904-22](https://doi.org/10.1128/mbio.01904-22) '
+  date: Jul 2022
+  dimensions_badge: <span class="__dimensions_badge_embed__" data-doi="10.1128/mbio.01904-22"
+    data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right"></span>
+  doi: 10.1128/mbio.01904-22
+  doi_link: https://doi.org/10.1128/mbio.01904-22
+  entry_type: article
+  github_badge: '[![GitHub](https://img.shields.io/static/v1?style=flat&logo=GitHub&label=+&message=GitHub&color=black)](https://github.com/SchlossLab/Barron_IBD-CDI_2022)'
+  github_icon: <a href="https://github.com/SchlossLab/Barron_IBD-CDI_2022"> <i class="fa-brands
+    fa-github" style="font-size:20px;"></i> </a>
+  github_link: https://github.com/SchlossLab/Barron_IBD-CDI_2022
+  id: barron_intestinal_2022
+  journal: mBio
+  journal_md: '[mBio](https://doi.org/10.1128/mbio.01904-22)'
+  link_md: '[10.1128/mbio.01904-22](https://doi.org/10.1128/mbio.01904-22)'
+  month: Jul
+  month_num: 7
+  title: Intestinal Inflammation Reversibly Alters the Microbiota to Drive Susceptibility
+    to Clostridioides Difficile Colonization in a Mouse Model of Colitis
+  title_journal: Intestinal Inflammation Reversibly Alters the Microbiota to Drive
+    Susceptibility to Clostridioides Difficile Colonization in a Mouse Model of Colitis.  _[mBio](https://doi.org/10.1128/mbio.01904-22)_
+  title_md: '[Intestinal Inflammation Reversibly Alters the Microbiota to Drive Susceptibility
+    to Clostridioides Difficile Colonization in a Mouse Model of Colitis](https://doi.org/10.1128/mbio.01904-22)'
+  year: '2022'
+  year_mo: 2022-07-01 00:00:00
+- altmetrics_badge: <div data-badge-popover="right" data-badge-type="medium_badge"
+    data-doi="10.1128/msphere.00916-21" data-condensed="true" data-hide-no-mentions="false"
+    class="altmetric-embed"></div>
+  authors:
+  - Sovacool, Kelly L.
+  - Westcott, Sarah L.
+  - Mumphrey, M. Brodie
+  - Dotson, Gabrielle A.
+  - Schloss, Patrick D.
+  authors_md: '**Sovacool KL**, Westcott SL, Mumphrey MB, Dotson GA, Schloss PD'
+  badges: <a href="https://github.com/SchlossLab/Sovacool_OptiFit_mSphere_2022"> <i
+    class="fa-brands fa-github" style="font-size:20px;"></i> </a> <div data-badge-popover="right"
+    data-badge-type="medium_badge" data-doi="10.1128/msphere.00916-21" data-condensed="true"
+    data-hide-no-mentions="false" class="altmetric-embed"></div> <span class="__dimensions_badge_embed__"
+    data-doi="10.1128/msphere.00916-21" data-hide-zero-citations="true" data-style="small_rectangle"
+    data-legend="hover-right"></span>
+  bib_md: '**Sovacool KL**, Westcott SL, Mumphrey MB, Dotson GA, Schloss PD. Feb 2022.
+    OptiFit: An Improved Method for Fitting Amplicon Sequences to Existing OTUs. _mSphere_.
+    [10.1128/msphere.00916-21](https://doi.org/10.1128/msphere.00916-21) '
+  date: Feb 2022
+  dimensions_badge: <span class="__dimensions_badge_embed__" data-doi="10.1128/msphere.00916-21"
+    data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right"></span>
+  doi: 10.1128/msphere.00916-21
+  doi_link: https://doi.org/10.1128/msphere.00916-21
+  entry_type: article
+  github_badge: '[![GitHub](https://img.shields.io/static/v1?style=flat&logo=GitHub&label=+&message=GitHub&color=black)](https://github.com/SchlossLab/Sovacool_OptiFit_mSphere_2022)'
+  github_icon: <a href="https://github.com/SchlossLab/Sovacool_OptiFit_mSphere_2022">
+    <i class="fa-brands fa-github" style="font-size:20px;"></i> </a>
+  github_link: https://github.com/SchlossLab/Sovacool_OptiFit_mSphere_2022
+  id: sovacool_optifit_2022
+  journal: mSphere
+  journal_md: '[mSphere](https://doi.org/10.1128/msphere.00916-21)'
+  link_md: '[10.1128/msphere.00916-21](https://doi.org/10.1128/msphere.00916-21)'
+  month: Feb
+  month_num: 2
+  title: 'OptiFit: An Improved Method for Fitting Amplicon Sequences to Existing OTUs'
+  title_journal: 'OptiFit: An Improved Method for Fitting Amplicon Sequences to Existing
+    OTUs.  _[mSphere](https://doi.org/10.1128/msphere.00916-21)_'
+  title_md: '[OptiFit: An Improved Method for Fitting Amplicon Sequences to Existing
+    OTUs](https://doi.org/10.1128/msphere.00916-21)'
+  year: '2022'
+  year_mo: 2022-02-01 00:00:00
+- altmetrics_badge: <div data-badge-popover="right" data-badge-type="medium_badge"
+    data-doi="10.21105/jose.00144" data-condensed="true" data-hide-no-mentions="false"
+    class="altmetric-embed"></div>
+  authors:
+  - '*Lapp, Zena'
+  - '*Sovacool, Kelly L.'
+  - Lesniak, Nick
+  - King, Dana
+  - Barnier, Catherine
+  - Flickinger, Matthew
+  - "Kr\xFCger, Jule"
+  - Armour, Courtney R.
+  - Lapp, Maya M.
+  - Tallant, Jason
+  - Diao, Rucheng
+  - Oneka, Morgan
+  - Tomkovich, Sarah
+  - Anderson, Jacqueline Moltzau
+  - Lucas, Sarah K.
+  - Schloss, Patrick D.
+  authors_md: "\\*Lapp Z, **\\*Sovacool KL**, Lesniak N, King D, Barnier C, Flickinger\
+    \ M, Kr\xFCger J, Armour CR, Lapp MM, Tallant J, Diao R, Oneka M, Tomkovich S,\
+    \ Anderson JM, Lucas SK, Schloss PD"
+  badges: <a href="https://github.com/UMCarpentries/intro-curriculum-r/"> <i class="fa-brands
+    fa-github" style="font-size:20px;"></i> </a> <div data-badge-popover="right" data-badge-type="medium_badge"
+    data-doi="10.21105/jose.00144" data-condensed="true" data-hide-no-mentions="false"
+    class="altmetric-embed"></div> <span class="__dimensions_badge_embed__" data-doi="10.21105/jose.00144"
+    data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right"></span>
+  bib_md: "\\*Lapp Z, **\\*Sovacool KL**, Lesniak N, King D, Barnier C, Flickinger\
+    \ M, Kr\xFCger J, Armour CR, Lapp MM, Tallant J, Diao R, Oneka M, Tomkovich S,\
+    \ Anderson JM, Lucas SK, Schloss PD. Jan 2022. Developing and Deploying an Integrated\
+    \ Workshop Curriculum Teaching Computational Skills for Reproducible Research.\
+    \ _JOSE_. [10.21105/jose.00144](https://doi.org/10.21105/jose.00144) "
+  date: Jan 2022
+  dimensions_badge: <span class="__dimensions_badge_embed__" data-doi="10.21105/jose.00144"
+    data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right"></span>
+  doi: 10.21105/jose.00144
+  doi_link: https://doi.org/10.21105/jose.00144
+  entry_type: article
+  github_badge: '[![GitHub](https://img.shields.io/static/v1?style=flat&logo=GitHub&label=+&message=GitHub&color=black)](https://github.com/UMCarpentries/intro-curriculum-r/)'
+  github_icon: <a href="https://github.com/UMCarpentries/intro-curriculum-r/"> <i
+    class="fa-brands fa-github" style="font-size:20px;"></i> </a>
+  github_link: https://github.com/UMCarpentries/intro-curriculum-r/
+  id: lapp_developing_2022
+  journal: JOSE
+  journal_md: '[JOSE](https://doi.org/10.21105/jose.00144)'
+  link_md: '[10.21105/jose.00144](https://doi.org/10.21105/jose.00144)'
+  month: Jan
+  month_num: 1
+  title: Developing and Deploying an Integrated Workshop Curriculum Teaching Computational
+    Skills for Reproducible Research
+  title_journal: Developing and Deploying an Integrated Workshop Curriculum Teaching
+    Computational Skills for Reproducible Research.  _[JOSE](https://doi.org/10.21105/jose.00144)_
+  title_md: '[Developing and Deploying an Integrated Workshop Curriculum Teaching
+    Computational Skills for Reproducible Research](https://doi.org/10.21105/jose.00144)'
+  year: '2022'
+  year_mo: 2022-01-01 00:00:00
+- altmetrics_badge: <div data-badge-popover="right" data-badge-type="medium_badge"
+    data-doi="10.21105/jose.00138" data-condensed="true" data-hide-no-mentions="false"
+    class="altmetric-embed"></div>
+  authors:
+  - '*Duda, Marlena'
+  - '*Sovacool, Kelly L.'
+  - Farzaneh, Negar
+  - Nguyen, Vy Kim
+  - Haynes, Sarah E.
+  - Falk, Hayley
+  - Furman, Katherine L.
+  - Walker, Logan A.
+  - Diao, Rucheng
+  - Oneka, Morgan
+  - Drotos, Audrey C.
+  - Woloshin, Alana
+  - Dotson, Gabrielle A.
+  - Kriebel, April
+  - Meng, Lucy
+  - Thiede, Stephanie N.
+  - Lapp, Zena
+  - Wolford, Brooke N.
+  authors_md: \*Duda M, **\*Sovacool KL**, Farzaneh N, Nguyen VK, Haynes SE, Falk
+    H, Furman KL, Walker LA, Diao R, Oneka M, Drotos AC, Woloshin A, Dotson GA, Kriebel
+    A, Meng L, Thiede SN, Lapp Z, Wolford BN
+  badges: <a href="https://github.com/GWC-DCMB/curriculum-notebooks"> <i class="fa-brands
+    fa-github" style="font-size:20px;"></i> </a> <div data-badge-popover="right" data-badge-type="medium_badge"
+    data-doi="10.21105/jose.00138" data-condensed="true" data-hide-no-mentions="false"
+    class="altmetric-embed"></div> <span class="__dimensions_badge_embed__" data-doi="10.21105/jose.00138"
+    data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right"></span>
+  bib_md: '\*Duda M, **\*Sovacool KL**, Farzaneh N, Nguyen VK, Haynes SE, Falk H,
+    Furman KL, Walker LA, Diao R, Oneka M, Drotos AC, Woloshin A, Dotson GA, Kriebel
+    A, Meng L, Thiede SN, Lapp Z, Wolford BN. Dec 2021. Teaching Python for Data Science:
+    Collaborative Development of a Modular & Interactive Curriculum. _JOSE_. [10.21105/jose.00138](https://doi.org/10.21105/jose.00138) '
+  date: Dec 2021
+  dimensions_badge: <span class="__dimensions_badge_embed__" data-doi="10.21105/jose.00138"
+    data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right"></span>
+  doi: 10.21105/jose.00138
+  doi_link: https://doi.org/10.21105/jose.00138
+  entry_type: article
+  github_badge: '[![GitHub](https://img.shields.io/static/v1?style=flat&logo=GitHub&label=+&message=GitHub&color=black)](https://github.com/GWC-DCMB/curriculum-notebooks)'
+  github_icon: <a href="https://github.com/GWC-DCMB/curriculum-notebooks"> <i class="fa-brands
+    fa-github" style="font-size:20px;"></i> </a>
+  github_link: https://github.com/GWC-DCMB/curriculum-notebooks
+  id: duda_teaching_2021
+  journal: JOSE
+  journal_md: '[JOSE](https://doi.org/10.21105/jose.00138)'
+  link_md: '[10.21105/jose.00138](https://doi.org/10.21105/jose.00138)'
+  month: Dec
+  month_num: 12
+  title: 'Teaching Python for Data Science: Collaborative Development of a Modular
+    & Interactive Curriculum'
+  title_journal: 'Teaching Python for Data Science: Collaborative Development of a
+    Modular & Interactive Curriculum.  _[JOSE](https://doi.org/10.21105/jose.00138)_'
+  title_md: '[Teaching Python for Data Science: Collaborative Development of a Modular
+    & Interactive Curriculum](https://doi.org/10.21105/jose.00138)'
+  year: '2021'
+  year_mo: 2021-12-01 00:00:00
+- altmetrics_badge: <div data-badge-popover="right" data-badge-type="medium_badge"
+    data-doi="10.21105/joss.03073" data-condensed="true" data-hide-no-mentions="false"
+    class="altmetric-embed"></div>
+  authors:
+  - "*Top\xE7uo\u011Flu, Beg\xFCm D."
+  - '*Lapp, Zena'
+  - '*Sovacool, Kelly L.'
+  - Snitkin, Evan
+  - Wiens, Jenna
+  - Schloss, Patrick D.
+  authors_md: "\\*Top\xE7uo\u011Flu BD, \\*Lapp Z, **\\*Sovacool KL**, Snitkin E,\
+    \ Wiens J, Schloss PD"
+  badges: <a href="https://github.com/SchlossLab/mikropml"> <i class="fa-brands fa-github"
+    style="font-size:20px;"></i> </a> <div data-badge-popover="right" data-badge-type="medium_badge"
+    data-doi="10.21105/joss.03073" data-condensed="true" data-hide-no-mentions="false"
+    class="altmetric-embed"></div> <span class="__dimensions_badge_embed__" data-doi="10.21105/joss.03073"
+    data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right"></span>
+  bib_md: "\\*Top\xE7uo\u011Flu BD, \\*Lapp Z, **\\*Sovacool KL**, Snitkin E, Wiens\
+    \ J, Schloss PD. May 2021. Mikropml: User-Friendly R Package for Supervised Machine\
+    \ Learning Pipelines. _JOSS_. [10.21105/joss.03073](https://doi.org/10.21105/joss.03073) "
+  date: May 2021
+  dimensions_badge: <span class="__dimensions_badge_embed__" data-doi="10.21105/joss.03073"
+    data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right"></span>
+  doi: 10.21105/joss.03073
+  doi_link: https://doi.org/10.21105/joss.03073
+  entry_type: article
+  github_badge: '[![GitHub](https://img.shields.io/static/v1?style=flat&logo=GitHub&label=+&message=GitHub&color=black)](https://github.com/SchlossLab/mikropml)'
+  github_icon: <a href="https://github.com/SchlossLab/mikropml"> <i class="fa-brands
+    fa-github" style="font-size:20px;"></i> </a>
+  github_link: https://github.com/SchlossLab/mikropml
+  id: topcuoglu_mikropml_2021
+  journal: JOSS
+  journal_md: '[JOSS](https://doi.org/10.21105/joss.03073)'
+  link_md: '[10.21105/joss.03073](https://doi.org/10.21105/joss.03073)'
+  month: May
+  month_num: 5
+  title: 'Mikropml: User-Friendly R Package for Supervised Machine Learning Pipelines'
+  title_journal: 'Mikropml: User-Friendly R Package for Supervised Machine Learning
+    Pipelines.  _[JOSS](https://doi.org/10.21105/joss.03073)_'
+  title_md: '[Mikropml: User-Friendly R Package for Supervised Machine Learning Pipelines](https://doi.org/10.21105/joss.03073)'
+  year: '2021'
+  year_mo: 2021-05-01 00:00:00
+- altmetrics_badge: <div data-badge-popover="right" data-badge-type="medium_badge"
+    data-doi="10.1073/pnas.2014719118" data-condensed="true" data-hide-no-mentions="false"
+    class="altmetric-embed"></div>
+  authors:
+  - Everson, Kathryn M.
+  - Gray, Levi N.
+  - Jones, Angela G.
+  - Lawrence, Nicolette M.
+  - Foley, Mary E.
+  - Sovacool, Kelly L.
+  - Kratovil, Justin D.
+  - Hotaling, Scott
+  - Hime, Paul M.
+  - Storfer, Andrew
+  - Parra-Olea, Gabriela
+  - Percino-Daniel, Ruth
+  - Aguilar-Miguel, X.
+  - O'Neill, Eric M.
+  - Zambrano, Luis
+  - Shaffer, H. Bradley
+  - Weisrock, David W.
+  authors_md: Everson KM, Gray LN, Jones AG, Lawrence NM, Foley ME, **Sovacool KL**,
+    Kratovil JD, Hotaling S, Hime PM, Storfer A, Parra-Olea G, Percino-Daniel R, Aguilar-Miguel
+    X, O'Neill EM, Zambrano L, Shaffer HB, Weisrock DW
+  badges: <a href="https://github.com/kelly-sovacool/tiger_salamander_project"> <i
+    class="fa-brands fa-github" style="font-size:20px;"></i> </a> <div data-badge-popover="right"
+    data-badge-type="medium_badge" data-doi="10.1073/pnas.2014719118" data-condensed="true"
+    data-hide-no-mentions="false" class="altmetric-embed"></div> <span class="__dimensions_badge_embed__"
+    data-doi="10.1073/pnas.2014719118" data-hide-zero-citations="true" data-style="small_rectangle"
+    data-legend="hover-right"></span>
+  bib_md: 'Everson KM, Gray LN, Jones AG, Lawrence NM, Foley ME, **Sovacool KL**,
+    Kratovil JD, Hotaling S, Hime PM, Storfer A, Parra-Olea G, Percino-Daniel R, Aguilar-Miguel
+    X, O''Neill EM, Zambrano L, Shaffer HB, Weisrock DW. Apr 2021. Geography Is More
+    Important than Life History in the Recent Diversification of the Tiger Salamander
+    Complex. _PNAS_. [10.1073/pnas.2014719118](https://doi.org/10.1073/pnas.2014719118) '
+  date: Apr 2021
+  dimensions_badge: <span class="__dimensions_badge_embed__" data-doi="10.1073/pnas.2014719118"
+    data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right"></span>
+  doi: 10.1073/pnas.2014719118
+  doi_link: https://doi.org/10.1073/pnas.2014719118
+  entry_type: article
+  github_badge: '[![GitHub](https://img.shields.io/static/v1?style=flat&logo=GitHub&label=+&message=GitHub&color=black)](https://github.com/kelly-sovacool/tiger_salamander_project)'
+  github_icon: <a href="https://github.com/kelly-sovacool/tiger_salamander_project">
+    <i class="fa-brands fa-github" style="font-size:20px;"></i> </a>
+  github_link: https://github.com/kelly-sovacool/tiger_salamander_project
+  id: everson_geography_2021
+  journal: PNAS
+  journal_md: '[PNAS](https://doi.org/10.1073/pnas.2014719118)'
+  link_md: '[10.1073/pnas.2014719118](https://doi.org/10.1073/pnas.2014719118)'
+  month: Apr
+  month_num: 4
+  title: Geography Is More Important than Life History in the Recent Diversification
+    of the Tiger Salamander Complex
+  title_journal: Geography Is More Important than Life History in the Recent Diversification
+    of the Tiger Salamander Complex.  _[PNAS](https://doi.org/10.1073/pnas.2014719118)_
+  title_md: '[Geography Is More Important than Life History in the Recent Diversification
+    of the Tiger Salamander Complex](https://doi.org/10.1073/pnas.2014719118)'
+  year: '2021'
+  year_mo: 2021-04-01 00:00:00
+- altmetrics_badge: <div data-badge-popover="right" data-badge-type="medium_badge"
+    data-doi="10.1371/journal.pcbi.1008119" data-condensed="true" data-hide-no-mentions="false"
+    class="altmetric-embed"></div>
+  authors:
+  - Hagan, Ada K.
+  - Lesniak, Nicholas A.
+  - Balunas, Marcy J.
+  - Bishop, Lucas
+  - Close, William L.
+  - Doherty, Matthew D.
+  - Elmore, Amanda G.
+  - Flynn, Kaitlin J.
+  - Hannigan, Geoffrey D.
+  - Koumpouras, Charlie C.
+  - Jenior, Matthew L.
+  - Kozik, Ariangela J.
+  - McBride, Kathryn
+  - Rifkin, Samara B.
+  - Stough, Joshua M. A.
+  - Sovacool, Kelly L.
+  - Sze, Marc A.
+  - Tomkovich, Sarah
+  - Topcuoglu, Begum D.
+  - Schloss, Patrick D.
+  authors_md: Hagan AK, Lesniak NA, Balunas MJ, Bishop L, Close WL, Doherty MD, Elmore
+    AG, Flynn KJ, Hannigan GD, Koumpouras CC, Jenior ML, Kozik AJ, McBride K, Rifkin
+    SB, Stough J, **Sovacool KL**, Sze MA, Tomkovich S, Topcuoglu BD, Schloss PD
+  badges: <a href="https://github.com/SchlossLab/Hagan_CodeClub_PLOSComp"> <i class="fa-brands
+    fa-github" style="font-size:20px;"></i> </a> <div data-badge-popover="right" data-badge-type="medium_badge"
+    data-doi="10.1371/journal.pcbi.1008119" data-condensed="true" data-hide-no-mentions="false"
+    class="altmetric-embed"></div> <span class="__dimensions_badge_embed__" data-doi="10.1371/journal.pcbi.1008119"
+    data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right"></span>
+  bib_md: 'Hagan AK, Lesniak NA, Balunas MJ, Bishop L, Close WL, Doherty MD, Elmore
+    AG, Flynn KJ, Hannigan GD, Koumpouras CC, Jenior ML, Kozik AJ, McBride K, Rifkin
+    SB, Stough J, **Sovacool KL**, Sze MA, Tomkovich S, Topcuoglu BD, Schloss PD.
+    Aug 2020. Ten Simple Rules to Increase Computational Skills among Biologists with
+    Code Clubs. _PLoS Comput Biol_. [10.1371/journal.pcbi.1008119](https://doi.org/10.1371/journal.pcbi.1008119) '
+  date: Aug 2020
+  dimensions_badge: <span class="__dimensions_badge_embed__" data-doi="10.1371/journal.pcbi.1008119"
+    data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right"></span>
+  doi: 10.1371/journal.pcbi.1008119
+  doi_link: https://doi.org/10.1371/journal.pcbi.1008119
+  entry_type: article
+  github_badge: '[![GitHub](https://img.shields.io/static/v1?style=flat&logo=GitHub&label=+&message=GitHub&color=black)](https://github.com/SchlossLab/Hagan_CodeClub_PLOSComp)'
+  github_icon: <a href="https://github.com/SchlossLab/Hagan_CodeClub_PLOSComp"> <i
+    class="fa-brands fa-github" style="font-size:20px;"></i> </a>
+  github_link: https://github.com/SchlossLab/Hagan_CodeClub_PLOSComp
+  id: hagan_ten_2020
+  journal: PLoS Comput Biol
+  journal_md: '[PLoS Comput Biol](https://doi.org/10.1371/journal.pcbi.1008119)'
+  link_md: '[10.1371/journal.pcbi.1008119](https://doi.org/10.1371/journal.pcbi.1008119)'
+  month: Aug
+  month_num: 8
+  title: Ten Simple Rules to Increase Computational Skills among Biologists with Code
+    Clubs
+  title_journal: Ten Simple Rules to Increase Computational Skills among Biologists
+    with Code Clubs.  _[PLoS Comput Biol](https://doi.org/10.1371/journal.pcbi.1008119)_
+  title_md: '[Ten Simple Rules to Increase Computational Skills among Biologists with
+    Code Clubs](https://doi.org/10.1371/journal.pcbi.1008119)'
+  year: '2020'
+  year_mo: 2020-08-01 00:00:00
+- altmetrics_badge: <div data-badge-popover="right" data-badge-type="medium_badge"
+    data-doi="10.1186/s12859-016-1154-y" data-condensed="true" data-hide-no-mentions="false"
+    class="altmetric-embed"></div>
+  authors:
+  - Goodin, Michael M.
+  - Farman, Mark
+  - Inocencio, Harrison
+  - Jang, Chanyong
+  - Jaromczyk, Jerzy W.
+  - Moore, Neil
+  - Sovacool, Kelly L.
+  authors_md: Goodin MM, Farman M, Inocencio H, Jang C, Jaromczyk JW, Moore N, **Sovacool
+    KL**
+  badges: ' <div data-badge-popover="right" data-badge-type="medium_badge" data-doi="10.1186/s12859-016-1154-y"
+    data-condensed="true" data-hide-no-mentions="false" class="altmetric-embed"></div>
+    <span class="__dimensions_badge_embed__" data-doi="10.1186/s12859-016-1154-y"
+    data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right"></span>'
+  bib_md: 'Goodin MM, Farman M, Inocencio H, Jang C, Jaromczyk JW, Moore N, **Sovacool
+    KL**. Aug 2016. Processing RNA-Seq Data of Plants Infected with Coffee Ringspot
+    Virus. _BMC Bioinform_. [10.1186/s12859-016-1154-y](https://doi.org/10.1186/s12859-016-1154-y) '
+  date: Aug 2016
+  dimensions_badge: <span class="__dimensions_badge_embed__" data-doi="10.1186/s12859-016-1154-y"
+    data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right"></span>
+  doi: 10.1186/s12859-016-1154-y
+  doi_link: https://doi.org/10.1186/s12859-016-1154-y
+  entry_type: inproceedings
+  github_badge: ''
+  github_icon: ''
+  github_link: ''
+  id: goodin_processing_2016
+  journal: BMC Bioinform
+  journal_md: '[BMC Bioinform](https://doi.org/10.1186/s12859-016-1154-y)'
+  link_md: '[10.1186/s12859-016-1154-y](https://doi.org/10.1186/s12859-016-1154-y)'
+  month: Aug
+  month_num: 8
+  title: Processing RNA-Seq Data of Plants Infected with Coffee Ringspot Virus
+  title_journal: Processing RNA-Seq Data of Plants Infected with Coffee Ringspot Virus.  _[BMC
+    Bioinform](https://doi.org/10.1186/s12859-016-1154-y)_
+  title_md: '[Processing RNA-Seq Data of Plants Infected with Coffee Ringspot Virus](https://doi.org/10.1186/s12859-016-1154-y)'
+  year: '2016'
+  year_mo: 2016-08-01 00:00:00

@@ -1,0 +1,6 @@
+- title: "Languages & Tools"
+  categories: [R, Python, Bash, C++, Snakemake, R Markdown, Quarto, LaTeX, conda, git, GitHub, SLURM]
+- title: Research 
+  categories: [gut microbiome composition, amplicon sequence analysis, metagenomics, supervised machine learning, data visualization, reproducible manuscripts]
+- title: Software 
+  categories: [R package maintenance, continuous integration, high performance computing]

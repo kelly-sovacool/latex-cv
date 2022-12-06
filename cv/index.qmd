@@ -1,0 +1,208 @@
+---
+title: "Kelly L. Sovacool"
+description: | 
+  _Bioinformatician building and applying open source tools for microbiome research <br> 
+  Contributing to data science education along the way_
+date-format: 'MMM YYYY'
+execute:
+  echo: false
+  output: false
+  freeze: auto
+title-block-banner: true
+toc: true
+toc-location: left
+page-layout: full
+listing:
+  - id: edu
+    contents: edu.yml
+    type: table
+    fields: [dates, degree, inst]
+    sort-ui: false
+    filter-ui: false
+    field-display-names:
+      dates: Dates
+      degree: Degree
+      inst: Institution
+  - id: research
+    contents: research.yml
+    type: table
+    fields: [dates, title, lab, tasks]
+    sort-ui: false
+    filter-ui: false
+    field-display-names: 
+      dates: Dates
+      lab: Lab
+      tasks: Projects
+  - id: service
+    contents: service.yml
+    type: table
+    fields: [dates, title, org, tasks]
+    sort-ui: false
+    filter-ui: false
+    field-links: [org]
+    field-display-names: 
+      dates: Dates
+      org: Organization
+      tasks: Projects
+  - id: teaching
+    contents: teaching.yml
+    type: table
+    fields: [dates, title, org, event]
+    sort-ui: false
+    filter-ui: false
+    field-links: [event]
+    field-display-names: 
+      org: Organization
+      event: Event(s)
+  - id: continuing-edu
+    contents: continuing-edu.yml
+    type: table
+    fields: [date, title, org, location]
+    sort-ui: false
+    filter-ui: false
+    field-display-names: 
+      org: Organization
+      location: Location
+  - id: grants
+    contents: grants.yml
+    type: table
+    fields: [dates, title, inst, amount]
+    sort-ui: false
+    filter-ui: false
+    field-display-names: 
+      dates: Dates
+      inst: Institution
+      amount: Amount
+  - id: honors
+    contents: honors.yml
+    type: table
+    fields: [dates, title, inst]
+    sort-ui: false
+    filter-ui: false
+    field-display-names: 
+      dates: Dates
+      inst: Institution
+  - id: pubs
+    contents: pubs.yml
+    type: table
+    date-format: 'YYYY MMM'
+    page-size: 10
+    categories: false
+    table-striped: false
+    table-hover: false
+    fields: [date, title_journal, authors_md, badges]
+    sort-ui: [date]
+    filter-ui: [date, title_journal, authors_md]
+    field-links: []
+    field-display-names: 
+      title_journal: Article
+      authors_md: Authors
+      journal_md: Journal
+  - id: talks
+    contents: talks.yml
+    type: table
+    fields: [date, event, title, location]
+    sort-ui: false
+    filter-ui: false
+    field-display-names: 
+      event: Event
+      location: Location
+  - id: posters
+    contents: posters.yml
+    type: table
+    fields: [date, event, title, location]
+    sort-ui: false
+    filter-ui: false
+    field-display-names: 
+      event: Event
+      location: Location
+  - id: contribs
+    contents: 
+      - software.yml
+      - curricula.yml
+    type: grid
+    fields: [title, image, description, categories, contrib]
+    sort-ui: [title, categories, contrib]
+    filter-ui: [title, description, categories, contrib]
+    categories: true
+    field-display-names: 
+      contrib: " "
+  - id: skills
+    contents: skills.yml
+    type: grid
+    sort-ui: false
+    filter-ui: false
+---
+ 
+Contact:  &ensp;
+[{{< fa regular envelope >}} sovacool [at] umich.edu](mailto:sovacool@umich.edu)
+
+View a PDF version of my CV: &ensp;
+[{{< fa regular file-pdf >}} https://sovacool.dev/latex-cv/cv_KLS.pdf](https://sovacool.dev/latex-cv/cv_KLS.pdf)
+
+## Education
+
+:::{#edu}
+:::
+
+## Research Experience
+
+:::{#research}
+:::
+
+## Service
+
+:::{#service}
+:::
+
+## Teaching Experience
+
+:::{#teaching}
+:::
+
+## Continuing Education
+
+:::{#continuing-edu}
+:::
+
+## Awards
+
+### Grants
+
+:::{#grants}
+:::
+
+### Honors
+
+:::{#honors}
+:::
+
+## Publications
+
+[{{< fa brands orcid size=large >}}](https://orcid.org/0000-0003-3283-829X)
+
+{{< include _pubs.qmd >}}
+
+## Presentations
+
+### Talks
+
+:::{#talks}
+:::
+
+### Posters
+
+:::{#posters}
+:::
+
+## Open Source Contributions
+
+[{{< fa brands github >}}](https://github.com/kelly-sovacool)
+
+:::{#contribs}
+:::
+
+## Skills
+
+:::{#skills}
+:::

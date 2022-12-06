@@ -1,0 +1,34 @@
+- title: Graduate Student Researcher
+  lab: Schloss Lab,  Dept. of Microbiology and Immunology, <br> University of Michigan
+  dates: 2019-present
+  tasks: |
+    - Develop and benchmark bioinformatics pipelines and software for microbial ecology.
+    - Analyze 16S rRNA gene amplicon sequence data.
+    - Apply machine learning methods to gut microbiome classification problems in colorectal cancer and _C. difficile_ infection.
+    - Collaborate with other scientists on microbiome projects and mentor junior lab members.
+
+- title: Rotation Student Researcher
+  lab: Program in Biomedical Sciences, <br> University of Michigan
+  dates: 2018-2019
+  tasks:
+
+- title: Undergraduate Lab Assistant
+  lab: Moseley Bioinformatics Lab,  Dept. of Molecular and Cellular Biochemistry, <br> University of Kentucky
+  dates: 2015-2018
+  tasks: |
+    - Developed a computational tool in Python for identifying sets of orthologous and paralogous gene products in whole genomes to facilitate collinearity analysis and detection of gene duplication events.
+
+- title: BIO395 Independent Research Student
+  lab: Weisrock Lab,  Dept. of Biology, <br> University of Kentucky
+  dates: 2016-2018
+  tasks: |
+    - Developed bash scripts and a SNP calling pipeline in Snakemake.
+    - Population structure analysis of the _Ambystoma tigrinum_ species complex.
+    - Bayesian species delimitation of the _Desmognathus fuscus_ species complex.
+
+- title: Undergraduate Lab Assistant
+  lab: Jaromczyk Lab,  Dept. of Computer Science, <br> University of Kentucky
+  dates: 2015-2016
+  tasks: |
+    - Maintained the _Epichloë festucae_ genome project database.
+    - Analyzed RNA-seq data of _Chenopodium quinoa_ and coffee ringspot virus.

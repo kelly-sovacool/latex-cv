@@ -1,0 +1,26 @@
+---
+title: Girls Who Code at U-M DCMB
+description: |
+    <https://websites.umich.edu/~girlswc> <br> 
+    Facilitator & Capstone Project Mentor
+listing:
+  - id: gwc
+    type: table
+    fields: [dates, event]
+    categories: false
+    contents:
+    - dates: Sep 2021 - May 2022
+      event: Weekly virtual Club
+    - dates: Jul 2021
+      event: Virtual Data Science Summer Experience
+    - dates: Sep 2020 - May 2021
+      event: Weekly virtual Club
+    - dates: Jul 2020
+      event: Virtual Data Science Summer Experience
+    - dates: Sep 2019 - May 2020
+      event: Weekly Club in Ann Arbor, MI
+    - dates: Jul 2019
+      event: Data Science Summer Experience in Detroit, MI
+    - dates: Jan - May 2019
+      event: Weekly Club in Ann Arbor, MI
+---

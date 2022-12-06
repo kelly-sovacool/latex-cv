@@ -1,0 +1,49 @@
+- title: "Executive Committee Member: Open Source Technical Lead"
+  org: "Girls Who Code at U-M DCMB"
+  dates: "2019-present"
+  path: https://websites.umich.edu/~girlswc
+  tasks: |
+    - Plan, apply for funding, develop curriculum, and maintain resources to teach introductory Python programming & data science to young women+.
+    - Facilitate collaborative development and maintenance of our open source teaching resources.
+    - Organize our year-round Club and annual Data Science Summer Experience for high school women+.
+
+- title: "Organizer & Maintainer"
+  org: "U-M Carpentries"
+  dates: "2019-present"
+  path: https://umcarpentries.org
+  tasks: |
+    - Co-lead development & maintenance of a curriculum for workshops teaching programming skills for reproducible research.
+    - Maintain the website, develop curriculum, and organize workshops.
+    - Collaborate with U-M Women in Science and Engineering to organize workshops for women+.
+
+- title: Mentor
+  org: Schloss Lab
+  dates: 2021-present
+  path:
+  tasks: Mentor an undergraduate student in building reproducible machine learning models to predict _C. difficile_ infection severity from gut microbiome composition.
+
+- title: CoderSpaces co-host
+  org: U-M ISR Data Science Hub
+  dates: 2021-present
+  path: 
+  tasks: Hold office hours at a weekly virtual help session for data science practitioners
+
+- title: Peer reviewer
+  org: 
+  dates: 2021-present
+  path:
+  tasks: PLOS ONE (1)
+
+- title: Graduate Student Coordinator
+  org: U-M Data Analysis Networking Group
+  dates: 2019-2021
+  path: https://um-dang.github.io/
+  tasks: |
+    - Organize monthly meetings & a one-day symposium for researchers to sharpen their data analysis skills.
+    - Apply for funding through a Rackham Interdisciplinary Workshop grant.
+
+- title: Volunteer Sound Engineer
+  org: various churches and non-profit organizations
+  dates: 2009-present
+  path: https://sovacool.dev/latex-cv/sound.pdf
+  tasks:

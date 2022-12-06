@@ -1,0 +1,25 @@
+
+<!-- for dimensions badges -->
+<script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<!-- for altmetrics badges -->
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> 
+
+```{r date-updated}
+last_updated <- format(lubridate::as_date(file.info(here::here('cv','pubs.bib'))$mtime), "%B %d, %Y")
+```
+
+Last updated: `r last_updated`
+
+**\*** Indicates co-first author.
+
+:::{#pubs}
+:::
+
+ <a href="https://scholar.google.com/citations?user=TlglgLgAAAAJ"><img alt="Google Scholar logo" src="/images/Google_Scholar_logo.png" width="20px" height="20px" /></a>
+
+```{r pub-count}
+pubs_yml <- yaml::read_yaml(here::here('cv','pubs.yml'))
+```
+
+N = `r length(pubs_yml)`
