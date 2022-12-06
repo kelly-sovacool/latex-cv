@@ -37,9 +37,6 @@ See the [Snakemake documentation](http://snakemake.readthedocs.io/en/stable/inde
 
 * [`cv_KLS.tex`](cv_KLS.tex): my actual curriculum vitae for science using `moderncv.cls`: based on a template from the [moderncv repo](https://github.com/xdanaux/moderncv).
 * [`sound.tex`](sound.tex): my CV for live sound engineering, also using `moderncv.cls`.
-* [`res/res_KLS.tex`](res/res_KLS.tex): an old-style curriculum vitae using `res.cls`: based on a template from [LaTeXTemplates.com](http://www.LaTeXTemplates.com).
-* [`other_templates/`](other_templates/): templates for homework assignments, essays, etc.
-
 
 ## Motivation
 
