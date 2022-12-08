@@ -3,3 +3,5 @@
 *.cls linguist-vendored=true
 *.smk linguist-language=Python
 Snakefile linguist-language=Python
+
+vitae-resources linguist-vendored=true

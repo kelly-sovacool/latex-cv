@@ -10,3 +10,5 @@ Icon*
 *.fls
 .vscode/
 .Rproj.user
+moderncv* 
+tweaklist.sty

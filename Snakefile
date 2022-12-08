@@ -3,7 +3,7 @@ import os
 
 ruleorder:  tex2pdf_with_bib > tex2pdf_without_bib
 
-names = [fn.strip(".tex") for fn in os.listdir() if fn.endswith(".tex")]
+names = ['cv_KLS.tex']
 
 rule targets:
     input:
@@ -52,3 +52,26 @@ rule tex2pdf_without_bib:
 rule texclean:
     shell:
         "rm -f cv_KLS.pdf *.out *.log *.aux *.bbl *.blg *.synctex.gz *.fls *.flx *.fdb_latexmk "
+
+rule fetch_contents:
+    shell:
+        """
+        git fetch website
+        git checkout website/main -- cv/
+        """
+
+rule render_vitae:
+    input:
+        Rmd='vitae.Rmd',
+        bib='pubs.bib',
+        tex='preamble.tex'
+    output:
+        pdf='docs/vitae_KLS.pdf'
+    shell:
+        """
+        R -e "rmarkdown::render('{input.Rmd}', output_file = '{output.pdf}')"
+        """
+
+rule vitae_clean:
+    shell:
+        "rm -f moderncv* tweaklist.sty"
