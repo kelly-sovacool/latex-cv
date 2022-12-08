@@ -9,3 +9,4 @@ Icon*
 *.synctex.gz
 *.fls
 .vscode/
+.Rproj.user
