@@ -19,19 +19,19 @@
 - title: Mentor
   org: Schloss Lab
   dates: 2021-present
-  path:
+  path: ""
   tasks: Mentor an undergraduate student in building reproducible machine learning models to predict _C. difficile_ infection severity from gut microbiome composition.
 
 - title: CoderSpaces co-host
   org: U-M ISR Data Science Hub
   dates: 2021-present
-  path: 
+  path: ""
   tasks: Hold office hours at a weekly virtual help session for data science practitioners
 
 - title: Peer reviewer
-  org: 
+  org: ""
   dates: 2021-present
-  path:
+  path: ""
   tasks: PLOS ONE (1)
 
 - title: Graduate Student Coordinator
@@ -46,4 +46,4 @@
   org: various churches and non-profit organizations
   dates: 2009-present
   path: https://sovacool.dev/latex-cv/sound.pdf
-  tasks:
+  tasks: ""

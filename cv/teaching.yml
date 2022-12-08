@@ -1,12 +1,14 @@
 - title: Graduate Student Instructor
-  org: U-M Dept. of Computational Medicine & Bioinformatics
+  org: Dept. of Computational Medicine & Bioinformatics
   dates: "Jan-Apr 2023"
+  where: University of Michigan
   event: |
     BIOINF 576: Tool Development for Bioinformatics
 
 - title: "Facilitator & Capstone Project Mentor"
   org:  "Girls Who Code at U-M DCMB"
   dates: "2019-2022"
+  where: University of Michigan
   path: girls-who-code.qmd
   event: |
     Weekly Club during the school year and week-long Summer Experience for high schoolers to learn Python for data science
@@ -14,36 +16,42 @@
 - title: "Workshop Instructor & Helper"
   org:  "U-M Carpentries"
   dates: "2018-present"
+  where: University of Michigan
   path: carpentries.qmd
   event: |
     2-day Software Carpentry workshops teaching computational skills for reproducible research
 
 - title: Instructor
-  org:  
+  org: ""
   dates: Jun 2022
+  where: Virtual
   event: |
     Intro to R & RNA-Seq Workshop for ASM Microbe conference attendees
 
 - title: DNA Day Ambassador
   org: Michigan DNA Day
   dates: Apr 2019
+  where: Pioneer High School, Ann Arbor, MI
   event: |
     Epigenetics & Scientific Journeys
 
 - title: Workshop helper
   org: Graduate Society of Black Engineers and Scientists
   dates: Mar 2019
+  where: University of Michigan
   event: |
     Data Visualization with Python Workshop
 
 - title: Capstone Activity Leader
   org: Females Excelling More in Math, Engineering, & the Sciences
   dates: Mar 2019
+  where: University of Michigan
   event: |
     Binary Numbers through Ozobots with GWC at U-M DCMB
 
 - title: Tutor
   org: freelance
   dates: 2012-2018
+  where: ""
   event: |
-    for high school and college students in Biology, Calculus, Chemistry, Computer Science, and Bioinformatics
+    for high school and college students in Biology, Calculus, Chemistry, Computer Science, and Bioinformatics.
