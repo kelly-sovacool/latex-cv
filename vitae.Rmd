@@ -30,6 +30,7 @@ library(here)
 library(tidyverse)
 library(vitae)
 library(yaml)
+
 read_yaml_as_tbl <- function(filepath) {
   read_yaml(filepath) %>%
     map_dfr(function(x) {
@@ -43,13 +44,22 @@ read_yaml_as_tbl <- function(filepath) {
     }) %>%
     return()
 } 
+
+format_md2tex <- function(x) {
+  return(x %>% 
+           str_replace_all("_(.*)_", "\\\\textit{\\1}") %>%  # italics
+           str_replace_all('\\+', '\\\\plus') %>% 
+           str_replace_all("&", "\\\\&")
+         )
+}
+
 split_md_list <- function(x) {
   return(x %>% 
            str_remove('^- ') %>% 
            str_remove("\n$") %>% 
-           str_split('\n- '))
+           str_split('\n- ')
+         )
 }
-
 ```
 
 _Bioinformatician building and applying open source tools for microbiome research, and contributing to data science education along the way._
@@ -84,18 +94,15 @@ read_yaml_as_tbl(here('cv','skills.yml')) %>%
 ```{r research}
 read_yaml_as_tbl(here('cv', 'research.yml')) %>% 
   separate(lab, c('lab', 'inst'), sep = ", <br> ") %>% 
-  mutate(why = str_split(tasks %>% 
-                           str_remove('^- ') %>% 
-                           str_remove("\n$") %>% 
-                           str_replace_all("_(.*)_", "\\\\textit{\\1}"), 
-                         '\n- ')
+  mutate(why = tasks %>% format_md2tex() %>% split_md_list()
          ) %>% 
   detailed_entries(
     what = title,
+    when = dates,
     with = lab,
     where = inst,
-    when = dates,
-    why = why, .protect = FALSE # ERROR! Missing $ inserted. <inserted text> $ l.111 \end{itemize}}
+    why = why, 
+    .protect = FALSE
   )
 ```
 
@@ -114,11 +121,14 @@ read_yaml_as_tbl(here('cv', 'teaching.yml')) %>%
 
 ```{r service}
 read_yaml_as_tbl(here('cv', 'service.yml')) %>% 
-  mutate(tasks = split_md_list(tasks)) %>% 
+  mutate(why = tasks %>% format_md2tex() %>% split_md_list()
+         ) %>% 
   detailed_entries(what = title, 
-                   with = org, 
                    when = dates, 
-                   why = tasks)
+                   with = org, 
+                   why = why,
+                   .protect = FALSE
+                   )
 ```
 
 # Open Source Contributions
