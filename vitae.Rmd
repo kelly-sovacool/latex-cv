@@ -16,6 +16,7 @@ output:
   vitae::moderncv:
     theme: classic
     latex_engine: xelatex
+    keep_tex: false
     includes:
       in_header: "preamble.tex"
 ---
@@ -24,6 +25,7 @@ output:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(glue)
 library(here)
 library(tidyverse)
 library(vitae)
@@ -55,7 +57,7 @@ _Bioinformatician building and applying open source tools for microbiome researc
 # Education
 
 ```{r edu}
-read_yaml_as_tbl(here('cv', 'edu.yml'))%>% 
+read_yaml_as_tbl(here('cv', 'edu.yml')) %>% 
   separate(inst, c('inst', 'detail'), sep = " <br> ") %>% 
   separate(inst, c('where', 'dept'), sep = ', ') %>% 
   detailed_entries(what = degree, 
@@ -84,7 +86,8 @@ read_yaml_as_tbl(here('cv', 'research.yml')) %>%
   separate(lab, c('lab', 'inst'), sep = ", <br> ") %>% 
   mutate(why = str_split(tasks %>% 
                            str_remove('^- ') %>% 
-                           str_remove("\n$"),# %>% str_replace_all("_(.*)_", "\\textit{\\1}"), 
+                           str_remove("\n$") %>% 
+                           str_replace_all("_(.*)_", "\\\\textit{\\1}"), 
                          '\n- ')
          ) %>% 
   detailed_entries(
@@ -92,7 +95,7 @@ read_yaml_as_tbl(here('cv', 'research.yml')) %>%
     with = lab,
     where = inst,
     when = dates,
-    why = why#, .protect = FALSE # ERROR! Missing $ inserted. <inserted text> $ l.111 \end{itemize}}
+    why = why, .protect = FALSE # ERROR! Missing $ inserted. <inserted text> $ l.111 \end{itemize}}
   )
 ```
 
@@ -163,10 +166,13 @@ read_yaml_as_tbl(here('cv', 'posters.yml')) %>%
 
 ```{r grants}
 read_yaml_as_tbl(here('cv', 'grants.yml')) %>% 
+  mutate(inst = str_replace(inst, " <br> ", ", "),
+         title = str_replace(title, ' <br> ', ', '),
+         ) %>% 
   detailed_entries(what = title, 
-                   where = inst, 
-                   with = amount, 
-                   when = dates)
+                   when = dates, 
+                   with = inst, 
+                   where = amount)
 ```
 
 ## Honors
@@ -187,7 +193,7 @@ read_yaml_as_tbl(here('cv', 'continuing-edu.yml')) %>%
 # Publications
 
 **\*** Indicates co-first author
-
+<!--
 ```{r pubs, results='asis'}
 bib_entries <- read_yaml_as_tbl(here('cv','pubs.yml'))
 
@@ -199,5 +205,6 @@ pubs <- bib_entries %>%
     n_pubs <<- n_pubs - 1
     glue::glue("\\item {n_pubs}. {x} \\newline ")
   }) 
-cat('begin{itemize} \\newline ', pubs, 'end{itemize}')
+cat('\\begin{itemize} ', pubs, '\\end{itemize}')
 ```
+-->

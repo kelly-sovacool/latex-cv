@@ -1,0 +1,13 @@
+name: vitae
+channels:
+  - conda-forge
+  - defaults
+  - r
+dependencies:
+  - r-base=4
+  - r-glue
+  - r-here
+  - r-tidyverse
+  - r-vitae
+  - r-yaml
+

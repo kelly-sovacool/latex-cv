@@ -3,7 +3,7 @@ import os
 
 ruleorder:  tex2pdf_with_bib > tex2pdf_without_bib
 
-names = ['cv_KLS.tex']
+names = ['cv_KLS', 'vitae_KLS']
 
 rule targets:
     input:
@@ -53,18 +53,27 @@ rule texclean:
     shell:
         "rm -f cv_KLS.pdf *.out *.log *.aux *.bbl *.blg *.synctex.gz *.fls *.flx *.fdb_latexmk "
 
-rule fetch_contents:
+checkpoint fetch_yaml_contents:
+    output:
+        outdir=directory('cv/')
     shell:
         """
         git fetch website
         git checkout website/main -- cv/
         """
 
+def list_yaml_files(wildcards):
+    checkpoint_output = checkpoints.fetch_yaml_contents.get(**wildcards).output.outdir
+    new_wildcards = glob_wildcards("cv/{file}.yml")
+    yaml_files = expand("cv/{file}.yml", file = new_wildcards.file)
+    return yaml_files
+
 rule render_vitae:
     input:
         Rmd='vitae.Rmd',
         bib='pubs.bib',
-        tex='preamble.tex'
+        tex='preamble.tex',
+        yml=list_yaml_files
     output:
         pdf='docs/vitae_KLS.pdf'
     shell:
@@ -74,4 +83,4 @@ rule render_vitae:
 
 rule vitae_clean:
     shell:
-        "rm -f moderncv* tweaklist.sty"
+        "rm -f moderncv* tweaklist.sty vitae*.log vitae*.tex vitae*.pdf"
