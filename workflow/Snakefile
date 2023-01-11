@@ -1,9 +1,23 @@
 # Usage: snakemake filename.pdf
+import datetime
 import os
+import pathlib
 
 ruleorder:  tex2pdf_with_bib > tex2pdf_without_bib
 
 names = ['cv_KLS', 'vitae_KLS']
+
+
+
+bib_filename = 'cv/pubs.bib'
+bib_path = pathlib.Path(bib_filename)
+time_filename = 'timestamp.txt'
+time_path = pathlib.Path(time_filename)
+now = datetime.datetime.now()
+update_frequency = datetime.timedelta(days = 7)
+timestamp = datetime.datetime.fromtimestamp(bib_path.stat().st_mtime)
+if (now - update_frequency) > timestamp:
+    time_path.touch(exist_ok = True)
 
 rule targets:
     input:
@@ -54,6 +68,8 @@ rule texclean:
         "rm -f cv_KLS.pdf *.out *.log *.aux *.bbl *.blg *.synctex.gz *.fls *.flx *.fdb_latexmk "
 
 checkpoint fetch_yaml_contents:
+    input:
+        txt=time_filename
     output:
         outdir=directory('cv/')
     shell:
@@ -71,7 +87,7 @@ def list_yaml_files(wildcards):
 rule render_vitae:
     input:
         Rmd='vitae.Rmd',
-        bib='pubs.bib',
+        bib='cv/pubs.bib',
         tex='preamble.tex',
         yml=list_yaml_files
     output:
