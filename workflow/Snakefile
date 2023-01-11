@@ -5,10 +5,6 @@ import pathlib
 
 ruleorder:  tex2pdf_with_bib > tex2pdf_without_bib
 
-names = ['cv_KLS', 'vitae_KLS']
-
-
-
 bib_filename = 'cv/pubs.bib'
 bib_path = pathlib.Path(bib_filename)
 time_filename = 'timestamp.txt'
@@ -21,18 +17,18 @@ if (now - update_frequency) > timestamp:
 
 rule targets:
     input:
-        expand("docs/{name}.pdf", name=names)
+        expand("docs/{name}.pdf", 
+               name=['cv_KLS', 'vitae_KLS', 'sound'])
 
-# rule repair_months:
-#     input:
-#         code='replace-months.sh',
-#         bib="cv_KLS.Zotero.bib"
-#     output:
-#         bib="cv_KLS.bib"
-#     shell:
-#         """
-#         bash {input.code} {input.bib} {output.bib}
-#         """
+rule copy_bib:
+    input:
+        bib='cv/pubs.bib'
+    output:
+        bib='cv_KLS.bib'
+    shell:
+        """
+        cp {input.bib} {output.bib}
+        """
 
 rule tex2pdf_with_bib:
     input:

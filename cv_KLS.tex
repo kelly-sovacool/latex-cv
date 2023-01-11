@@ -1,0 +1,349 @@
+% This template is a modified version of `template-multibib.tex`
+% downloaded from the moderncv repo: https://github.com/xdanaux/moderncv
+% Original documentation preserved below:
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% start of file `template.tex'.
+%% Copyright 2006-2015 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+\documentclass[12pt,sans,colorlinks]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\usepackage{fontspec}
+%\setsansfont{Helvetica}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% moderncv themes
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
+%\moderncvcolor{blue}                               % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+
+% UMich colors https://brand.umich.edu/design-resources/colors/
+\definecolor{MichiganBlue}{HTML}{00274C}
+\definecolor{RackhamGreen}{HTML}{75988d}
+\definecolor{ArboretumBlue}{HTML}{2F65A7}
+\definecolor{TaubmanTeal}{HTML}{00B2A9}
+\definecolor{AngelHallAsh}{HTML}{989C97}
+\definecolor{PumaBlack}{HTML}{131516}
+
+% CUSTOM COLORS for moderncv
+% https://tex.stackexchange.com/questions/109496/creating-additional-color-for-moderncv
+\colorlet{color0}{PumaBlack}
+\colorlet{color1}{MichiganBlue}
+\colorlet{color2}{MichiganBlue}
+
+
+\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+\usepackage{textcomp,xpatch}
+\xpatchcmd{\cventry}{\itshape#3}{#3}{}{} % Patch \cventry so the 3rd argument is not printed in italics
+\xpatchcmd{\cventry}{.\strut}{\strut}{}{} % Patch \cventry to remove the trailing period
+% character encoding
+%\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex,
+\usepackage[margin=1in]{geometry} % adjust the page margins
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvheadnamewidth}{10cm}            % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Kelly L.}{Sovacool}
+%\title{Bioinformatics PhD Candidate}
+\quote{Bioinformatician building and applying open source tools for microbiome research, and contributing to data science education along the way.}
+% quote width https://tex.stackexchange.com/questions/163050/how-can-i-extend-quotes-width-in-moderncv
+\let\originalrecomputecvlengths\recomputecvlengths
+\renewcommand*{\recomputecvlengths}{%
+\originalrecomputecvlengths%
+\setlength{\quotewidth}{0.99\textwidth}}
+
+%\address{street and number}{postcode city}{country}% the "postcode city" and "country" arguments can be omitted or provided empty
+%\phone[mobile]{+1~(234)~567~890}                   %  the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
+%\phone[fixed]{+2~(345)~678~901}
+%\phone[fax]{+3~(456)~789~012}
+\email{sovacool@umich.edu}
+\homepage{sovacool.dev}
+\social[linkedin]{kelly-sovacool}
+%\social[xing]{john\_doe}
+%\social[twitter]{kelly\_sovacool} the \_ doesn't resolve to correct link :(
+\social[github]{kelly-sovacool}
+%\social[gitlab]{jdoe}
+%\social[skype]{jdoe}
+%\extrainfo{additional information}
+%\photo[64pt][0.4pt]{picture}                       %  '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Last updated: \today}
+
+% bibliography adjustments (only useful if you make citations in your resume, or print a list of publications using BibTeX)
+%   to show numerical labels in the bibliography (default is to show no labels)
+%\makeatletter\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}\makeatother
+% default bibliography
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}
+%   to redefine the bibliography heading string ("Publications")
+%\renewcommand{\refname}{Articles}
+
+% bibliography with multiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+
+%-------------------------------------------------------------------------------
+%            content
+%-------------------------------------------------------------------------------
+\begin{document}
+
+\hypersetup{urlcolor=ArboretumBlue} % color url links.
+\makecvtitle
+\raggedright
+%\cvline{}{}
+%-------------------------------------------------------------------------------
+\section{Education}
+
+\cventry{2018-present}{PhD Bioinformatics}{University of Michigan}{\newline Dept. of Computational Medicine and Bioinformatics}{}{}
+
+\cventry{2014-2018}{BS Biology}{University of Kentucky}{\newline Dept. of Biology}{Minor: Computer Science}{}
+
+%-------------------------------------------------------------------------------
+
+\section{Skills}
+
+\cvline{languages \& tools}{R, Python, Bash, Snakemake, R Markdown, Quarto, LaTeX, conda, git, GitHub, SLURM}
+
+\cvline{research}{gut microbiome research, amplicon sequence analysis, metagenomics, supervised machine learning, data visualization, reproducible manuscripts}
+
+\cvline{software}{R package maintenance, continuous integration, high performance computing}
+
+\cvline{teaching}{live coding instruction, curriculum development/maintenance/deployment}
+
+%-------------------------------------------------------------------------------
+\section{Research Experience}
+
+\cventry{2019-present}{Graduate Student Researcher}{Schloss Lab}{\newline Dept. of Microbiology and Immunology}{University of Michigan}{
+\begin{itemize}
+    \item Develop bioinformatics pipelines \& software for microbial ecology.
+    \item Analyze 16S rRNA gene amplicon sequence data.
+    \item Apply machine learning methods to gut microbiome classification problems in \newline colorectal cancer and \textit{C. difficile} infection.
+    \item Collaborate with other scientists on microbiome projects and mentor junior lab members.
+\end{itemize}
+}
+
+\cventry{2018-2019}{Rotation Student Researcher}{Program in Biomedical Sciences}{\newline University of Michigan}{}{}
+
+\cventry{2015-2018}{Undergraduate Lab Assistant}{Moseley Bioinformatics Lab}{\newline Dept. of Molecular and Cellular Biochemistry}{University of Kentucky}{
+\begin{itemize}
+    \item Developed a computational tool in Python for identifying sets of orthologous and \allowbreak paralogous gene products in whole genomes to facilitate collinearity \allowbreak analysis and detection of gene duplication events.
+\end{itemize}
+}
+
+\cventry{2016-2018}{BIO395 Independent Research Student}{Weisrock Lab}{\newline Dept. of Biology}{University of Kentucky}{
+\begin{itemize}
+    \item Developed bash scripts and a SNP calling pipeline in Snakemake.
+    \item Population structure analysis of the \textit{Ambystoma tigrinum} species complex.
+    \item Bayesian species delimitation of the \textit{Desmognathus fuscus} species complex.
+\end{itemize}
+}
+
+\cventry{2015-2016}{Undergraduate Lab Assistant}{Jaromczyk Lab}{\newline Dept. of Computer Science}{University of Kentucky}{
+\begin{itemize}
+    \item Maintained the \textit{Epichloë festucae} genome project database.
+    \item Analyzed RNA-seq data of \textit{Chenopodium quinoa} and coffee ringspot virus.
+\end{itemize}
+}
+
+%-------------------------------------------------------------------------------
+
+\section{Open Source Contributions}
+
+\subsection{Software}
+
+\cvline{mikropml}{\href{https:/github.com/SchlossLab/mikropml}{User-Friendly R Package for Supervised Machine Learning Pipelines.} \newline Co-author and maintainer.}
+
+\cvline{mikropml workflow}{\href{https://github.com/SchlossLab/mikropml-snakemake-workflow}{Template for running mikropml with Snakemake.} \newline Co-author and maintainer.}
+
+\cvline{schtools}{\href{https://github.com/SchlossLab/schtools}{Schloss Lab tools for reproducible microbiome research (R package).} \newline Co-author and maintainer.}
+
+\cvline{mothur}{\href{https://github.com/mothur/mothur}{Command-Line Tool for Processing 16S rRNA Gene Sequence Data.} \newline Contributor.}
+
+\cvline{mothur workflow}{\href{https://github.com/SchlossLab/mothur-snakemake-workflow}{Snakemake template for 16S rRNA gene analysis with mothur.} \newline Co-author.}
+
+\vspace{2mm}
+\subsection{Curricula}
+
+\cvline{Software Carpentry}{\href{https://github.com/umcarpentries/intro-curriculum-r}{Intro to R, the Unix shell, and git for workshops on reproducible research.} \newline Co-author and maintainer.}
+
+\cvline{Girls Who Code}{\href{{https://github.com/GWC-DCMB/curriculum-notebooks}}{Intro to Python for Data Science for Girls Who Code clubs.} \newline Co-author and maintainer.}
+
+\cvline{ASM Microbe 2022}{\href{https://github.com/BIGslu/2022_ASM_Microbe_RNAseq}{Intro to R \& RNA-seq Workshop for ASM Microbe attendees.} \newline Contributor.}
+
+\cvline{U-M \textit{DANG!}}{\href{https://github.com/um-dang/repro-packs}{repro-packs: Organizing projects for reproducibility and headache prevention.} \newline Author. Seminar for the Data Analysis Networking Group.}
+
+\cvline{Code Clubs}{Short tutorials for Code Club meetings in the Schloss Lab. 
+\begin{itemize}
+    \item \href{https://github.com/SchlossLab/just-enough-python}{Just enough Python for R users to write advanced Snakemake workflows.}
+    \item \href{https://github.com/SchlossLab/gh-tips}{Tips and tricks for making the most of GitHub.} 
+    \item \href{https://gist.github.com/kelly-sovacool/2a95355b6566cceb8c2612100f58fa81}{How to maintain R packages.} 
+    \item \href{https://github.com/SchlossLab/intro-testing-r}{Introduction to Testing R Code.}
+    \item \href{https://github.com/SchlossLab/plot-recreation}{Re-creating plots to learn cool tricks and practice problem-solving.}
+    \item \href{https://github.com/SchlossLab/tidy-eval}{A brief introduction to tidy evaluation.} 
+    \item \href{https://github.com/SchlossLab/exception-handling}{Materials for a code review on exception handling in R for lab meeting.}
+    \item \href{https://github.com/SchlossLab/snakemake_riffomonas_tutorial}{A Snakemake tutorial for make users.}
+    \item \href{https://github.com/SchlossLab/documenting-R}{Materials for a code review on documenting R code.}
+\end{itemize}}
+
+%-------------------------------------------------------------------------------
+
+\section{Service}
+
+\cventry{2018-present}{Executive Committee Member: Open Source Technical Lead}{\newline Girls Who Code at U-M DCMB}{}{}{
+\begin{itemize}
+    \item Plan, apply for funding, develop curriculum, and maintain resources to teach introductory Python programming \& data science to young women+.
+    \item Facilitate collaborative development and maintenance of our open source teaching resources.
+    \item Organize our year-round Club and annual Data Science Summer Experience for high school women+.
+\end{itemize}
+}
+
+\cventry{2019-present}{Organizer and Maintainer}{U-M Carpentries}{}{}{
+\begin{itemize}
+    \item Co-lead development \& maintenance of a curriculum for workshops teaching programming skills for reproducible research.
+    \item Maintain the website, develop curriculum, and organize workshops.
+    \item Collaborate with U-M Women in Science and Engineering to organize workshops for women+.
+\end{itemize}
+}
+
+\cventry{2021-present}{Mentor}{Schloss Lab}{}{}{Mentoring an undergraduate student in building reproducible machine learning models to predict \textit{C. difficile} infection severity from gut microbiome composition.}
+
+\cventry{2021-present}{CoderSpaces co-host}{U-M ISR Data Science Hub}{}{}{Hold office hours at a weekly virtual help session for data science practitioners.}
+
+\cventry{2019-2021}{Graduate Student Coordinator}{U-M Data Analysis Networking Group}{}{}{
+\begin{itemize}
+    \item Organize monthly meetings \& a one-day symposium for researchers to sharpen their data analysis skills.
+    \item Apply for funding through a Rackham Interdisciplinary Workshop grant.
+\end{itemize}
+}
+
+\cventry{2009-present}{Live Sound Engineer}{\href{https://sovacool.dev/latex-cv/sound.pdf}{for various churches and non-profit organizations}.}{}{}{
+\begin{itemize}
+    \item Set up, maintain, repair, and operate front of house, monitor, and recording systems during sound checks, rehearsals, services, and concerts.
+    \item Record and mix live performances for streaming.
+    \item Train new sound techs in the art and science of live sound, live stream mixing, and recording.
+\end{itemize}
+}
+
+\cventry{2021-present}{Peer review for scientific journals}{PLOS ONE (1)}{}{}{}
+
+%-------------------------------------------------------------------------------
+
+\section{Teaching Experience}
+
+\cventry{Jan-Apr 2023}{Graduate Student Instructor}{BIOINF 576: Tool Development for Bioinformatics}{Dept. of Computational Medicine \& Bioinformatics}{}{University of Michigan}
+
+\cventry{2019-2022}{Facilitator \& Capstone Project Mentor}{}{Girls Who Code at U-M DCMB}{}{
+\begin{itemize}
+    \item Aug 2021 - May 2022. Weekly virtual Club for high schoolers.
+    \item 12-22 July 2021. Virtual Data Science Summer Experience.
+    \item Aug 2020 - May 2021. Weekly virtual Club for high schoolers.
+    \item 06-16 July 2020. Virtual Data Science Summer Experience.
+    \item Aug 2019 - May 2020. Weekly Club for high schoolers.
+    \item 15-19 July 2019. Data Science Summer Experience in Detroit, MI.
+    \item Jan-May 2019. Weekly Club for high schoolers.
+\end{itemize}
+}
+
+\cventry{2018-present}{Workshop instructor \& helper}{}{U-M Carpentries}{}{
+\begin{itemize}
+    \item 20-21 Oct 2022. Workshop instructor.
+    \item 28 Feb 2022. Workshop helper. Virtual workshop led by the U-M Bioinformatics core.
+    \item 11-12 Jan 2021. Lead instructor for virtual workshop sponsored by U-M WISE.
+    \item 06-07 Jan 2020. Lead instructor for in-person workshop sponsored by U-M WISE.
+    \item 01-02 July 2019. Workshop instructor.
+    \item 22-23 May 2019. Workshop helper.
+    \item 01 Mar 2019. Workshop helper.
+    \item 17-18 Dec 2018. Workshop helper.
+\end{itemize}
+}
+
+\cventry{Jun 2022}{Instructor}{Intro to R \& RNA-seq Workshop}{for ASM Microbe Conference attendees}{}{Virtual}
+
+\cventry{Apr 2019}{DNA Day Ambassador}{Epigenetics \& scientific journeys}{MI DNA Day}{}{Ann Arbor, MI}
+
+\cventry{Mar 2019}{Workshop helper}{Data visualization with Python}{Graduate Society of Black Engineers and Scientists}{}{University of Michigan}
+
+\cventry{Mar 2019}{Capstone Activity Leader}{Binary numbers through Ozobots with GWC at U-M DCMB}{Females Excelling More in Math, Engineering, \& Science}{}{University of Michigan}
+
+\cventry{2012-2018}{Tutor}{}{for high school and college students in Biology, Calculus, Chemistry, Computer Science, and Bioinformatics.}{}{}
+
+%-------------------------------------------------------------------------------
+
+\section{Presentations}
+
+\subsection{Talks}
+
+\cventry{Nov 2022}{Bioinformatics Student Research Hour}{Predicting the severity of \textit{C. difficile} infections from the taxonomic composition of the gut microbiome}{}{}{University of Michigan}
+
+\cventry{Feb 2022}{Seminar}{Intro to git \& GitHub}{Norwegian University of Science and Technology}{KG Jebsen Center for Genetic Epidemiology}{NTNU (Virtual)}
+
+\cventry{Mar 2021}{Bioinformatics Student Research Hour}{OptiFit: a fast method for fitting amplicon sequences to existing OTUs}{}{}{University of Michigan (Virtual)}
+
+\cventry{Apr 2018}{Systems Biology \& Omics Integration Seminar}{Developing a Global Homology Analysis for Comparative Genomics}{}{}{University of Kentucky}
+
+\vspace{2mm}
+\subsection{Posters}
+
+\cventry{Jun 2022}{ASM Microbe}{Predicting the severity of \textit{C. difficile} infections from the taxonomic composition of the gut microbiome}{Poster}{}{Washington, DC}
+
+\cventry{Jun 2020}{ASM Microbe}{OptiFit: a fast method for fitting amplicon sequences to existing OTUs}{Poster}{Cancelled due to COVID-19.}{}
+
+\cventry{Apr 2018}{Showcase for Undergraduate Scholars}{Developing a Global Homology Analysis for Comparative Genomics}{Poster}{}{University of Kentucky}
+
+\cventry{Apr 2018}{National Conference on Undergraduate Research}{Developing a Global Homology Analysis for Comparative Genomics}{Poster}{}{University of Central Oklahoma}
+
+\cventry{Apr 2016}{Showcase for Undergraduate Scholars}{Processing RNA-seq Reads of Plants Infected with the Coffee Ringspot Virus}{Poster}{}{University of Kentucky}
+
+\cventry{Apr 2016}{UT-KBRIN Bioinformatics Summit}{Processing RNA-seq Reads of Plants Infected with the Coffee Ringspot Virus}{Poster}{}{Cadiz, KY}
+
+\cventry{Apr 2015}{Showcase for Undergraduate Scholars}{The Effect of Meditation on Performance}{Poster}{}{University of Kentucky}
+
+
+%-------------------------------------------------------------------------------
+%\pagebreak
+\section{Awards}
+
+\subsection{Grants \& Fellowships}
+
+\cventry{2022}{Conference Travel Grant}{Rackham Graduate School}{}{(\$900)}{University of Michigan}
+\cventry{2020-2021}{Rackham Interdisciplinary Workshop Grant}{}{}{(\$500)}{University of Michigan}
+\cventry{2020}{Conference Travel Grant}{Rackham Graduate School}{}{(\$800)}{University of Michigan}
+\cventry{2019-2020}{Rackham Interdisciplinary Workshop Grant}{}{}{(\$500)}{University of Michigan}
+\cventry{2019-2021}{NIH T32 Bioinformatics Training Program Fellow}{}{}{}{University of Michigan}
+\cventry{Dec 2017}{Oswald Research \& Creativity Award}{UK Office of Undergraduate \newline Research}{}{2nd place in the Biological Sciences category (\$200)}{University of Kentucky}
+\cventry{May-Aug 2017}{Summer Research Grant}{UK Office of Undergraduate Research}{(\$2,000)}{}{University of Kentucky}
+\cventry{2014-2018}{Presidential Scholarship}{}{}{(out-of-state full tuition)}{University of Kentucky}
+
+\vspace{2mm}
+\subsection{Honors}
+
+\cventry{May 2018}{Graduated Cum Laude with Departmental Honors in Biology}{}{}{}{University of Kentucky}
+\cventry{May 2018}{Biology Undergraduate Research Award Nominee}{}{}{}{University of Kentucky}
+\cventry{2014-2018}{Lewis Honors College}{}{}{}{University of Kentucky}
+%\cvline{}{}
+
+%-------------------------------------------------------------------------------
+\section{Continuing Education}
+
+\cventry{27-30 Jan 2020}{Building Tidy Tools workshop at rstudio::conf}{RStudio, PBC}{}{}{San Francisco, CA}
+\cventry{17-19 Dec 2019}{Winter School in Research Software Engineering}{US Research Software Sustainability Institute}{}{}{Seattle, WA}
+\cventry{03-04 Jun 2019}{Software Carpentry Instructor Training}{The Carpentries}{}{}{University of Michigan}
+\cventry{01-05 May 2019}{PyCon Education Summit \& Conference}{Python Sofware Foundation}{}{}{Cleveland, OH}
+\cventry{24-26 Apr 2019}{MICROBIOL 612.2}{Riffomonas minimalR workshop}{}{}{University of Michigan}
+
+%-------------------------------------------------------------------------------
+
+% Publications from a BibTeX file without multibib
+%  for numerical labels:
+\renewcommand{\bibliographyitemlabel}{{\arabic{enumiv}.}}% CONSIDER MERGING WITH PREAMBLE PART
+%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+\nocite{*} % cite everything in bibtex file even if not cited in-text
+\bibliographystyle{kls.bst} % https://tex.stackexchange.com/a/71476
+\bibliography{cv_KLS} % cv_KLS.bib is a bibtex file with publications
+
+\vspace{10mm}
+\textit{\textbf{*} Indicates co-first author.}
+
+%\href{https://scholar.google.com/citations?user=TlglgLgAAAAJ}{Google Scholar profile}
+
+\end{document}
