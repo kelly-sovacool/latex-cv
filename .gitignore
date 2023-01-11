@@ -12,3 +12,5 @@ Icon*
 .Rproj.user
 moderncv* 
 tweaklist.sty
+cv/.snakemake_timestamp
+timestamp.txt
