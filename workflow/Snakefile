@@ -76,6 +76,7 @@ rule render_vitae:
         yml=list_yaml_files
     output:
         pdf='docs/vitae_KLS.pdf'
+    conda: "envs/vitae.yml"
     shell:
         """
         R -e "rmarkdown::render('{input.Rmd}', output_file = '{output.pdf}')"
