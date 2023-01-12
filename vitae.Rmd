@@ -94,8 +94,6 @@ read_yaml_as_tbl(here('cv','skills.yml')) %>%
 
 # Research Experience
 
-<!-- TODO: get italics to work inside entries -->
-
 ```{r research}
 read_yaml_as_tbl(here('cv', 'research.yml')) %>% 
   separate(lab, c('lab', 'inst'), sep = ", <br> ") %>% 
@@ -158,20 +156,20 @@ read_yaml_as_tbl(here('cv', 'curricula.yml')) %>%
 
 ```{r talks}
 read_yaml_as_tbl(here('cv', 'talks.yml')) %>% 
-  detailed_entries(what = event, 
-                   with = title, 
-                   where = location, 
-                   when = date)
+  brief_entries(what = glue("\\textbf{{{ event }}}"),
+                when = date,
+                with = glue("{format_md2tex(title)}. {location}"),
+                .protect = FALSE)
 ```
 
 ## Posters
 
 ```{r posters}
 read_yaml_as_tbl(here('cv', 'posters.yml')) %>% 
-  detailed_entries(what = event, 
-                   with = title, 
-                   where = location, 
-                   when = date)
+  brief_entries(what = glue("\\textbf{{{ event }}}"),
+                when = date,
+                with = glue("{format_md2tex(title)}. {location}"),
+                .protect = FALSE)
 ```
 
 
@@ -182,26 +180,36 @@ read_yaml_as_tbl(here('cv', 'posters.yml')) %>%
 ```{r grants}
 read_yaml_as_tbl(here('cv', 'grants.yml')) %>% 
   mutate(inst = str_replace(inst, " <br> ", ", "),
-         title = str_replace(title, ' <br> ', ', '),
+         title = str_replace(title, ' <br> ', ', ') %>% replace_amps(),
+         amount = case_when(nchar(amount) != 0 ~ glue(' ({amount})') %>% 
+                              str_replace("\\$", "\\\\$"),
+                            TRUE ~ amount 
+                            )
          ) %>% 
-  detailed_entries(what = title, 
-                   when = dates, 
-                   with = inst, 
-                   where = amount)
+  brief_entries(what = glue("\\textbf{{{ title }}}"), 
+                when = dates, 
+                with = glue('{inst}{amount}'),
+                .protect = FALSE)
 ```
 
 ## Honors
 
 ```{r honors}
 read_yaml_as_tbl(here('cv', 'honors.yml')) %>% 
-  detailed_entries(what = title, when = dates, where = inst)
+  brief_entries(what = glue("\\textbf{{{ title }}}"), 
+                when = dates, 
+                with = inst, 
+                .protect = FALSE)
 ```
 
 # Continuing Education
 
 ```{r continuing-edu}
 read_yaml_as_tbl(here('cv', 'continuing-edu.yml')) %>% 
-  detailed_entries(what = title, when = date, with = org, where = location)
+  brief_entries(what = glue("\\textbf{{{ title }}}") %>% replace_amps(), 
+                when = date, 
+                with = glue("{org}, {location}"), 
+                .protect = FALSE)
 ```
 
 
