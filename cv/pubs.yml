@@ -17,6 +17,10 @@
   bib_md: "Armour CR, **Sovacool KL**, Close WL, Top\xE7uo\u011Flu BD, Wiens J, Schloss\
     \ PD. Sep 2022. Streamlined implementation of a machine learning model to classify\
     \ screen relevant neoplasia using reference-based OTU clustering. _bioRxiv_. [10.1101/2022.09.01.506299](https://doi.org/10.1101/2022.09.01.506299) "
+  bib_tex: "Armour CR, **Sovacool KL**, Close WL, Top\xE7uo\u011Flu BD, Wiens J, Schloss\
+    \ PD. Sep  2022. Streamlined implementation of a machine learning model to classify\
+    \ screen relevant neoplasia using reference-based OTU clustering. \\textit{bioRxiv}.\
+    \ \\hyperref{https://doi.org/10.1101/2022.09.01.506299}{10.1101/2022.09.01.506299} "
   date: Sep 2022
   dimensions_badge: <span class="__dimensions_badge_embed__" data-doi="10.1101/2022.09.01.506299"
     data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right"></span>
@@ -63,6 +67,10 @@
     Bergin IL, Schloss PD, Young VB. Jul 2022. Intestinal Inflammation Reversibly
     Alters the Microbiota to Drive Susceptibility to Clostridioides Difficile Colonization
     in a Mouse Model of Colitis. _mBio_. [10.1128/mbio.01904-22](https://doi.org/10.1128/mbio.01904-22) '
+  bib_tex: 'Barron MR, **Sovacool KL**, Abernathy-Close L, Vendrov KC, Standke AK,
+    Bergin IL, Schloss PD, Young VB. Jul  2022. Intestinal Inflammation Reversibly
+    Alters the Microbiota to Drive Susceptibility to Clostridioides Difficile Colonization
+    in a Mouse Model of Colitis. \textit{mBio}. \hyperref{https://doi.org/10.1128/mbio.01904-22}{10.1128/mbio.01904-22} '
   date: Jul 2022
   dimensions_badge: <span class="__dimensions_badge_embed__" data-doi="10.1128/mbio.01904-22"
     data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right"></span>
@@ -106,6 +114,9 @@
   bib_md: '**Sovacool KL**, Westcott SL, Mumphrey MB, Dotson GA, Schloss PD. Feb 2022.
     OptiFit: An Improved Method for Fitting Amplicon Sequences to Existing OTUs. _mSphere_.
     [10.1128/msphere.00916-21](https://doi.org/10.1128/msphere.00916-21) '
+  bib_tex: '**Sovacool KL**, Westcott SL, Mumphrey MB, Dotson GA, Schloss PD. Feb  2022.
+    OptiFit: An Improved Method for Fitting Amplicon Sequences to Existing OTUs. \textit{mSphere}.
+    \hyperref{https://doi.org/10.1128/msphere.00916-21}{10.1128/msphere.00916-21} '
   date: Feb 2022
   dimensions_badge: <span class="__dimensions_badge_embed__" data-doi="10.1128/msphere.00916-21"
     data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right"></span>
@@ -162,6 +173,11 @@
     \ Anderson JM, Lucas SK, Schloss PD. Jan 2022. Developing and Deploying an Integrated\
     \ Workshop Curriculum Teaching Computational Skills for Reproducible Research.\
     \ _JOSE_. [10.21105/jose.00144](https://doi.org/10.21105/jose.00144) "
+  bib_tex: "\\*Lapp Z, **\\*Sovacool KL**, Lesniak N, King D, Barnier C, Flickinger\
+    \ M, Kr\xFCger J, Armour CR, Lapp MM, Tallant J, Diao R, Oneka M, Tomkovich S,\
+    \ Anderson JM, Lucas SK, Schloss PD. Jan  2022. Developing and Deploying an Integrated\
+    \ Workshop Curriculum Teaching Computational Skills for Reproducible Research.\
+    \ \\textit{JOSE}. \\hyperref{https://doi.org/10.21105/jose.00144}{10.21105/jose.00144} "
   date: Jan 2022
   dimensions_badge: <span class="__dimensions_badge_embed__" data-doi="10.21105/jose.00144"
     data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right"></span>
@@ -220,6 +236,11 @@
     Furman KL, Walker LA, Diao R, Oneka M, Drotos AC, Woloshin A, Dotson GA, Kriebel
     A, Meng L, Thiede SN, Lapp Z, Wolford BN. Dec 2021. Teaching Python for Data Science:
     Collaborative Development of a Modular & Interactive Curriculum. _JOSE_. [10.21105/jose.00138](https://doi.org/10.21105/jose.00138) '
+  bib_tex: '\*Duda M, **\*Sovacool KL**, Farzaneh N, Nguyen VK, Haynes SE, Falk H,
+    Furman KL, Walker LA, Diao R, Oneka M, Drotos AC, Woloshin A, Dotson GA, Kriebel
+    A, Meng L, Thiede SN, Lapp Z, Wolford BN. Dec  2021. Teaching Python for Data
+    Science: Collaborative Development of a Modular & Interactive Curriculum. \textit{JOSE}.
+    \hyperref{https://doi.org/10.21105/jose.00138}{10.21105/jose.00138} '
   date: Dec 2021
   dimensions_badge: <span class="__dimensions_badge_embed__" data-doi="10.21105/jose.00138"
     data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right"></span>
@@ -264,6 +285,9 @@
   bib_md: "\\*Top\xE7uo\u011Flu BD, \\*Lapp Z, **\\*Sovacool KL**, Snitkin E, Wiens\
     \ J, Schloss PD. May 2021. Mikropml: User-Friendly R Package for Supervised Machine\
     \ Learning Pipelines. _JOSS_. [10.21105/joss.03073](https://doi.org/10.21105/joss.03073) "
+  bib_tex: "\\*Top\xE7uo\u011Flu BD, \\*Lapp Z, **\\*Sovacool KL**, Snitkin E, Wiens\
+    \ J, Schloss PD. May  2021. Mikropml: User-Friendly R Package for Supervised Machine\
+    \ Learning Pipelines. \\textit{JOSS}. \\hyperref{https://doi.org/10.21105/joss.03073}{10.21105/joss.03073} "
   date: May 2021
   dimensions_badge: <span class="__dimensions_badge_embed__" data-doi="10.21105/joss.03073"
     data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right"></span>
@@ -321,6 +345,11 @@
     X, O''Neill EM, Zambrano L, Shaffer HB, Weisrock DW. Apr 2021. Geography Is More
     Important than Life History in the Recent Diversification of the Tiger Salamander
     Complex. _PNAS_. [10.1073/pnas.2014719118](https://doi.org/10.1073/pnas.2014719118) '
+  bib_tex: 'Everson KM, Gray LN, Jones AG, Lawrence NM, Foley ME, **Sovacool KL**,
+    Kratovil JD, Hotaling S, Hime PM, Storfer A, Parra-Olea G, Percino-Daniel R, Aguilar-Miguel
+    X, O''Neill EM, Zambrano L, Shaffer HB, Weisrock DW. Apr  2021. Geography Is More
+    Important than Life History in the Recent Diversification of the Tiger Salamander
+    Complex. \textit{PNAS}. \hyperref{https://doi.org/10.1073/pnas.2014719118}{10.1073/pnas.2014719118} '
   date: Apr 2021
   dimensions_badge: <span class="__dimensions_badge_embed__" data-doi="10.1073/pnas.2014719118"
     data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right"></span>
@@ -382,6 +411,11 @@
     SB, Stough J, **Sovacool KL**, Sze MA, Tomkovich S, Topcuoglu BD, Schloss PD.
     Aug 2020. Ten Simple Rules to Increase Computational Skills among Biologists with
     Code Clubs. _PLoS Comput Biol_. [10.1371/journal.pcbi.1008119](https://doi.org/10.1371/journal.pcbi.1008119) '
+  bib_tex: 'Hagan AK, Lesniak NA, Balunas MJ, Bishop L, Close WL, Doherty MD, Elmore
+    AG, Flynn KJ, Hannigan GD, Koumpouras CC, Jenior ML, Kozik AJ, McBride K, Rifkin
+    SB, Stough J, **Sovacool KL**, Sze MA, Tomkovich S, Topcuoglu BD, Schloss PD.
+    Aug  2020. Ten Simple Rules to Increase Computational Skills among Biologists
+    with Code Clubs. \textit{PLoS Comput Biol}. \hyperref{https://doi.org/10.1371/journal.pcbi.1008119}{10.1371/journal.pcbi.1008119} '
   date: Aug 2020
   dimensions_badge: <span class="__dimensions_badge_embed__" data-doi="10.1371/journal.pcbi.1008119"
     data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right"></span>
@@ -426,6 +460,9 @@
   bib_md: 'Goodin MM, Farman M, Inocencio H, Jang C, Jaromczyk JW, Moore N, **Sovacool
     KL**. Aug 2016. Processing RNA-Seq Data of Plants Infected with Coffee Ringspot
     Virus. _BMC Bioinform_. [10.1186/s12859-016-1154-y](https://doi.org/10.1186/s12859-016-1154-y) '
+  bib_tex: 'Goodin MM, Farman M, Inocencio H, Jang C, Jaromczyk JW, Moore N, **Sovacool
+    KL**. Aug  2016. Processing RNA-Seq Data of Plants Infected with Coffee Ringspot
+    Virus. \textit{BMC Bioinform}. \hyperref{https://doi.org/10.1186/s12859-016-1154-y}{10.1186/s12859-016-1154-y} '
   date: Aug 2016
   dimensions_badge: <span class="__dimensions_badge_embed__" data-doi="10.1186/s12859-016-1154-y"
     data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right"></span>

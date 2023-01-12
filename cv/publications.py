@@ -80,6 +80,7 @@ class BibEntry:
         self.bib_md = f"{self.authors_md}. {self.month} " \
                 f"{self.year}. " \
                 f"{self.title}. _{self.journal}_. {self.link_md} "
+        self.bib_tex = f"{self.authors_md}. {self.month}  {self.year}. {self.title}. \\textit{{{ self.journal }}}. \hyperref{{{ self.doi_link }}}{{{ record['doi'] }}} "
         self.github_link = record['github'] if 'github' in record else ''
         self.github_icon = f'<a href="{self.github_link}"> <i class="fa-brands fa-github" style="font-size:20px;"></i> </a>' if self.github_link else ''
         self.github_badge = f"[![GitHub](https://img.shields.io/static/v1?style=flat&logo=GitHub&label=+&message=GitHub&color=black)]({self.github_link})" if self.github_link else ''
