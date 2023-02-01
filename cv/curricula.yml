@@ -1,5 +1,5 @@
 - title: U-M Software Carpentry
-  description: Intro to R- the Unix shell- and git for workshops on reproducible research.
+  description: Intro to R, the Unix shell, and git for workshops on reproducible research.
   contrib: Co-author and maintainer
   path: https://github.com/UMCarpentries/intro-curriculum-r
   image: /images/project-grid/swc.png
