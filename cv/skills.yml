@@ -22,6 +22,6 @@
     - reproducible manuscripts
 - title: Software 
   categories:
-    - R package maintenance
+    - package maintenance
     - continuous integration
     - high performance computing

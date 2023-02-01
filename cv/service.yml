@@ -1,6 +1,6 @@
 - title: "Executive Committee Member: Open Source Technical Lead"
   org: "Girls Who Code at U-M DCMB"
-  dates: "2019-present"
+  dates: "2019-2022"
   path: https://websites.umich.edu/~girlswc
   tasks: |
     - Plan, apply for funding, develop curriculum, and maintain resources to teach introductory Python programming & data science to young women+.
@@ -9,7 +9,7 @@
 
 - title: "Organizer and Maintainer"
   org: "U-M Carpentries"
-  dates: "2019-present"
+  dates: "2019-2022"
   path: https://umcarpentries.org
   tasks: |
     - Co-lead development & maintenance of a curriculum for workshops teaching programming skills for reproducible research.
@@ -18,19 +18,19 @@
 
 - title: Mentor
   org: Schloss Lab
-  dates: 2021-present
+  dates: 2021-2023
   path: ""
   tasks: Mentor an undergraduate student in building reproducible machine learning models to predict _C. difficile_ infection severity from gut microbiome composition.
 
 - title: CoderSpaces co-host
   org: U-M ISR Data Science Hub
-  dates: 2021-present
+  dates: 2021-2022
   path: ""
   tasks: Hold office hours at a weekly virtual help session for data science practitioners
 
 - title: Peer reviewer
   org: ""
-  dates: 2021-present
+  dates: "2021"
   path: ""
   tasks: PLOS ONE (1)
 

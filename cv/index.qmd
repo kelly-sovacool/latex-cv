@@ -138,7 +138,7 @@ Contact:  &ensp;
 [{{< fa regular envelope >}} sovacool [at] umich.edu](mailto:sovacool@umich.edu)
 
 View a PDF version of my CV: &ensp;
-[{{< fa regular file-pdf >}} https://sovacool.dev/latex-cv/cv_KLS.pdf](https://sovacool.dev/latex-cv/cv_KLS.pdf)
+[{{< fa regular file-pdf >}} https://sovacool.dev/latex-cv/vitae_KLS.pdf](https://sovacool.dev/latex-cv/vitae_KLS.pdf)
 
 ## Education
 
