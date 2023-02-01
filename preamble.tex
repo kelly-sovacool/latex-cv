@@ -17,6 +17,7 @@
 
 \nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
 \usepackage{textcomp,xpatch}
+\xpatchcmd{\cventry}{\itshape#2}{#2}{}{} % Patch \cventry so the 2nd argument is not printed in italics
 \xpatchcmd{\cventry}{\itshape#3}{#3}{}{} % Patch \cventry so the 3rd argument is not printed in italics
 \xpatchcmd{\cventry}{.\strut}{\strut}{}{} % Patch \cventry to remove the trailing period
 
@@ -34,4 +35,7 @@
 \usepackage{etaremune}
 
 \usepackage[T1]{fontenc}
-\usepackage[utf8]{inputenc}
+
+% Helvetica font
+\usepackage{helvet}
+\renewcommand*\familydefault{\sfdefault} 

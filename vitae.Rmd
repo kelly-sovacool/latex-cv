@@ -10,8 +10,7 @@ twitter:
 github: kelly-sovacool
 linkedin: kelly-sovacool
 date: "`r format(Sys.time(), '%B %Y')`"
-fontsize: 11pt
-fontfamily: sans
+mainfont: Helvetica
 output: 
   vitae::moderncv:
     theme: classic
