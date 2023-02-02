@@ -2,8 +2,7 @@
   lab: Schloss Lab,  Dept. of Microbiology and Immunology, <br> University of Michigan
   dates: 2019-present
   tasks: |
-    - Develop and benchmark bioinformatics pipelines and software for microbial ecology.
-    - Analyze 16S rRNA gene amplicon sequence data.
+    - Develop, benchmark, and maintain bioinformatics workflows and software packages.
     - Apply machine learning methods to gut microbiome classification problems in colorectal cancer and _C. difficile_ infection.
     - Collaborate with other scientists on microbiome projects and mentor junior lab members.
 
