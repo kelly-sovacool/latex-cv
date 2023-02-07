@@ -66,9 +66,9 @@ split_md_list <- function(x) {
          )
 }
 ```
-
+<!--
 _Bioinformatician building and applying open source tools for microbiome research, and contributing to data science education along the way._
-
+-->
 # Education
 
 ```{r edu}
@@ -91,7 +91,6 @@ read_yaml_as_tbl(here('cv','skills.yml')) %>%
   brief_entries(when = title, what = categories)
 ```
 
-
 # Research Experience
 
 ```{r research}
@@ -107,6 +106,32 @@ read_yaml_as_tbl(here('cv', 'research.yml')) %>%
     why = why, 
     .protect = FALSE
   )
+```
+
+# Open Source Contributions
+
+## Software
+
+```{r software}
+read_yaml_as_tbl(here('cv', 'software.yml')) %>% 
+  detailed_entries(what = title, with = description, why = contrib)
+```
+
+## Curricula
+
+```{r curricula}
+read_yaml_as_tbl(here('cv', 'curricula.yml')) %>% 
+  detailed_entries(what = title, with = description, why = contrib)
+```
+
+# Continuing Education
+
+```{r continuing-edu}
+read_yaml_as_tbl(here('cv', 'continuing-edu.yml')) %>% 
+  brief_entries(what = glue("\\textbf{{{ title }}}") %>% replace_amps(), 
+                when = date, 
+                with = glue("{org}, {location}"), 
+                .protect = FALSE)
 ```
 
 # Teaching Experience
@@ -132,22 +157,6 @@ read_yaml_as_tbl(here('cv', 'service.yml')) %>%
                    why = why,
                    .protect = FALSE
                    )
-```
-
-# Open Source Contributions
-
-## Software
-
-```{r software}
-read_yaml_as_tbl(here('cv', 'software.yml')) %>% 
-  detailed_entries(what = title, with = description, why = contrib)
-```
-
-## Curricula
-
-```{r curricula}
-read_yaml_as_tbl(here('cv', 'curricula.yml')) %>% 
-  detailed_entries(what = title, with = description, why = contrib)
 ```
 
 # Presentations
@@ -201,17 +210,6 @@ read_yaml_as_tbl(here('cv', 'honors.yml')) %>%
                 with = inst, 
                 .protect = FALSE)
 ```
-
-# Continuing Education
-
-```{r continuing-edu}
-read_yaml_as_tbl(here('cv', 'continuing-edu.yml')) %>% 
-  brief_entries(what = glue("\\textbf{{{ title }}}") %>% replace_amps(), 
-                when = date, 
-                with = glue("{org}, {location}"), 
-                .protect = FALSE)
-```
-
 
 # Publications
 

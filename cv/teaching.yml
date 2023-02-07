@@ -1,9 +1,9 @@
 - title: Graduate Student Instructor
-  org: Dept. of Computational Medicine & Bioinformatics
+  org: "BIOINF 576: Tool Development for Bioinformatics. Dept. of Computational Medicine & Bioinformatics"
   dates: "Jan-Apr 2023"
   where: University of Michigan
   event: |
-    BIOINF 576: Tool Development for Bioinformatics
+    Develop curriculum and teach students the principles of open source software development including design, implementation, testing, documentation, issue tracking, peer review, and release.
 
 - title: "Facilitator & Capstone Project Mentor"
   org:  "Girls Who Code at U-M DCMB"
