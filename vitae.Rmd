@@ -16,7 +16,7 @@ output:
   vitae::moderncv:
     theme: classic
     latex_engine: xelatex
-    keep_tex: false
+    keep_tex: true
     includes:
       in_header: preamble.tex
 bibliography: cv/pubs.bib
