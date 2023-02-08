@@ -18,7 +18,7 @@ if (now - update_frequency) > timestamp:
 rule targets:
     input:
         expand("docs/{name}.pdf", 
-               name=['cv_KLS', 'vitae_KLS', 'sound'])
+               name=['vitae_KLS', 'sound'])
 
 rule copy_bib:
     input:
