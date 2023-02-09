@@ -1,0 +1,185 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2015 Xavier Danaux (xdanaux@gmail.com).
+%
+% Adapted to be an Rmarkdown template by Mitchell O'Hara-Wild
+% 8 February 2019
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,]{moderncv}
+
+% moderncv themes
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
+
+\definecolor{color0}{rgb}{0,0,0}% black
+\definecolor{color1}{HTML}{3873B3}% custom
+\definecolor{color2}{rgb}{0.45,0.45,0.45}% dark grey
+
+\usepackage[scaled=0.86]{DejaVuSansMono}
+
+\providecommand{\tightlist}{%
+	\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\def\donothing#1{#1}
+\def\emaillink#1{#1}
+
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+%\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.8,margin=0.5in]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvheadnamewidth}{10cm}            % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+
+\moderncvcolor{black}
+
+% UMich colors https://brand.umich.edu/design-resources/colors/
+\definecolor{MichiganBlue}{HTML}{00274C}
+\definecolor{RackhamGreen}{HTML}{75988d}
+\definecolor{ArboretumBlue}{HTML}{2F65A7}
+\definecolor{TaubmanTeal}{HTML}{00B2A9}
+\definecolor{AngelHallAsh}{HTML}{989C97}
+\definecolor{PumaBlack}{HTML}{131516}
+
+% CUSTOM COLORS for moderncv
+% https://tex.stackexchange.com/questions/109496/creating-additional-color-for-moderncv
+\colorlet{color0}{PumaBlack}
+\colorlet{color1}{MichiganBlue}
+\colorlet{color2}{MichiganBlue}
+
+
+\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+\usepackage{textcomp,xpatch}
+\xpatchcmd{\cventry}{\itshape#2}{#2}{}{} % Patch \cventry so the 2nd argument is not printed in italics
+\xpatchcmd{\cventry}{\itshape#3}{#3}{}{} % Patch \cventry so the 3rd argument is not printed in italics
+\xpatchcmd{\cventry}{.\strut}{\strut}{}{} % Patch \cventry to remove the trailing period
+
+% quote width https://tex.stackexchange.com/questions/163050/how-can-i-extend-quotes-width-in-moderncv
+\let\originalrecomputecvlengths\recomputecvlengths
+\renewcommand*{\recomputecvlengths}{%
+\originalrecomputecvlengths%
+\setlength{\quotewidth}{0.99\textwidth}}
+
+% plus symbol
+% https://tex.stackexchange.com/questions/52503/sign-in-international-phone-numbers
+\newcommand{\plus}{\raisebox{.4\height}{\scalebox{.6}{+}}}
+
+% reverse numbering for lists
+\usepackage{etaremune}
+
+\usepackage[T1]{fontenc}
+
+% Helvetica font
+\usepackage{helvet}
+\renewcommand*\familydefault{\sfdefault} 
+
+% personal data
+\name{}{Kelly Sovacool}
+
+\email{\donothing{\href{mailto:sovacool@umich.edu}{\nolinkurl{sovacool@umich.edu}}}}
+\homepage{sovacool.dev} 
+\social[linkedin]{kelly-sovacool}
+\social[github]{kelly-sovacool}
+
+\quote{Bioinformatician seeking to build open source software for reproducible data science}
+
+% Pandoc CSL macros
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newenvironment{CSLReferences}[3] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1 \everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces\fi
+  % set entry spacing
+  \ifnum #2 > 0
+  \setlength{\parskip}{#2\baselineskip}
+  \fi
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{#1}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+\vspace*{-10mm}
+
+\hypersetup{urlcolor=ArboretumBlue}
+
+\hypertarget{skills}{%
+\section{Skills}\label{skills}}
+    
+\nopagebreak
+    \cvitem{Languages \& Tools}{R, Python, C++, Bash, Snakemake, git, GitHub, R Markdown, Jupyter, Quarto, LaTeX, conda/mamba, Docker, Singularity, SLURM, UNIX CLI. }
+    \cvitem{Research}{supervised machine learning pipelines, gut microbiome composition, amplicon sequence analysis, metagenomics, data visualization, reproducible manuscripts. }
+    \cvitem{Software}{package maintenance, test-driven development, continuous integration, documentation, collaboration \& peer review, high performance computing. }
+
+\hypertarget{education}{%
+\section{Education}\label{education}}
+
+\nopagebreak
+    \cventry{2018-2023}{PhD Bioinformatics}{University of Michigan}{Advisor: Patrick D. Schloss}{}{}
+    \cventry{2014-2018}{BS Biology}{University of Kentucky}{Minor: Computer Science}{}{}
+
+\hypertarget{experience}{%
+\section{Experience}\label{experience}}
+
+\nopagebreak
+    \cventry{2019-present}{Graduate Student Researcher}{Schloss Lab}{University of Michigan}{}{\begin{itemize}%
+        \item Develop, benchmark, and maintain bioinformatics workflows and software packages.%
+        \item Build machine learning pipelines for human gut microbiome classification and prediction problems in colorectal cancer and \textit{C. difficile} infection.%
+        \item Collaborate with other scientists on microbiome projects and mentor junior lab members.%
+        \end{itemize}}
+
+    \cventry{Jan-Apr 2023}{Graduate Student Instructor}{Dept. of Computational Medicine \& Bioinformatics}{University of Michigan}{BIOINF 576: Tool Development for Bioinformatics}{Develop curriculum and teach students the principles of software development in R \& Python. Topics: software design, implementation, testing, documentation, issue tracking, peer review, and release.}
+
+    \cventry{2019-2022}{Executive Committee Member: Open Source Technical Lead}{Girls Who Code at U-M Dept. of Computational Medicine \& Bioinformatics}{}{}{\begin{itemize}%
+        \item Developed curriculum and taught Python for data science to young women+.%
+        \item Facilitated collaborative development and maintenance of our open source teaching resources.%
+        \end{itemize}}
+
+    \cventry{2015-2018}{Undergraduate Lab Assistant}{Moseley Bioinformatics Lab}{University of Kentucky}{}{Developed a Python package for identifying homologous gene products for comparative genomics.}
+
+\hypertarget{open-source-contributions}{%
+\section{Open Source Contributions}\label{open-source-contributions}}
+
+%\hypertarget{software}{%
+%\subsection{Software}\label{software}}
+
+\nopagebreak
+    \cvline{Maintainer}{\textbf{mikropml}. User-Friendly R Package for Supervised Machine Learning Pipelines}
+    \cvline{Maintainer}{\textbf{schtools}. Schloss Lab tools for reproducible microbiome research (R package)}
+    \cvline{Maintainer}{\textbf{mikropml snakemake workflow}. Template for running mikropml with Snakemake (Python+R)}
+    \cvline{Contributor}{\textbf{mothur}. Command-line tool for processing amplicon sequence data (C++)}
+    \cvline{Co-author}{\textbf{mothur snakemake workflow}. Snakemake template for microbial amplicon sequence analysis with mothur (Python+R)}
+
+\hypertarget{continuing-education}{%
+\section{Continuing Education}\label{continuing-education}}
+        
+\nopagebreak
+    \cvitem{Jan 2020}{\textbf{Building Tidy Tools workshop at rstudio::conf}. Rstudio, PBC. San Francisco, CA}
+    \cvitem{Dec 2019}{\textbf{Winter School in Research Software Engineering}. US Research Software Sustainability Institute. Seattle, WA}
+    \cvitem{Jun 2019}{\textbf{Software Carpentry Instructor Training}. The Carpentries. University of Michigan}
+            
+    
+%\clearpage\end{CJK*}                              % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
+\end{document}
+
+
+%% end of file `template.tex'.
