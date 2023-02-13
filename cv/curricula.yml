@@ -11,7 +11,7 @@
     - Workshop
 
 - title: Girls Who Code at U-M DCMB
-  description: Intro to Python for Data Science for Girls Who Code clubs.
+  description: Intro to Python for Data Science via Live-Coding for Girls Who Code clubs.
   contrib: Co-author and maintainer
   path: https://github.com/GWC-DCMB/curriculum-notebooks
   image: /images/project-grid/gwc-wide.png

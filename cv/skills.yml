@@ -2,16 +2,20 @@
   categories:
     - R
     - Python
-    - Bash
     - C++
+    - Bash
     - Snakemake
-    - R Markdown
-    - Quarto
-    - LaTeX
-    - conda
     - git
     - GitHub
+    - R Markdown
+    - Jupyter
+    - Quarto
+    - LaTeX
+    - conda/mamba
+    - Docker
+    - Singularity
     - SLURM
+    - Unix CLI
 - title: Research 
   categories:
     - gut microbiome composition
@@ -23,5 +27,8 @@
 - title: Software 
   categories:
     - package maintenance
+    - test-driven development
     - continuous integration
+    - documentation
+    - collaboration & peer review
     - high performance computing

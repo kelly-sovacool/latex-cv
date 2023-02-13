@@ -5,19 +5,19 @@
   image: /images/project-grid/mikropml-wide.png
   categories: 
     - software
-    - R package
     - machine learning
+    - R
 - title: schtools 
-  description: Schloss Lab tools for reproducible microbiome research (R package)
+  description: Schloss Lab tools for reproducible microbiome research
   contrib: Co-author and maintainer
   path: https://github.com/SchlossLab/schtools
   image: /images/project-grid/schtools-wide.png
   categories: 
     - software
-    - R package
     - microbiome
+    - R
 - title: mikropml snakemake workflow
-  description: Template for running mikropml with Snakemake
+  description: Snakemake template for building reusable and scalable machine learning pipelines with mikropml
   contrib: Co-author and maintainer
   path: https://github.com/SchlossLab/mikropml-snakemake-workflow
   image: /images/project-grid/mikropml-snakemake-workflow.png
@@ -25,16 +25,19 @@
     - software
     - snakemake
     - machine learning
+    - R
+    - Python
 - title: mothur 
-  description: Command-Line Tool for Processing 16S rRNA Gene Sequence Data
+  description: Command-line tool for processing microbial amplicon sequence data
   contrib: Contributor
   path: https://github.com/mothur/mothur
   image: /images/project-grid/mothur-wide.png
   categories: 
     - software
     - microbiome
+    - C++
 - title: mothur snakemake workflow
-  description: Snakemake template for amplicon sequence analysis with mothur
+  description: Snakemake template for reproducible microbial amplicon sequence analysis with mothur
   contrib: Co-author
   path: https://github.com/SchlossLab/mothur-snakemake-workflow
   image: /images/project-grid/mothur-snakemake-workflow.png
@@ -42,3 +45,5 @@
     - software
     - microbiome
     - snakemake
+    - R
+    - Python
