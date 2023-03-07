@@ -16,7 +16,7 @@
   lab: Moseley Bioinformatics Lab,  Dept. of Molecular and Cellular Biochemistry, <br> University of Kentucky
   dates: 2015-2018
   tasks: |
-    - Developed a Python package for identifying sets of orthologous and paralogous gene products in whole genomes to facilitate collinearity analysis and detection of gene duplication events.
+    - Developed a Python package for comparative genomics. Identified sets of orthologous and paralogous gene products to facilitate collinearity analysis and detection of gene duplication events.
 
 - title: BIO395 Independent Research Student
   lab: Weisrock Lab,  Dept. of Biology, <br> University of Kentucky

@@ -18,12 +18,13 @@
     - Unix CLI
 - title: Research 
   categories:
-    - gut microbiome composition
-    - amplicon sequence analysis
-    - metagenomics
     - supervised machine learning
     - data visualization
     - reproducible manuscripts
+    - gut microbiome composition
+    - amplicon sequence analysis
+    - metagenomics
+    - bulk RNA-seq
 - title: Software 
   categories:
     - package maintenance
