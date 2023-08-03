@@ -1,8 +1,7 @@
 ---
 title: "Kelly L. Sovacool"
 description: | 
-  _Bioinformatician building and applying open source tools for microbiome research <br> 
-  Contributing to data science education along the way_
+  _Bioinformatician building and applying open source software_
 date-format: 'MMM YYYY'
 execute:
   echo: false

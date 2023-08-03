@@ -1,11 +1,18 @@
+- title: Bioinformatics Software Engineer II
+  lab: Frederick National Laboratory for Cancer Research
+  dates: 2023-present
+  tasks: |
+    Develop and maintain bioinformatics pipelines, workflows, and packages for omics data.
+
 - title: Graduate Student Researcher
   lab: Schloss Lab,  Dept. of Microbiology and Immunology, <br> University of Michigan
-  dates: 2019-present
+  dates: 2019-2023
   tasks: |
-    - Develop, benchmark, and maintain bioinformatics workflows and software packages in R & Python.
-    - Build machine learning pipelines for human gut microbiome classification problems in colorectal cancer and _C. difficile_ infection.
-    - Publish findings as reproducible papers.
-    - Collaborate with other scientists on microbiome projects and mentor junior lab members.
+    - Developed, benchmarked, and maintained bioinformatics workflows and software packages in R & Python.
+    - Built machine learning pipelines for human gut microbiome classification problems in colorectal cancer and _C. difficile_ infection.
+    - Published findings as reproducible papers in open access journals.
+    - Collaborated with other scientists on microbiome projects.
+    - Mentored junior lab members.
 
 - title: Rotation Student Researcher
   lab: Program in Biomedical Sciences, <br> University of Michigan
