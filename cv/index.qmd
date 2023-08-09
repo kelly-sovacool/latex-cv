@@ -122,6 +122,7 @@ listing:
     type: grid
     fields: [title, image, description, categories, contrib]
     sort-ui: [title, categories, contrib]
+    sort: false
     filter-ui: [title, description, categories, contrib]
     categories: true
     field-display-names: 
