@@ -1,5 +1,5 @@
 - altmetrics_badge: <div data-badge-popover="right" data-badge-type="medium_badge"
-    data-doi="10.1101/2022.09.01.506299" data-condensed="true" data-hide-no-mentions="false"
+    data-doi="10.1128/msphere.00336-23" data-condensed="true" data-hide-no-mentions="false"
     class="altmetric-embed"></div>
   authors:
   - Armour, Courtney R.
@@ -12,40 +12,42 @@
     \ Schloss PD"
   authors_tex: "Armour CR, \\textbf{Sovacool KL}, Close WL, Top\xE7uo\u011Flu BD,\
     \ Wiens J, Schloss PD"
-  badges: ' <div data-badge-popover="right" data-badge-type="medium_badge" data-doi="10.1101/2022.09.01.506299"
-    data-condensed="true" data-hide-no-mentions="false" class="altmetric-embed"></div>
-    <span class="__dimensions_badge_embed__" data-doi="10.1101/2022.09.01.506299"
-    data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right"></span>'
+  badges: <a href="https://github.com/SchlossLab/Armour_OptiFitGLNE_mSphere_2023">
+    <i class="fa-brands fa-github" style="font-size:20px;"></i> </a> <div data-badge-popover="right"
+    data-badge-type="medium_badge" data-doi="10.1128/msphere.00336-23" data-condensed="true"
+    data-hide-no-mentions="false" class="altmetric-embed"></div> <span class="__dimensions_badge_embed__"
+    data-doi="10.1128/msphere.00336-23" data-hide-zero-citations="true" data-style="small_rectangle"
+    data-legend="hover-right"></span>
   bib_md: "Armour CR, **Sovacool KL**, Close WL, Top\xE7uo\u011Flu BD, Wiens J, Schloss\
-    \ PD. Sep 2022. Streamlined implementation of a machine learning model to classify\
-    \ screen relevant neoplasia using reference-based OTU clustering. _bioRxiv_. [10.1101/2022.09.01.506299](https://doi.org/10.1101/2022.09.01.506299) "
+    \ PD. Aug 2023. Machine Learning Classification by Fitting Amplicon Sequences\
+    \ to Existing OTUs. _mSphere_. [10.1128/msphere.00336-23](https://doi.org/10.1128/msphere.00336-23) "
   bib_tex: "Armour CR, \\textbf{Sovacool KL}, Close WL, Top\xE7uo\u011Flu BD, Wiens\
-    \ J, Schloss PD. Sep  2022. Streamlined implementation of a machine learning model\
-    \ to classify screen relevant neoplasia using reference-based OTU clustering.\
-    \ \\textit{bioRxiv}. \\href{https://doi.org/10.1101/2022.09.01.506299}{10.1101/2022.09.01.506299} "
-  date: Sep 2022
-  dimensions_badge: <span class="__dimensions_badge_embed__" data-doi="10.1101/2022.09.01.506299"
+    \ J, Schloss PD. Aug  2023. Machine Learning Classification by Fitting Amplicon\
+    \ Sequences to Existing OTUs. \\textit{mSphere}. \\href{https://doi.org/10.1128/msphere.00336-23}{10.1128/msphere.00336-23} "
+  date: Aug 2023
+  dimensions_badge: <span class="__dimensions_badge_embed__" data-doi="10.1128/msphere.00336-23"
     data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right"></span>
-  doi: 10.1101/2022.09.01.506299
-  doi_link: https://doi.org/10.1101/2022.09.01.506299
+  doi: 10.1128/msphere.00336-23
+  doi_link: https://doi.org/10.1128/msphere.00336-23
   entry_type: article
-  github_badge: ''
-  github_icon: ''
-  github_link: ''
-  id: armour_streamlined_2022
-  journal: bioRxiv
-  journal_md: '[bioRxiv](https://doi.org/10.1101/2022.09.01.506299)'
-  link_md: '[10.1101/2022.09.01.506299](https://doi.org/10.1101/2022.09.01.506299)'
-  month: Sep
-  month_num: 9
-  title: Streamlined implementation of a machine learning model to classify screen
-    relevant neoplasia using reference-based OTU clustering
-  title_journal: Streamlined implementation of a machine learning model to classify
-    screen relevant neoplasia using reference-based OTU clustering.  _[bioRxiv](https://doi.org/10.1101/2022.09.01.506299)_
-  title_md: '[Streamlined implementation of a machine learning model to classify screen
-    relevant neoplasia using reference-based OTU clustering](https://doi.org/10.1101/2022.09.01.506299)'
-  year: '2022'
-  year_mo: 2022-09-01 00:00:00
+  github_badge: '[![GitHub](https://img.shields.io/static/v1?style=flat&logo=GitHub&label=+&message=GitHub&color=black)](https://github.com/SchlossLab/Armour_OptiFitGLNE_mSphere_2023)'
+  github_icon: <a href="https://github.com/SchlossLab/Armour_OptiFitGLNE_mSphere_2023">
+    <i class="fa-brands fa-github" style="font-size:20px;"></i> </a>
+  github_link: https://github.com/SchlossLab/Armour_OptiFitGLNE_mSphere_2023
+  id: armour_machine_2023
+  journal: mSphere
+  journal_md: '[mSphere](https://doi.org/10.1128/msphere.00336-23)'
+  link_md: '[10.1128/msphere.00336-23](https://doi.org/10.1128/msphere.00336-23)'
+  month: Aug
+  month_num: 8
+  title: Machine Learning Classification by Fitting Amplicon Sequences to Existing
+    OTUs
+  title_journal: Machine Learning Classification by Fitting Amplicon Sequences to
+    Existing OTUs.  _[mSphere](https://doi.org/10.1128/msphere.00336-23)_
+  title_md: '[Machine Learning Classification by Fitting Amplicon Sequences to Existing
+    OTUs](https://doi.org/10.1128/msphere.00336-23)'
+  year: '2023'
+  year_mo: 2023-08-01 00:00:00
 - altmetrics_badge: <div data-badge-popover="right" data-badge-type="medium_badge"
     data-doi="10.1128/mbio.01904-22" data-condensed="true" data-hide-no-mentions="false"
     class="altmetric-embed"></div>

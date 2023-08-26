@@ -1,14 +1,17 @@
-@article {armour_streamlined_2022,
-	author = {Armour, Courtney R. and Sovacool, Kelly L. and Close, William L. and Top{\c c}uo{\u g}lu, Beg{\"u}m D. and Wiens, Jenna and Schloss, Patrick D.},
-	title = {Streamlined implementation of a machine learning model to classify screen relevant neoplasia using reference-based OTU clustering},
-	elocation-id = {2022.09.01.506299},
-	year = {2022},
-  month = {sep},
-	doi = {10.1101/2022.09.01.506299},
-	publisher = {Cold Spring Harbor Laboratory},
-	abstract = {Machine learning classification of disease based on the gut microbiome often relies on clustering 16S rRNA gene sequences into operational taxonomic units (OTUs) to quantify microbial composition. The abundance of each OTU is then used to train a classification model. The standard de novo approach to clustering sequences into OTUs leverages the similarity of the sequences to each other rather than to a reference database. However, such an approach depends on the sequences in the dataset and therefore OTU assignments can change if new data are added. This lack of stability complicates classification because in order to use the model to classify additional samples, the new sequences must be reclustered with the old data and the model must be retrained with the new OTU assignments. The new reference-based clustering algorithm, OptiFit, addresses this issue by fitting new sequences into existing OTUs. While OptiFit can produce high quality OTU clusters, it is unclear whether this method for fitting new sequence data into existing OTUs will impact the performance of classification models. We used OptiFit to cluster additional data into existing OTU clusters and then evaluated model performance in classifying a dataset containing samples from patients with and without colonic screen relevant neoplasia (SRN). We compared the performance of this model to the standard procedure of de novo clustering all the data together. We found that both approaches performed equally well in classifying SRNs. Moving forward, when OTUs are used in classification problems, OptiFit can streamline the process of classifying new samples by avoiding the need to retrain models using reclustered sequences.},
-	URL = {https://www.biorxiv.org/content/early/2022/09/02/2022.09.01.506299},
-	journal = {bioRxiv}
+@article{armour_machine_2023,
+  title = {Machine Learning Classification by Fitting Amplicon Sequences to Existing {{OTUs}}},
+  author = {Armour, Courtney R. and Sovacool, Kelly L. and Close, William L. and Top{\c c}uo{\u g}lu, Beg{\"u}m D. and Wiens, Jenna and Schloss, Patrick D.},
+  year = {2023},
+  month = {aug},
+  journal = {mSphere},
+  volume = {0},
+  number = {0},
+  pages = {e00336-23},
+  publisher = {{American Society for Microbiology}},
+  doi = {10.1128/msphere.00336-23},
+  url = {https://journals.asm.org/doi/10.1128/msphere.00336-23},
+  urldate = {2023-08-26},
+  github = {https://github.com/SchlossLab/Armour_OptiFitGLNE_mSphere_2023},
 }
 
 @article{barron_intestinal_2022,
@@ -40,7 +43,6 @@
   copyright = {All rights reserved},
   github = {https://github.com/GWC-DCMB/curriculum-notebooks},
   langid = {english},
-  file = {/Users/kelly/Documents/Zotero/storage/J25BYSE9/Duda_et_al_2021_Journal_of_Open_Source_Education.pdf}
 }
 
 @article{everson_geography_2021,
@@ -61,7 +63,6 @@
   langid = {english},
   pmid = {33888580},
   keywords = {Ambystoma,life history,phylogenetics,population genomics,salamanders},
-  file = {/Users/kelly/Documents/Zotero/storage/EBCITZKY/Everson_et_al_2021_PNAS.pdf}
 }
 
 @inproceedings{goodin_processing_2016,
@@ -73,7 +74,6 @@
   journal = {BMC Bioinform},
   publisher = {{BMC Bioinformatics}},
   doi = {10.1186/s12859-016-1154-y},
-  copyright = {All rights reserved}
 }
 
 @article{hagan_ten_2020,
@@ -88,11 +88,9 @@
   publisher = {{Public Library of Science}},
   issn = {1553-7358},
   doi = {10.1371/journal.pcbi.1008119},
-  copyright = {All rights reserved},
   github = {https://github.com/SchlossLab/Hagan\_CodeClub\_PLOSComp},
   langid = {english},
   keywords = {Biologists,Learning,Programming languages,Reproducibility,RNA sequencing,Scientists,Syntax,Workshops},
-  file = {/Users/kelly/Documents/Zotero/storage/MRMMJ35S/Hagan_et_al_2020_PLOS_Computational_Biology.pdf}
 }
 
 @article{lapp_developing_2022,
@@ -106,7 +104,6 @@
   copyright = {All rights reserved},
   github = {https://github.com/UMCarpentries/intro-curriculum-r/},
   langid = {english},
-  file = {/Users/kelly/Documents/Zotero/storage/V6SXU6IH/Lapp et al. - 2022 - Developing and deploying an integrated workshop cu.pdf}
 }
 
 @article{sovacool_optifit_2022,
@@ -124,7 +121,6 @@
   github = {https://github.com/SchlossLab/Sovacool\_OptiFit\_mSphere\_2022},
   langid = {english},
   annotation = {1752 N St., N.W., Washington, DC},
-  file = {/Users/kelly/Documents/Zotero/storage/J3QF7UQW/Sovacool_et_al_2022_mSphere.pdf}
 }
 
 @article{topcuoglu_mikropml_2021,
@@ -142,5 +138,4 @@
   copyright = {All rights reserved},
   github = {https://github.com/SchlossLab/mikropml},
   langid = {english},
-  file = {/Users/kelly/Documents/Zotero/storage/WZEX2JH3/Topçuoğlu_et_al_2021_JOSS.pdf}
 }
