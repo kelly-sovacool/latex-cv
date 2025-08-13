@@ -108,18 +108,6 @@ read_yaml_as_tbl(here('cv', 'research.yml')) %>%
     .protect = FALSE
   )
 ```
-
-# Teaching Experience
-
-```{r teaching}
-read_yaml_as_tbl(here('cv', 'teaching.yml')) %>% 
-  detailed_entries(what = title,
-                   when = dates,
-                   with = org,
-                   why = event,
-                   where = where)
-```
-
 # Service
 
 ```{r service}
@@ -134,20 +122,36 @@ read_yaml_as_tbl(here('cv', 'service.yml')) %>%
                    )
 ```
 
-# Open Source Contributions
+# Teaching Experience
 
-## Software
-
-```{r software}
-read_yaml_as_tbl(here('cv', 'software.yml')) %>% 
-  detailed_entries(what = title, with = description, why = contrib)
+```{r teaching}
+read_yaml_as_tbl(here('cv', 'teaching.yml')) %>% 
+  detailed_entries(what = title,
+                   when = dates,
+                   with = org,
+                   why = event,
+                   where = where)
 ```
 
-## Curricula
+# Publications
 
-```{r curricula}
-read_yaml_as_tbl(here('cv', 'curricula.yml')) %>% 
-  detailed_entries(what = title, with = description, why = contrib)
+**<sup>\*</sup>** Indicates co-first author
+
+
+```{r pubs, results='asis'}
+bib_entries <- read_yaml_as_tbl(here('cv','pubs.yml'))
+
+raise_asterisk <- function(x) {
+  return(str_replace_all(x, "\\*", "\\textsuperscript{*}"))
+}
+
+pubs <- bib_entries %>% 
+  pull(bib_tex) %>% 
+  sapply(., function(x) {
+    glue::glue("\\item { x %>% replace_amps() %>% raise_asterisk() } 
+               ")
+  }) 
+cat('\\small','\\begin{etaremune}', pubs, '\\end{etaremune}', sep = "\n")
 ```
 
 # Presentations
@@ -158,7 +162,7 @@ read_yaml_as_tbl(here('cv', 'curricula.yml')) %>%
 read_yaml_as_tbl(here('cv', 'talks.yml')) %>% 
   brief_entries(what = glue("\\textbf{{{ event }}}"),
                 when = date,
-                with = glue("{format_md2tex(title)}. {location}"),
+                with = glue("{format_md2tex(title)}. {format_md2tex(location)}"),
                 .protect = FALSE)
 ```
 
@@ -202,6 +206,23 @@ read_yaml_as_tbl(here('cv', 'honors.yml')) %>%
                 .protect = FALSE)
 ```
 
+
+# Open Source Contributions
+
+## Software
+
+```{r software}
+read_yaml_as_tbl(here('cv', 'software.yml')) %>% 
+  detailed_entries(what = title, with = description, why = contrib)
+```
+
+## Curricula
+
+```{r curricula}
+read_yaml_as_tbl(here('cv', 'curricula.yml')) %>% 
+  detailed_entries(what = title, with = description, why = contrib)
+```
+
 # Continuing Education
 
 ```{r continuing-edu}
@@ -211,27 +232,4 @@ read_yaml_as_tbl(here('cv', 'continuing-edu.yml')) %>%
                 with = glue("{org}, {location}"), 
                 .protect = FALSE)
 ```
-
-
-# Publications
-
-**<sup>\*</sup>** Indicates co-first author
-
-
-```{r pubs, results='asis'}
-bib_entries <- read_yaml_as_tbl(here('cv','pubs.yml'))
-
-raise_asterisk <- function(x) {
-  return(str_replace_all(x, "\\*", "\\textsuperscript{*}"))
-}
-
-pubs <- bib_entries %>% 
-  pull(bib_tex) %>% 
-  sapply(., function(x) {
-    glue::glue("\\item { x %>% replace_amps() %>% raise_asterisk() } 
-               ")
-  }) 
-cat('\\small','\\begin{etaremune}', pubs, '\\end{etaremune}', sep = "\n")
-```
-
 

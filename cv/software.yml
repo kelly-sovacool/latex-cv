@@ -1,3 +1,13 @@
+- title: CCBR pipeliner
+  description: Suite of pipelines for multi-omics data analysis, purpose-built for NCI researchers
+  contrib: "Co-author and maintainer"
+  path: https://github.com/CCBR
+  image: /images/ccbr-logo.png
+  categories:
+    - software
+    - nextfow
+    - snakemake
+    - cancer research
 - title: mikropml
   description: User-Friendly R Package for Supervised Machine Learning Pipelines
   contrib: "Co-author and maintainer"

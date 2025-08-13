@@ -1,54 +1,54 @@
+- title: "Workshop Instructor"
+  org: "Norwegian University of Science and Technology"
+  dates: 2025 Aug
+  where: "NTNU, Trondheim, Norway"
+  event: "Health AI in R Workshop"
+  path: https://github.com/bnwolford/HealthAIinR
 - title: Graduate Student Instructor
-  org: "BIOINF 576: Tool Development for Bioinformatics. Dept. of Computational Medicine & Bioinformatics"
-  dates: "Jan-Apr 2023"
-  where: University of Michigan
+  org: "U-M Dept. of Computational Medicine & Bioinformatics"
+  dates: "2023 Jan-Apr"
+  where: University of Michigan, Ann Arbor, MI
   event: |
-    Develop curriculum and teach students the principles of software development in R & Python. Topics: software design, implementation, testing, documentation, issue tracking, peer review, and release.
-
+    BIOINF 576: Tool Development for Bioinformatics. Develop curriculum and teach students the principles of software development in R & Python. Topics: software design, implementation, testing, documentation, issue tracking, peer review, and release.
+- title: Instructor
+  org: ""
+  dates: 2022 Jun
+  where: Virtual
+  path: https://github.com/BIGslu/2022_ASM_Microbe_RNAseq
+  event: |
+    Intro to R & RNA-Seq Workshop for ASM Microbe conference attendees
 - title: "Facilitator & Capstone Project Mentor"
   org:  "Girls Who Code at U-M DCMB"
   dates: "2019-2022"
-  where: University of Michigan
+  where: University of Michigan, Ann Arbor, MI
   path: girls-who-code.qmd
   event: |
     Weekly Club during the school year and week-long Summer Experience for high schoolers to learn Python for data science
-
 - title: "Workshop Instructor & Helper"
   org:  "U-M Carpentries"
-  dates: "2018-present"
-  where: University of Michigan
+  dates: "2018-2022"
+  where: University of Michigan, Ann Arbor, MI
   path: carpentries.qmd
   event: |
     2-day Software Carpentry workshops teaching computational skills for reproducible research
-
-- title: Instructor
-  org: ""
-  dates: Jun 2022
-  where: Virtual
-  event: |
-    Intro to R & RNA-Seq Workshop for ASM Microbe conference attendees
-
 - title: DNA Day Ambassador
   org: Michigan DNA Day
-  dates: Apr 2019
+  dates: 2019 Apr
   where: Pioneer High School, Ann Arbor, MI
   event: |
     Epigenetics & Scientific Journeys
-
 - title: Workshop helper
   org: Graduate Society of Black Engineers and Scientists
-  dates: Mar 2019
-  where: University of Michigan
+  dates: 2019 Mar
+  where: University of Michigan, Ann Arbor, MI
   event: |
     Data Visualization with Python Workshop
-
 - title: Capstone Activity Leader
   org: Females Excelling More in Math, Engineering, & the Sciences
-  dates: Mar 2019
-  where: University of Michigan
+  dates: 2019 Mar
+  where: University of Michigan, Ann Arbor, MI
   event: |
     Binary Numbers through Ozobots with GWC at U-M DCMB
-
 - title: Tutor
   org: freelance
   dates: 2012-2018

@@ -1,14 +1,34 @@
+- event: R Ladies Trondheim
+  title: Tips & Tricks for Reproducible R Projects
+  location: Trondheim, Norway
+  date: Aug 2025
+  path: https://github.com/kelly-sovacool/repro-r
+- event: BTEP Coding Club
+  title: Introduction to GitHub Actions for Analysts & Engineers
+  location: NCI CCR Bioinformatics Training & Education Program (virtual)
+  date: Feb 2025
+  path: https://github.com/kelly-sovacool/gh-actions-demo
+- event: ABCS Programmer's Corner
+  title: Organizing and documenting NGS pipelines on GitHub
+  location: NCI at Frederick (virtual)
+  date: Apr 2024
+  path: https://bioinfo-abcc.ncifcrf.gov/training/event/organizing-and-documenting-ngs-pipelines-on-github-building-549-executive-board-room-nci-frederick-1204241200
+- event: PhD Defense
+  title: Improving Machine Learning Models for Microbiome Analysis and Democratizing Data Science Along the Way
+  location: University of Michigan
+  date: Jun 2023
+  path: https://github.com/kelly-sovacool/phd-defense
 - event: Bioinformatics Student Research Hour
   title: Predicting _C. difficile_ infection severity from the taxonomic composition of the gut microbiome
   location: University of Michigan
   date: Nov 2022
 - event: Seminar for the KG Jebsen Center for Genetic Epidemiology
   title: Intro to git & GitHub
-  location: (Virtual) Norwegian University of Science and Technology
+  location: Norwegian University of Science and Technology (Virtual)
   date: Feb 2022
 - event: Bioinformatics Student Research Hour
   title: "OptiFit: a fast method for fitting amplicon sequences to existing OTUs"
-  location: (Virtual) University of Michigan
+  location: University of Michigan (Virtual)
   date: Mar 2021
 - event: Systems Biology and Omics Integration Seminar
   title: Developing a Global Homology Analysis for Comparative Genomics

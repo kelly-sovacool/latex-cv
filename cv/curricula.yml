@@ -23,7 +23,7 @@
 - title: Code Clubs
   description: Short coding tutorials for lab meetings
   contrib: Contributor
-  path: /cv/code-clubs.qmd
+  path: code-clubs.qmd
   image: /images/project-grid/code-club.png
   categories: 
     - Code Club

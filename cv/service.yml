@@ -1,20 +1,26 @@
+- title: "Co-Founder | Tech Lead"
+  org: "Your Neighborhood Scientist"
+  dates: "2025-present"
+  path: https://neighborhoodscientist.org
+  tasks: |
+    Your Neighborhood Scientist cultivates community-based conversations around science, science policy, and scientists through a newsletter and blog.
 - title: "Executive Committee Member: Open Source Technical Lead"
   org: "Girls Who Code at U-M DCMB"
   dates: "2019-2022"
   path: https://websites.umich.edu/~girlswc
   tasks: |
-    - Plan, apply for funding, develop curriculum, and maintain resources to teach introductory Python programming & data science to young women+.
-    - Facilitate collaborative development and maintenance of our open source teaching resources.
-    - Organize our year-round Club and annual Data Science Summer Experience for high school women+.
+    Plan, apply for funding, develop curriculum, and maintain resources to teach introductory Python programming & data science to young women+.
+    Facilitate collaborative development and maintenance of our open source teaching resources.
+    Organize our year-round Club and annual Data Science Summer Experience for high school women+.
 
 - title: "Organizer and Maintainer"
   org: "U-M Carpentries"
   dates: "2019-2022"
   path: https://umcarpentries.org
   tasks: |
-    - Co-lead development & maintenance of a curriculum for workshops teaching programming skills for reproducible research.
-    - Maintain the website, develop curriculum, and organize workshops.
-    - Collaborate with U-M Women in Science and Engineering to organize workshops for women+.
+    Co-lead development & maintenance of a curriculum for workshops teaching programming skills for reproducible research.
+    Maintain the website, develop curriculum, and organize workshops.
+    Collaborate with U-M Women in Science and Engineering to organize workshops for women+.
 
 - title: Mentor
   org: Schloss Lab
@@ -30,17 +36,17 @@
 
 - title: Peer reviewer
   org: ""
-  dates: "2021"
+  dates: "2021-present"
   path: ""
-  tasks: PLOS ONE (1)
+  tasks: PLOS ONE (1), JOSS (2)
 
 - title: Graduate Student Coordinator
   org: U-M Data Analysis Networking Group
   dates: 2019-2021
   path: https://um-dang.github.io/
   tasks: |
-    - Organize monthly meetings & a one-day symposium for researchers to sharpen their data analysis skills.
-    - Apply for funding through a Rackham Interdisciplinary Workshop grant.
+    Organize monthly meetings & a one-day symposium for researchers to sharpen their data analysis skills.
+    Apply for funding through a Rackham Interdisciplinary Workshop grant.
 
 - title: Volunteer Sound Engineer
   org: various churches and non-profit organizations

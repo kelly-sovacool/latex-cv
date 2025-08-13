@@ -1,7 +1,7 @@
 ---
 title: "Kelly L. Sovacool"
 description: | 
-  _Bioinformatician building and applying open source software_
+  _Bioinformatician developing open source software_
 date-format: 'MMM YYYY'
 execute:
   echo: false
@@ -31,7 +31,7 @@ listing:
     field-display-names: 
       dates: Dates
       lab: Lab
-      tasks: Projects
+      tasks: Description
   - id: service
     contents: service.yml
     type: table
@@ -42,16 +42,19 @@ listing:
     field-display-names: 
       dates: Dates
       org: Organization
-      tasks: Projects
+      tasks: Description
   - id: teaching
     contents: teaching.yml
     type: table
-    fields: [dates, title, org, event]
+    fields: [dates, title, org, where, event]
+    sort: false
     sort-ui: false
     filter-ui: false
     field-links: [event]
-    field-display-names: 
+    field-display-names:
+      dates: Date
       org: Organization
+      location: Location
       event: Event(s)
   - id: continuing-edu
     contents: continuing-edu.yml
@@ -93,30 +96,32 @@ listing:
     sort-ui: [date]
     filter-ui: [date, title_journal, authors_md]
     field-links: []
-    field-display-names: 
+    field-display-names:
       title_journal: Article
       authors_md: Authors
       journal_md: Journal
   - id: talks
     contents: talks.yml
     type: table
-    fields: [date, event, title, location]
+    fields: [date, title, event, location]
+    sort: false
     sort-ui: false
     filter-ui: false
-    field-display-names: 
+    field-display-names:
+      dates: Date
       event: Event
       location: Location
   - id: posters
     contents: posters.yml
     type: table
-    fields: [date, event, title, location]
+    fields: [date, title, event, location]
     sort-ui: false
     filter-ui: false
     field-display-names: 
       event: Event
       location: Location
   - id: contribs
-    contents: 
+    contents:
       - software.yml
       - curricula.yml
     type: grid
@@ -133,12 +138,17 @@ listing:
     sort-ui: false
     filter-ui: false
 ---
- 
+
 Contact:  &ensp;
 [{{< fa regular envelope >}} sovacool [at] umich.edu](mailto:sovacool@umich.edu)
 
 View a PDF version of my CV: &ensp;
 [{{< fa regular file-pdf >}} https://sovacool.dev/latex-cv/vitae_KLS.pdf](https://sovacool.dev/latex-cv/vitae_KLS.pdf)
+
+## Skills
+
+:::{#skills}
+:::
 
 ## Education
 
@@ -155,26 +165,9 @@ View a PDF version of my CV: &ensp;
 :::{#service}
 :::
 
-## Teaching Experience
+## Teaching
 
 :::{#teaching}
-:::
-
-## Continuing Education
-
-:::{#continuing-edu}
-:::
-
-## Awards
-
-### Grants
-
-:::{#grants}
-:::
-
-### Honors
-
-:::{#honors}
 :::
 
 ## Publications
@@ -195,6 +188,18 @@ View a PDF version of my CV: &ensp;
 :::{#posters}
 :::
 
+## Awards
+
+### Grants
+
+:::{#grants}
+:::
+
+### Honors
+
+:::{#honors}
+:::
+
 ## Open Source Contributions
 
 [{{< fa brands github >}}](https://github.com/kelly-sovacool)
@@ -202,7 +207,7 @@ View a PDF version of my CV: &ensp;
 :::{#contribs}
 :::
 
-## Skills
+## Continuing Education
 
-:::{#skills}
+:::{#continuing-edu}
 :::

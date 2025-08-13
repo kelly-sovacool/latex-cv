@@ -10,11 +10,11 @@
   lab: Schloss Lab,  Dept. of Microbiology and Immunology, <br> University of Michigan
   dates: 2019-2023
   tasks: |
-    - Developed, benchmarked, and maintained bioinformatics workflows and software packages in R & Python.
-    - Built machine learning pipelines for human gut microbiome classification problems in colorectal cancer and _C. difficile_ infection.
-    - Published findings as reproducible papers in open access journals.
-    - Collaborated with other scientists on microbiome projects.
-    - Mentored junior lab members.
+    Developed, benchmarked, and maintained bioinformatics workflows and software packages in R & Python.
+    Built machine learning pipelines for human gut microbiome classification problems in colorectal cancer and _C. difficile_ infection.
+    Published findings as reproducible papers in open access journals.
+    Collaborated with other scientists on microbiome projects.
+    Mentored junior lab members.
 
 - title: Rotation Student Researcher
   lab: Program in Biomedical Sciences, <br> University of Michigan
@@ -25,19 +25,19 @@
   lab: Moseley Bioinformatics Lab,  Dept. of Molecular and Cellular Biochemistry, <br> University of Kentucky
   dates: 2015-2018
   tasks: |
-    - Developed a Python package for comparative genomics. Identified sets of orthologous and paralogous gene products to facilitate collinearity analysis and detection of gene duplication events.
+    Developed a Python package for comparative genomics. Identified sets of orthologous and paralogous gene products to facilitate collinearity analysis and detection of gene duplication events.
 
 - title: BIO395 Independent Research Student
   lab: Weisrock Lab,  Dept. of Biology, <br> University of Kentucky
   dates: 2016-2018
   tasks: |
-    - Developed bash scripts and a SNP calling pipeline in Snakemake.
-    - Population structure analysis of the _Ambystoma tigrinum_ species complex.
-    - Bayesian species delimitation of the _Desmognathus fuscus_ species complex.
+    Developed bash scripts and a SNP calling pipeline in Snakemake.
+    Population structure analysis of the _Ambystoma tigrinum_ species complex.
+    Bayesian species delimitation of the _Desmognathus fuscus_ species complex.
 
 - title: Undergraduate Lab Assistant
   lab: Jaromczyk Lab,  Dept. of Computer Science, <br> University of Kentucky
   dates: 2015-2016
   tasks: |
-    - Maintained the _Epichloë festucae_ genome project database.
-    - Analyzed RNA-seq data of _Chenopodium quinoa_ and coffee ringspot virus.
+    Maintained the _Epichloë festucae_ genome project database.
+    Analyzed RNA-seq data of _Chenopodium quinoa_ and coffee ringspot virus.
