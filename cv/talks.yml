@@ -1,3 +1,8 @@
+- event: ABCS Technical Workshop
+  title: Anatomy of a modular toolchain for reproducible bioinformatics workflows
+  location: NCI at Frederick (Virtual)
+  date: May 2026
+  path: https://ccbr.github.io/reproducible-toolchain/slides/abcs-tech-workshop-2026-05.html
 - event: R Ladies Trondheim
   title: Tips & Tricks for Reproducible R Projects
   location: Trondheim, Norway

@@ -1,38 +1,39 @@
 - title: "Programming Languages & Tools"
   categories:
-    - R
     - Python
+    - R
     - C++
     - Bash
     - Nextflow
     - Snakemake
     - git
     - GitHub
+    - Quarto
     - R Markdown
     - Jupyter
-    - Quarto
     - LaTeX
-    - conda/mamba
+    - conda/mamba/pixi
     - Docker
-    - Singularity
+    - Singularity/Apptainer
     - SLURM
-    - Unix CLI
 
 - title: Software Development
   categories:
-    - package maintenance
-    - test-driven development
-    - continuous integration
-    - documentation
-    - collaboration & peer review
-    - high performance computing
+    - Workflow management
+    - Package maintenance
+    - Test-driven development
+    - Continuous integration
+    - Documentation
+    - Collaboration & peer review
+    - High performance computing
+    - AI-assisted development
 
-- title: Research 
+- title: Research
   categories:
-    - supervised machine learning
-    - data visualization
-    - reproducible manuscripts
-    - gut microbiome composition
-    - amplicon sequence analysis
-    - metagenomics
-    - bulk RNA-seq
+    - Reproducible research workflows
+    - Supervised machine learning
+    - Data visualization
+    - "Transcriptomics: bulk RNA-seq, single-cell RNA-seq"
+    - "Genomics: WGS, exome-seq"
+    - "Epigenomics: ChIP-seq, ATAC-seq, CUT&RUN"
+    - "Microbiomics: gut microbiome composition, amplicon sequence analysis, metagenomics"

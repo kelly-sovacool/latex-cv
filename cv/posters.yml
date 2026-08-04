@@ -1,3 +1,8 @@
+- event: ISMB BOSC 2026
+  title: Anatomy of a modular toolchain for reproducible bioinformatics workflows
+  location: Washington, DC
+  date: Jul 2026
+  path: https://github.com/CCBR/reproducible-toolchain
 - event: ASM Microbe
   title: Predicting the severity of _C. difficile_ infections from the taxonomic composition of the gut microbiome
   location: Washington, DC

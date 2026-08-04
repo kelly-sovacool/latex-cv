@@ -5,6 +5,11 @@
     Develop and maintain open source bioinformatics workflows on the
     CCR Collaborative Bioinformatics Resource core team
     to support researchers at the National Cancer Institute.
+    As the lead maintainer for the CCBR core team, I am responsible for a
+    comprehensive software suite to serve the NCI community including
+    high-throughput genomics & multi-omics integration tools, Nextflow
+    pipelines, Python & R Packages, and software development practices for
+    robust scientific software.
 
 - title: Graduate Student Researcher
   lab: Schloss Lab,  Dept. of Microbiology and Immunology, <br> University of Michigan

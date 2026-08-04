@@ -1,8 +1,7 @@
 name: vitae
+channel_priority: strict
 channels:
   - conda-forge
-  - defaults
-  - r
 dependencies:
   - r-base=4
   - r-glue
