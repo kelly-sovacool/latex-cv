@@ -12,7 +12,7 @@ jobs:
             - name: Testing
               uses: snakemake/snakemake-github-action@v2
               with:
-                snakemake-version: "v7.32.4"
+                snakemake-version: "7.32.4"
                 args: "--cores 1 --use-conda"
                 show-disk-usage-on-error: true
             - name: git
