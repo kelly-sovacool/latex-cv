@@ -12,6 +12,7 @@ jobs:
             - name: Testing
               uses: snakemake/snakemake-github-action@v2
               with:
+                directory: "."
                 snakefile: "workflow/Snakefile"
                 snakemake-version: "7.32.4"
                 args: "--cores 1 --use-conda"
