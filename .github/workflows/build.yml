@@ -19,8 +19,16 @@ jobs:
                 show-disk-usage-on-error: true
             - name: git
               run: |
-                git config --user.name "github-actions[bot]"
-                git config --user.email "41898282+github-actions[bot]@users.noreply.github.com"
+                if [! -f docs/vitae_KLS.pdf ]; then
+                    echo "File Missing: docs/vitae_KLS.pdf"
+                    exit 1
+                fi
+                if [! -f docs/sound.pdf ]; then
+                    echo "Fill missing: docs/sound.pdf"
+                    exit 1
+                fi
+                git config user.name "github-actions[bot]"
+                git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
                 git add .
                 git commit -m "🤖 build CV"
                 git push
