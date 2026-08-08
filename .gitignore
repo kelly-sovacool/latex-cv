@@ -10,7 +10,10 @@ Icon*
 *.fls
 .vscode/
 .Rproj.user
-moderncv* 
+moderncv*
 tweaklist.sty
 cv/.snakemake_timestamp
 timestamp.txt
+# pixi environments
+.pixi/*
+!.pixi/config.toml

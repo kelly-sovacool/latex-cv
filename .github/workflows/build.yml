@@ -16,14 +16,14 @@ jobs:
                 sudo apt-get update && sudo apt-get upgrade -y && \
                 sudo apt-get install -y --no-install-recommends \
                 texlive-xetex
-            - name: snakemake
-              uses: snakemake/snakemake-github-action@v2
+            - uses: prefix-dev/setup-pixi@v0.10.1
               with:
-                directory: "."
-                snakefile: "workflow/Snakefile"
-                snakemake-version: "7.32.4"
-                args: "--cores 1 --use-conda --conda-frontend conda --forceall"
-                show-disk-usage-on-error: true
+                pixi-version: v0.66.0
+                cache: true
+                activate-environment: true
+            - name: render w/ snakemake
+              run: |
+                snakemake -s workflow/Snakemake --cores 1 --forceall
             - name: git
               run: |
                 if [! -f docs/vitae_KLS.pdf ]; then
