@@ -13,8 +13,8 @@ jobs:
                 ref: ${{ github.event_name == 'pull_request' && github.head_ref || github.ref_name }}
             - name: install xelatex
               run: |
-                apt-get update && apt-get upgrade -y && \
-                apt-get install -y --no-install-recommends \
+                sudo apt-get update && sudo apt-get upgrade -y && \
+                sudo apt-get install -y --no-install-recommends \
                 texlive-xetex
             - name: snakemake
               uses: snakemake/snakemake-github-action@v2
