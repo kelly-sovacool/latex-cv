@@ -8,5 +8,4 @@ dependencies:
   - r-tidyverse
   - r-vitae
   - r-yaml
-  - texlive-core
 
