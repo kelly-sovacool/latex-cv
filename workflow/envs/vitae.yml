@@ -1,5 +1,4 @@
 name: vitae
-channel_priority: strict
 channels:
   - conda-forge
 dependencies:
@@ -9,5 +8,5 @@ dependencies:
   - r-tidyverse
   - r-vitae
   - r-yaml
-  - xelatex
+  - texlive-core
 
