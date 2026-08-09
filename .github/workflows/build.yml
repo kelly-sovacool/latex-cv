@@ -18,7 +18,7 @@ jobs:
                 texlive-xetex
             - uses: prefix-dev/setup-pixi@v0.10.1
               with:
-                pixi-version: v0.66.0
+                pixi-version: v0.76.1
                 cache: true
                 activate-environment: true
             - name: render w/ snakemake
