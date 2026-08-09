@@ -26,14 +26,12 @@ jobs:
                 snakemake -s workflow/Snakemake --cores 1 --forceall
             - name: git
               run: |
-                if [! -f docs/vitae_KLS.pdf ]; then
-                    echo "File Missing: docs/vitae_KLS.pdf"
-                    exit 1
-                fi
-                if [! -f docs/sound.pdf ]; then
-                    echo "Fill missing: docs/sound.pdf"
-                    exit 1
-                fi
+                for filename in docs/vitae_KLS.pdf docs/sound.pdf; do
+                    if [! -f $filename ]; then
+                        echo "File Missing: $filename"
+                        exit 1
+                    fi
+                done
                 git config user.name "github-actions[bot]"
                 git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
                 git add .
