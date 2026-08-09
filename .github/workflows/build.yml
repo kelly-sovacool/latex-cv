@@ -23,7 +23,7 @@ jobs:
                 activate-environment: true
             - name: render w/ snakemake
               run: |
-                snakemake -s workflow/Snakemake --cores 1 --forceall
+                snakemake --cores 1 --forceall
             - name: git
               run: |
                 for filename in docs/vitae_KLS.pdf docs/sound.pdf; do
