@@ -27,7 +27,7 @@ jobs:
             - name: git
               run: |
                 for filename in docs/vitae_KLS.pdf docs/sound.pdf; do
-                    if [! -f $filename ]; then
+                    if [ ! -f $filename ]; then
                         echo "File Missing: $filename"
                         exit 1
                     fi
