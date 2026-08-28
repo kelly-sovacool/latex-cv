@@ -2,7 +2,7 @@
 authors = ["Kelly Sovacool <kelly@sovacool.dev>"]
 channels = ["conda-forge", "bioconda"]
 name = "latex-cv"
-platforms = ["osx-64", "linux-64"]
+platforms = ["osx-arm64", "osx-64", "linux-64"]
 version = "0.1.0"
 
 [tasks]
