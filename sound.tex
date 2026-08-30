@@ -16,6 +16,9 @@
 \moderncvcolor{black}                               % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
 %\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
 %\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+% Helvetica font (consistent across platforms)
+\usepackage{helvet}
+\renewcommand*\familydefault{\sfdefault}
 \usepackage{textcomp,xpatch}
 \xpatchcmd{\cventry}{\itshape#3}{#3}{}{} % Patch \cventry so the 3rd argument is not printed in italics
 \xpatchcmd{\cventry}{.\strut}{\strut}{}{} % Patch \cventry to remove the trailing period
@@ -26,7 +29,7 @@
 %\setlength{\makecvheadnamewidth}{10cm}            % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
 
 % personal data
-\name{Kelly L. Sovacool}{}
+\name{Kelly L.\newline Sovacool Caruthers}{}
 %\title{Resumé title}
 %\address{street and number}{postcode city}{country}% the "postcode city" and "country" arguments can be omitted or provided empty
 %\phone[mobile]{+1~(234)~567~890}                   %  the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
@@ -42,7 +45,7 @@
 %\social[skype]{jdoe}
 %\extrainfo{additional information}
 %\photo[64pt][0.4pt]{picture}                       %  '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
-\quote{Bioinformatician during the week, sound engineer and musician on the weekends. Not a DJ.}
+\quote{\small Bioinformatician during the week, sound engineer and musician on the weekends. Not a DJ.}
 
 % bibliography adjustments (only useful if you make citations in your resume, or print a list of publications using BibTeX)
 %   to show numerical labels in the bibliography (default is to show no labels)
@@ -80,7 +83,7 @@
 %---------------------------------------------------------------------------------------------------
 \section{Experience}
 %---------------------------------------------------------------------------------------------------
-\cventry{\textbf{2024-present}}{Volunteer Sound Engineer, Electric Guitarist, and Bassist}{\newline Worship services}{Redeemer Presbyterian Church}{}{Detroit, MI}
+\cventry{\textbf{2024-present}}{Volunteer Sound Engineer, Electric Guitarist, and Bassist}{\newline Worship services}{\href{https://redeemerdetroit.com/}{Redeemer Presbyterian Church}}{}{Detroit, MI}
 \cventry{\textbf{2018-2024}}{Volunteer Sound Engineer, Lighting Technician, Production Director, Electric Guitarist, Acoustic Guitarist, and Bassist}{\newline Worship services}{\href{https://www.mosaica2.org/}{Mosaic Church}}{}{Ann Arbor, MI}
 \cventry{\textbf{2015-2018}}{Volunteer Sound Engineer}{Worship services}{\href{http://www.ucf.cfchurches.com/}{\newline University Christian Fellowship}}{University of Kentucky}{Lexington, KY}
 \cventry{\textbf{2015 Summer}}{Sound Engineer and Production Coordinator}{\href{https://impact2818.org/our-team/epworth-forest-conference-center/}{Epworth Forest Conference Center}}{Impact 2818}{}{North Webster, IN}

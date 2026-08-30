@@ -8,3 +8,11 @@ The Snakefile was initially adapted from [the Snakemake documentation examples](
 * [`vitae.Rmd`](vitae.Rmd): my current curriculum vitae using the vitae R package moderncv template.
 * [`cv_KLS.tex`](cv_KLS.tex): my old curriculum vitae for science using `moderncv.cls`: based on a template from the [moderncv repo](https://github.com/xdanaux/moderncv).
 * [`sound.tex`](sound.tex): my CV for live sound engineering, also using `moderncv.cls`.
+
+## Usage
+
+1. Install dependencies with pixi
+1. Render the files
+  ```sh
+  pixi run snakemake -c 1
+  ```

@@ -1,0 +1,17 @@
+[workspace]
+authors = ["Kelly Sovacool <kelly@sovacool.dev>"]
+channels = ["conda-forge", "bioconda"]
+name = "latex-cv"
+platforms = ["osx-arm64", "osx-64", "linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+r-base = "4.*"
+r-glue = ">=1.8.1,<2"
+r-here = ">=1.0.2,<2"
+r-tidyverse = ">=2.0.0,<3"
+r-vitae = ">=0.6.0,<0.7"
+r-yaml = ">=2.3.12,<3"
+snakemake = "7.32.*"

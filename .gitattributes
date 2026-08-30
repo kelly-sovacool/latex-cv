@@ -5,3 +5,5 @@
 Snakefile linguist-language=Python
 
 vitae-resources linguist-vendored=true
+# SCM syntax highlighting & preventing 3-way merges
+pixi.lock merge=binary linguist-language=YAML linguist-generated=true -diff

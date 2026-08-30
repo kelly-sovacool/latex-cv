@@ -1,11 +1,11 @@
 ---
-name: Kelly Sovacool
+name: Kelly L. Sovacool
 surname: 
 position: 
 address: 
 phone: 
 www: sovacool.dev
-email: "sovacool@umich.edu"
+email: "kelly@sovacool.dev"
 twitter:
 github: kelly-sovacool
 linkedin: kelly-sovacool

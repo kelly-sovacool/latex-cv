@@ -1,5 +1,6 @@
 .DS_Store
 .snakemake
+.snakemake.environment.yml
 Icon*
 *.out
 *.log
@@ -10,7 +11,12 @@ Icon*
 *.fls
 .vscode/
 .Rproj.user
-moderncv* 
+moderncv*
 tweaklist.sty
+colors.tex
 cv/.snakemake_timestamp
 timestamp.txt
+# pixi environments
+.pixi/*
+!.pixi/config.toml
+pixi.lock
