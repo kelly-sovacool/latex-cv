@@ -9,8 +9,8 @@ import datetime
 import yaml
 import sys
 
-MONTHS = {'jan': 1, 'feb': 2, 'mar': 3, 'apr': 4, 'may': 5, 'jun': 6, 
-          'jul': 7, 'aug': 8, 'sep': 9, 'oct': 10, 'nov': 11, 'dec': 12
+MONTHS = {'january': 1, 'february': 2, 'march': 3, 'april': 4, 'may': 5, 'june': 6,
+          'july': 7, 'august': 8, 'september': 9, 'october': 10, 'november': 11, 'december': 12
           }
 
 def main(bib_filename, yml_filename):
@@ -75,9 +75,9 @@ class BibEntry:
         self.authors_md = ', '.join([format_author(author, ftype = 'md') for author in record['author']])
         self.authors_tex = ', '.join([format_author(author, ftype = 'tex') for author in record['author']])
         self.year = record['year']
-        self.month = record['month'].capitalize()
         self.month_num = MONTHS[record['month'].lower()]
-        self.year_mo = datetime.datetime.strptime(f"{record['year']}-{MONTHS[record['month'].lower()]}", '%Y-%m')
+        self.month = record['month'].lower()
+        self.year_mo = datetime.datetime.strptime(f"{record['year']}-{self.month_num:02d}", '%Y-%m')
         self.date = f"{self.month} {self.year}"
         self.journal = record['journal']['name']
         self.link_md = f"[{record['doi']}]({self.doi_link})"
